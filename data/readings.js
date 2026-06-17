@@ -155,32 +155,10 @@ window.ST_MARTHA_READINGS = [
   },
   {
     date: "2026-02-22",
-    title: "Seventh Sunday in Ordinary Time",
-    cycle: "Year A",
-    theme: "The Father calls his children to holiness through love of enemies.",
-    officialUrl: "https://bible.usccb.org/bible/readings/022226.cfm",
-    readings: [
-      { label: "First Reading", ref: "Lev 19:1-2, 17-18" },
-      { label: "Responsorial Psalm", ref: "Ps 103:1-4, 8, 10, 12-13" },
-      { label: "Second Reading", ref: "1 Cor 3:16-23" },
-      { label: "Gospel", ref: "Matt 5:38-48" }
-    ],
-    reflection:
-      "Holiness is not abstract. Leviticus commands love of neighbor, and Jesus stretches that love toward enemies. Parents often practice this first in daily irritations: refusing revenge, praying for difficult people, and choosing mercy.",
-    discussion: [
-      "Who is difficult for me to love without resentment?",
-      "Where do I confuse justice with getting even?",
-      "How can our family practice mercy without ignoring real boundaries?"
-    ],
-    prayer:
-      "Merciful Father, make us holy as you are holy. Teach us to love with truth, patience, and freedom from revenge."
-  },
-  {
-    date: "2026-03-01",
     title: "First Sunday of Lent",
     cycle: "Year A",
     theme: "Jesus resists temptation by trusting the Father and living from God's word.",
-    officialUrl: "https://bible.usccb.org/bible/readings/030126.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/022226.cfm",
     readings: [
       { label: "First Reading", ref: "Gen 2:7-9; 3:1-7" },
       { label: "Responsorial Psalm", ref: "Ps 51:3-6, 12-14, 17" },
@@ -198,11 +176,11 @@ window.ST_MARTHA_READINGS = [
       "Jesus, lead us through Lent with you. Strengthen us against temptation and renew our trust in the Father's word."
   },
   {
-    date: "2026-03-08",
+    date: "2026-03-01",
     title: "Second Sunday of Lent",
     cycle: "Year A",
     theme: "God calls us to trust the promise before we see the full road.",
-    officialUrl: "https://bible.usccb.org/bible/readings/030826.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/030126.cfm",
     readings: [
       { label: "First Reading", ref: "Gen 12:1-4" },
       { label: "Responsorial Psalm", ref: "Ps 33:4-5, 18-20, 22" },
@@ -220,11 +198,11 @@ window.ST_MARTHA_READINGS = [
       "Father, strengthen our trust. Help us listen to your beloved Son and walk where you call us."
   },
   {
-    date: "2026-03-15",
+    date: "2026-03-08",
     title: "Third Sunday of Lent",
     cycle: "Year A",
     theme: "Jesus meets thirst with living water.",
-    officialUrl: "https://bible.usccb.org/bible/readings/031526.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/030826.cfm",
     readings: [
       { label: "First Reading", ref: "Exod 17:3-7" },
       { label: "Responsorial Psalm", ref: "Ps 95:1-2, 6-9" },
@@ -242,11 +220,11 @@ window.ST_MARTHA_READINGS = [
       "Jesus, give us living water. Meet us in truth and renew our families with your grace."
   },
   {
-    date: "2026-03-22",
+    date: "2026-03-15",
     title: "Fourth Sunday of Lent",
     cycle: "Year A",
     theme: "Christ gives sight where we are blind.",
-    officialUrl: "https://bible.usccb.org/bible/readings/032226.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/031526.cfm",
     readings: [
       { label: "First Reading", ref: "1 Sam 16:1, 6-7, 10-13" },
       { label: "Responsorial Psalm", ref: "Ps 23:1-6" },
@@ -264,11 +242,11 @@ window.ST_MARTHA_READINGS = [
       "Jesus, light of the world, open our eyes. Help us see ourselves, others, and our family life with your truth."
   },
   {
-    date: "2026-03-29",
+    date: "2026-03-22",
     title: "Fifth Sunday of Lent",
     cycle: "Year A",
     theme: "Jesus calls Lazarus from the tomb and promises resurrection life.",
-    officialUrl: "https://bible.usccb.org/bible/readings/032926.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/032226.cfm",
     readings: [
       { label: "First Reading", ref: "Ezek 37:12-14" },
       { label: "Responsorial Psalm", ref: "Ps 130:1-8" },
@@ -286,11 +264,11 @@ window.ST_MARTHA_READINGS = [
       "Lord Jesus, call us into life. Bring hope to the places in us and in our homes that feel sealed off."
   },
   {
-    date: "2026-04-05",
+    date: "2026-03-29",
     title: "Palm Sunday of the Passion of the Lord",
     cycle: "Year A",
     theme: "Jesus enters Jerusalem in humility and gives himself completely in love.",
-    officialUrl: "https://bible.usccb.org/bible/readings/040526.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/032926.cfm",
     readings: [
       { label: "At the Procession", ref: "Matt 21:1-11" },
       { label: "First Reading", ref: "Isa 50:4-7" },
@@ -309,11 +287,11 @@ window.ST_MARTHA_READINGS = [
       "Jesus, humble King, draw us close to your Passion. Teach our families to love with patience, obedience, and trust."
   },
   {
-    date: "2026-04-12",
+    date: "2026-04-05",
     title: "Easter Sunday of the Resurrection of the Lord",
     cycle: "Year A",
     theme: "The empty tomb changes everything.",
-    officialUrl: "https://bible.usccb.org/bible/readings/041226.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/040526.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 10:34-43" },
       { label: "Responsorial Psalm", ref: "Ps 118:1-2, 16-17, 22-23" },
@@ -331,11 +309,11 @@ window.ST_MARTHA_READINGS = [
       "Risen Lord, fill our homes with Easter hope. Help us live as people who believe you are alive."
   },
   {
-    date: "2026-04-19",
+    date: "2026-04-12",
     title: "Second Sunday of Easter",
     cycle: "Year A",
     theme: "The risen Jesus brings peace, mercy, and faith to wounded disciples.",
-    officialUrl: "https://bible.usccb.org/bible/readings/041926.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/041226.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 2:42-47" },
       { label: "Responsorial Psalm", ref: "Ps 118:2-4, 13-15, 22-24" },
@@ -353,11 +331,11 @@ window.ST_MARTHA_READINGS = [
       "Risen Jesus, have mercy on us. Bring peace through our locked doors and strengthen our faith."
   },
   {
-    date: "2026-04-26",
+    date: "2026-04-19",
     title: "Third Sunday of Easter",
     cycle: "Year A",
     theme: "Jesus walks with discouraged disciples and makes himself known in the breaking of bread.",
-    officialUrl: "https://bible.usccb.org/bible/readings/042626.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/041926.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 2:14, 22-33" },
       { label: "Responsorial Psalm", ref: "Ps 16:1-2, 5, 7-11" },
@@ -375,11 +353,11 @@ window.ST_MARTHA_READINGS = [
       "Lord Jesus, walk with us. Open the Scriptures to us and help us recognize you in the breaking of bread."
   },
   {
-    date: "2026-05-03",
+    date: "2026-04-26",
     title: "Fourth Sunday of Easter",
     cycle: "Year A",
     theme: "Jesus is the gate and shepherd who leads us to abundant life.",
-    officialUrl: "https://bible.usccb.org/bible/readings/050326.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/042626.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 2:14, 36-41" },
       { label: "Responsorial Psalm", ref: "Ps 23:1-6" },
@@ -397,11 +375,11 @@ window.ST_MARTHA_READINGS = [
       "Good Shepherd, lead our families. Help us recognize your voice and follow you into abundant life."
   },
   {
-    date: "2026-05-10",
+    date: "2026-05-03",
     title: "Fifth Sunday of Easter",
     cycle: "Year A",
     theme: "Jesus is the way, the truth, and the life.",
-    officialUrl: "https://bible.usccb.org/bible/readings/051026.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/050326.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 6:1-7" },
       { label: "Responsorial Psalm", ref: "Ps 33:1-2, 4-5, 18-19" },
@@ -419,11 +397,11 @@ window.ST_MARTHA_READINGS = [
       "Jesus, way, truth, and life, steady our troubled hearts. Lead our families to the Father."
   },
   {
-    date: "2026-05-17",
+    date: "2026-05-10",
     title: "Sixth Sunday of Easter",
     cycle: "Year A",
     theme: "Love for Jesus becomes obedience, and the Spirit remains with us.",
-    officialUrl: "https://bible.usccb.org/bible/readings/051726.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/051026.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 8:5-8, 14-17" },
       { label: "Responsorial Psalm", ref: "Ps 66:1-7, 16, 20" },
@@ -441,11 +419,11 @@ window.ST_MARTHA_READINGS = [
       "Holy Spirit, remain with us. Teach our families to love Jesus through faithful, gentle obedience."
   },
   {
-    date: "2026-05-24",
+    date: "2026-05-17",
     title: "The Ascension of the Lord",
     cycle: "Year A",
     theme: "The risen Jesus sends his disciples and promises to remain with them.",
-    officialUrl: "https://bible.usccb.org/bible/readings/052426.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/051726.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 1:1-11" },
       { label: "Responsorial Psalm", ref: "Ps 47:2-3, 6-9" },
@@ -463,11 +441,11 @@ window.ST_MARTHA_READINGS = [
       "Lord Jesus, send us with confidence. Help our families trust your presence and share your Gospel."
   },
   {
-    date: "2026-05-31",
+    date: "2026-05-24",
     title: "Pentecost Sunday",
     cycle: "Year A",
     theme: "The Holy Spirit gives the Church courage, unity, and mission.",
-    officialUrl: "https://bible.usccb.org/bible/readings/053126.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/052426.cfm",
     readings: [
       { label: "First Reading", ref: "Acts 2:1-11" },
       { label: "Responsorial Psalm", ref: "Ps 104:1, 24, 29-31, 34" },
@@ -485,11 +463,11 @@ window.ST_MARTHA_READINGS = [
       "Come, Holy Spirit. Fill our homes with courage, unity, forgiveness, and love."
   },
   {
-    date: "2026-06-07",
+    date: "2026-05-31",
     title: "The Most Holy Trinity",
     cycle: "Year A",
     theme: "God reveals himself as mercy, communion, and love.",
-    officialUrl: "https://bible.usccb.org/bible/readings/060726.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/053126.cfm",
     readings: [
       { label: "First Reading", ref: "Exod 34:4-6, 8-9" },
       { label: "Responsorial Canticle", ref: "Dn 3:52-56" },
@@ -507,11 +485,11 @@ window.ST_MARTHA_READINGS = [
       "Glory to the Father, and to the Son, and to the Holy Spirit. Draw our families into your communion of love."
   },
   {
-    date: "2026-06-14",
+    date: "2026-06-07",
     title: "The Most Holy Body and Blood of Christ",
     cycle: "Year A",
     theme: "Jesus gives himself as living bread for the life of the world.",
-    officialUrl: "https://bible.usccb.org/bible/readings/061426.cfm",
+    officialUrl: "https://bible.usccb.org/bible/readings/060726.cfm",
     readings: [
       { label: "First Reading", ref: "Deut 8:2-3, 14-16" },
       { label: "Responsorial Psalm", ref: "Ps 147:12-15, 19-20" },
@@ -527,6 +505,28 @@ window.ST_MARTHA_READINGS = [
     ],
     prayer:
       "Jesus, living bread, feed our families with your life. Make us grateful, united, and ready to serve."
+  },
+  {
+    date: "2026-06-14",
+    title: "Eleventh Sunday in Ordinary Time",
+    cycle: "Year A",
+    theme: "Jesus sees troubled and abandoned people and sends disciples to labor with compassion.",
+    officialUrl: "https://bible.usccb.org/bible/readings/061426.cfm",
+    readings: [
+      { label: "First Reading", ref: "Exod 19:2-6" },
+      { label: "Responsorial Psalm", ref: "Ps 100:1-2, 3, 5" },
+      { label: "Second Reading", ref: "Rom 5:6-11" },
+      { label: "Gospel", ref: "Matt 9:36-10:8" }
+    ],
+    reflection:
+      "At Sinai, God calls Israel his treasured people and a kingdom of priests. Paul reminds us that Christ loved us while we were still helpless, and Jesus is moved with pity for crowds who are troubled and abandoned. The readings join identity and mission: we are received by God so that we can be sent with compassion.",
+    discussion: [
+      "Where do I see people who are troubled or abandoned, and how do I usually respond?",
+      "What does it change to remember that Christ loved us while we were still helpless?",
+      "What would it look like for our family to be sent as laborers with compassion this week?"
+    ],
+    prayer:
+      "Jesus, give us your compassion for people who are troubled and abandoned. Help our families receive your love and serve as laborers in your harvest."
   },
   {
     date: "2026-06-21",
