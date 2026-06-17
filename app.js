@@ -64,6 +64,8 @@ const preferredVoiceTerms = [
   "microsoft zira"
 ];
 
+const defaultVoiceLang = "en-US";
+
 function formatDisplayDate(dateString) {
   const date = new Date(`${dateString}T12:00:00`);
   return new Intl.DateTimeFormat("en-US", {
@@ -119,8 +121,9 @@ function getVoiceId(voice) {
 }
 
 function getBestVoice() {
-  return availableVoices
-    .filter((voice) => voice.lang.toLowerCase().startsWith("en"))
+  const englishUsVoices = availableVoices.filter((voice) => voice.lang.toLowerCase() === defaultVoiceLang.toLowerCase());
+  const englishVoices = availableVoices.filter((voice) => voice.lang.toLowerCase().startsWith("en"));
+  return (englishUsVoices.length ? englishUsVoices : englishVoices)
     .sort((a, b) => scoreVoice(b) - scoreVoice(a))[0] || null;
 }
 
@@ -140,8 +143,11 @@ function populateVoiceSelect() {
   const selectedVoice = savedVoice || (bestVoice ? getVoiceId(bestVoice) : "");
 
   elements.voiceSelect.innerHTML = "";
-  availableVoices
-    .filter((voice) => voice.lang.toLowerCase().startsWith("en"))
+  const englishUsVoices = availableVoices.filter((voice) => voice.lang.toLowerCase() === defaultVoiceLang.toLowerCase());
+  const englishVoices = availableVoices.filter((voice) => voice.lang.toLowerCase().startsWith("en"));
+  const displayedVoices = englishUsVoices.length ? englishUsVoices : englishVoices;
+
+  displayedVoices
     .sort((a, b) => scoreVoice(b) - scoreVoice(a) || a.name.localeCompare(b.name))
     .forEach((voice) => {
       const option = document.createElement("option");
@@ -428,6 +434,8 @@ function speakReading(index) {
   if (voice) {
     utterance.voice = voice;
     utterance.lang = voice.lang;
+  } else {
+    utterance.lang = defaultVoiceLang;
   }
   utterance.rate = 0.88;
   utterance.pitch = 1.02;
