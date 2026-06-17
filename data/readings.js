@@ -469,9 +469,9 @@ window.ST_MARTHA_READINGS = [
     theme: "God reveals himself as mercy, communion, and love.",
     officialUrl: "https://bible.usccb.org/bible/readings/053126.cfm",
     readings: [
-      { label: "First Reading", ref: "Exod 34:4-6, 8-9" },
-      { label: "Responsorial Canticle", ref: "Dn 3:52-56" },
-      { label: "Second Reading", ref: "2 Cor 13:11-13" },
+      { label: "First Reading", ref: "Exod 34:4-6, 8-9", displayRef: "Exodus 34:4b-6, 8-9" },
+      { label: "Responsorial Canticle", ref: "Dn 3:52-56", displayRef: "Daniel 3:52, 53, 54, 55, 56" },
+      { label: "Second Reading", ref: "2 Cor 13:11-13", displayRef: "2 Corinthians 13:11-13" },
       { label: "Gospel", ref: "John 3:16-18" }
     ],
     reflection:
@@ -491,9 +491,9 @@ window.ST_MARTHA_READINGS = [
     theme: "Jesus gives himself as living bread for the life of the world.",
     officialUrl: "https://bible.usccb.org/bible/readings/060726.cfm",
     readings: [
-      { label: "First Reading", ref: "Deut 8:2-3, 14-16" },
-      { label: "Responsorial Psalm", ref: "Ps 147:12-15, 19-20" },
-      { label: "Second Reading", ref: "1 Cor 10:16-17" },
+      { label: "First Reading", ref: "Deut 8:2-3, 14-16", displayRef: "Deuteronomy 8:2-3, 14b-16a" },
+      { label: "Responsorial Psalm", ref: "Ps 147:12-15, 19-20", displayRef: "Psalm 147:12-13, 14-15, 19-20" },
+      { label: "Second Reading", ref: "1 Cor 10:16-17", displayRef: "1 Corinthians 10:16-17" },
       { label: "Gospel", ref: "John 6:51-58" }
     ],
     reflection:
@@ -513,10 +513,10 @@ window.ST_MARTHA_READINGS = [
     theme: "Jesus sees troubled and abandoned people and sends disciples to labor with compassion.",
     officialUrl: "https://bible.usccb.org/bible/readings/061426.cfm",
     readings: [
-      { label: "First Reading", ref: "Exod 19:2-6" },
-      { label: "Responsorial Psalm", ref: "Ps 100:1-2, 3, 5" },
-      { label: "Second Reading", ref: "Rom 5:6-11" },
-      { label: "Gospel", ref: "Matt 9:36-10:8" }
+      { label: "First Reading", ref: "Exod 19:2-6", displayRef: "Exodus 19:2-6a" },
+      { label: "Responsorial Psalm", ref: "Ps 100:1-2, 3, 5", displayRef: "Psalm 100:1-2, 3, 5" },
+      { label: "Second Reading", ref: "Rom 5:6-11", displayRef: "Romans 5:6-11" },
+      { label: "Gospel", ref: "Matt 9:36-10:8", displayRef: "Matthew 9:36-10:8" }
     ],
     reflection:
       "At Sinai, God calls Israel his treasured people and a kingdom of priests. Paul reminds us that Christ loved us while we were still helpless, and Jesus is moved with pity for crowds who are troubled and abandoned. The readings join identity and mission: we are received by God so that we can be sent with compassion.",

@@ -322,6 +322,14 @@ main {
   border-color: var(--maroon);
 }
 
+.translation-note {
+  margin: -6px 0 16px;
+  color: var(--muted);
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 .reading-text {
   margin: 0;
   white-space: pre-wrap;

@@ -900,11 +900,12 @@ function setLoadingReadings(week) {
   week.readings.forEach((reading, index) => {
     const article = document.createElement("article");
     article.className = "reading";
+    const displayRef = reading.displayRef || reading.ref;
     article.innerHTML = `
       <div class="reading-header">
         <div>
           <h3>${reading.label}</h3>
-          <cite>${reading.ref}</cite>
+          <cite>${displayRef}</cite>
         </div>
         <div class="reading-actions">
           <button class="small-button read-reading-button" type="button" data-reading-index="${index}" aria-pressed="false" disabled>
