@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>St. Martha Sunday Bible Study</title>
+    <meta
+      name="description"
+      content="Sunday Catholic readings, reflections, and family discussion prompts for a St. Martha Bible study group."
+    >
+    <link rel="stylesheet" href="styles.css?v=5">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span>SM</span>
+          <i></i>
+        </div>
+        <div>
+          <p class="eyebrow">St. Martha Parish &amp; School</p>
+          <h1>Sunday Bible Study</h1>
+        </div>
+      </div>
+      <div class="header-controls">
+        <div class="week-picker">
+          <label for="weekSelect">Study week</label>
+          <select id="weekSelect"></select>
+        </div>
+        <div class="voice-picker">
+          <label for="voiceSelect">Voice</label>
+          <select id="voiceSelect">
+            <option value="">Default voice</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-band" aria-labelledby="weekTitle">
+        <div>
+          <p id="liturgicalDate" class="eyebrow"></p>
+          <h2 id="weekTitle"></h2>
+          <p id="weekTheme" class="week-theme"></p>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="readings-panel" aria-labelledby="readingsHeading">
+          <div class="section-heading">
+            <p class="eyebrow">Lectionary readings</p>
+            <h2 id="readingsHeading">Readings</h2>
+          </div>
+          <div id="readingsList" class="readings-list" aria-live="polite"></div>
+          <p class="source-note">
+            Citations follow the Roman Catholic Sunday lectionary. Passage text is loaded from the public-domain
+            Douay-Rheims corpus, with Psalms converted to Douay/Vulgate numbering; use the USCCB link for the official
+            liturgical text.
+          </p>
+        </div>
+
+        <aside class="study-panel" aria-labelledby="reflectionHeading">
+          <div class="section-heading">
+            <p class="eyebrow">Conversation starter</p>
+            <h2 id="reflectionHeading">Reflections</h2>
+          </div>
+          <p id="reflectionText" class="reflection-text"></p>
+          <div>
+            <h3>Family Discussion</h3>
+            <ul id="discussionList" class="discussion-list"></ul>
+          </div>
+          <div>
+            <h3>Simple Prayer</h3>
+            <p id="prayerText" class="prayer-text"></p>
+          </div>
+          <a id="officialLink" class="official-link" href="#" target="_blank" rel="noreferrer">Open official USCCB readings</a>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built for a family Bible study rhythm: read, listen, reflect, discuss, pray.</p>
+    </footer>
+
+    <script src="data/readings.js?v=4"></script>
+    <script src="app.js?v=4"></script>
+  </body>
+</html>
