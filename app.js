@@ -253,7 +253,22 @@ const discussionScenarios = [
     action: "truthful courage",
     personal: "I know a hard truth should be said, but I want to stay quiet to avoid conflict",
     work: "a meeting or message thread where people know something is wrong but nobody wants to name it",
-    family: "a child, spouse, or friend needs calm truth instead of either silence or a sharp correction"
+    family: "a child, spouse, or friend needs calm truth instead of either silence or a sharp correction",
+    personalQuestions: [
+      "Jeremiah is surrounded by pressure but still brings his fear to God. Where am I tempted to go quiet because speaking honestly may cost approval or comfort?",
+      "Jesus says not to fear those who can only harm the body. Which fear most often controls my choices: being misunderstood, losing control, disappointing someone, or being judged?",
+      "Paul contrasts sin with grace. Where do I need to stop letting fear set the terms and ask for grace to act with courage?"
+    ],
+    workQuestions: [
+      "Where at work or in public life do I see a concern, unfairness, or bad decision that people are avoiding because naming it would be uncomfortable?",
+      "What would it look like to speak with Jeremiah's honesty without turning courage into anger, gossip, or self-righteousness?",
+      "If the Father sees what is hidden, what is one truthful but charitable sentence I could say this week?"
+    ],
+    familyQuestions: [
+      "Where does our family need calm truth right now: a pattern we avoid naming, a fear we minimize, or a conversation we keep postponing?",
+      "How can I help my children learn Jesus' kind of courage, where truth is spoken gently because each person is seen by the Father?",
+      "When someone at home is afraid or defensive, what response would show both Jeremiah's honesty and Jesus' trust in the Father?"
+    ]
   },
   {
     terms: ["welcom", "hospitality", "cup of cold water"],
@@ -641,11 +656,39 @@ function getDiscussionScenario(week) {
   };
 }
 
-function scenarioQuestions(scope, scenarioExample, scenarioAction) {
+function scenarioQuestions(topic, scenario) {
+  if (topic === "Personal" && Array.isArray(scenario.personalQuestions)) {
+    return compactQuestions(scenario.personalQuestions);
+  }
+
+  if (topic === "Work" && Array.isArray(scenario.workQuestions)) {
+    return compactQuestions(scenario.workQuestions);
+  }
+
+  if (topic === "Family" && Array.isArray(scenario.familyQuestions)) {
+    return compactQuestions(scenario.familyQuestions);
+  }
+
+  if (topic === "Personal") {
+    return compactQuestions([
+      `Where do I recognize this in myself: ${scenario.personal}?`,
+      `What desire, fear, resentment, or attachment makes ${scenario.action} difficult for me?`,
+      "What is one specific prayer, apology, decision, or act of trust I should make this week?"
+    ]);
+  }
+
+  if (topic === "Work") {
+    return compactQuestions([
+      `Where could this surface at work or in public life: ${scenario.work}?`,
+      "What pressures in that setting make the Gospel response harder: reputation, efficiency, conflict, money, or being liked?",
+      `What would one concrete act of ${scenario.action} look like in that situation?`
+    ]);
+  }
+
   return compactQuestions([
-    `Where could this show up ${scope}: ${scenarioExample}?`,
-    "What would my easiest reaction be, and what does the reading ask instead?",
-    `What concrete step would ${scenarioAction} require before we meet again?`
+    `Where could this show up at home: ${scenario.family}?`,
+    "How would I naturally react as a parent or spouse, and what would the readings invite me to do differently?",
+    `What family habit, conversation, boundary, or act of service would help us practice ${scenario.action}?`
   ]);
 }
 
@@ -662,17 +705,17 @@ function getDiscussionLevels(week) {
     {
       title: "Personal",
       helper: scenario.anchor,
-      questions: scenarioQuestions("personally", scenario.personal, scenario.action)
+      questions: scenarioQuestions("Personal", scenario)
     },
     {
       title: "Work",
       helper: "Look for the same reading theme in decisions, pressure, and relationships outside the home.",
-      questions: scenarioQuestions("at work or in public life", scenario.work, scenario.action)
+      questions: scenarioQuestions("Work", scenario)
     },
     {
       title: "Family",
       helper: "Bring the readings into ordinary parenting, marriage, and home life.",
-      questions: scenarioQuestions("at home", scenario.family, scenario.action)
+      questions: scenarioQuestions("Family", scenario)
     }
   ].map(normalizeDiscussionTopic);
 }
