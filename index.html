@@ -8,7 +8,7 @@
       name="description"
       content="Sunday Catholic readings, reflections, and family discussion prompts for a St. Martha Bible study group."
     >
-    <link rel="stylesheet" href="styles.css?v=7">
+    <link rel="stylesheet" href="styles.css?v=8">
   </head>
   <body>
     <header class="site-header">
@@ -32,6 +32,13 @@
           <select id="voiceSelect">
             <option value="">Default voice</option>
           </select>
+        </div>
+        <div class="text-size-controls" aria-label="Text size controls">
+          <span>Text size</span>
+          <div>
+            <button id="decreaseTextSize" type="button" aria-label="Decrease reading and reflection text size">A-</button>
+            <button id="increaseTextSize" type="button" aria-label="Increase reading and reflection text size">A+</button>
+          </div>
         </div>
       </div>
     </header>
@@ -83,6 +90,6 @@
     </footer>
 
     <script src="data/readings.js?v=8"></script>
-    <script src="app.js?v=9"></script>
+    <script src="app.js?v=10"></script>
   </body>
 </html>

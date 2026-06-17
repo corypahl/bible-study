@@ -9,6 +9,7 @@
   --line: #ddd3c7;
   --green: #49684d;
   --shadow: 0 18px 50px rgba(48, 28, 19, 0.12);
+  --study-font-scale: 1;
 }
 
 * {
@@ -110,18 +111,43 @@ select {
 }
 
 .week-picker,
-.voice-picker {
+.voice-picker,
+.text-size-controls {
   display: grid;
   gap: 6px;
   font-family: Arial, sans-serif;
 }
 
 .week-picker label,
-.voice-picker label {
+.voice-picker label,
+.text-size-controls span {
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.text-size-controls div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.text-size-controls button {
+  min-height: 46px;
+  padding: 8px 12px;
+  color: var(--ink);
+  background: white;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-weight: 800;
+}
+
+.text-size-controls button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
 }
 
 select {
@@ -299,7 +325,7 @@ main {
 .reading-text {
   margin: 0;
   white-space: pre-wrap;
-  font-size: 1.06rem;
+  font-size: calc(1.06rem * var(--study-font-scale));
   line-height: 1.68;
 }
 
@@ -332,6 +358,7 @@ footer {
 .prayer-text {
   margin: 0;
   color: var(--ink);
+  font-size: calc(1rem * var(--study-font-scale));
 }
 
 .discussion-levels {
@@ -375,7 +402,7 @@ footer {
   margin: 0;
   padding-left: 20px;
   color: var(--ink);
-  font-size: 0.96rem;
+  font-size: calc(0.96rem * var(--study-font-scale));
   line-height: 1.48;
 }
 
@@ -439,8 +466,8 @@ footer {
   }
 
   .header-controls {
-    grid-template-columns: minmax(260px, 1.25fr) minmax(190px, 0.75fr);
-    width: min(620px, 100%);
+    grid-template-columns: minmax(260px, 1.25fr) minmax(190px, 0.75fr) minmax(140px, 0.45fr);
+    width: min(780px, 100%);
   }
 
   main {
@@ -497,7 +524,7 @@ footer {
   }
 
   .reading-text {
-    font-size: 1rem;
+    font-size: calc(1rem * var(--study-font-scale));
     line-height: 1.62;
   }
 }

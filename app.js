@@ -55,7 +55,9 @@ const elements = {
   reflection: document.querySelector("#reflectionText"),
   discussion: document.querySelector("#discussionList"),
   prayer: document.querySelector("#prayerText"),
-  officialLink: document.querySelector("#officialLink")
+  officialLink: document.querySelector("#officialLink"),
+  decreaseTextSize: document.querySelector("#decreaseTextSize"),
+  increaseTextSize: document.querySelector("#increaseTextSize")
 };
 
 const preferredVoiceTerms = [
@@ -76,6 +78,11 @@ const preferredVoiceTerms = [
 ];
 
 const defaultVoiceLang = "en-US";
+const textSizeStorageKey = "stMarthaTextSize";
+const defaultTextScale = 1;
+const minTextScale = 0.88;
+const maxTextScale = 1.36;
+const textScaleStep = 0.08;
 
 function normalizeVoiceLang(lang) {
   return String(lang || "").replace("_", "-").toLowerCase();
@@ -83,6 +90,34 @@ function normalizeVoiceLang(lang) {
 
 function isDefaultVoiceLang(voice) {
   return normalizeVoiceLang(voice.lang) === normalizeVoiceLang(defaultVoiceLang);
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function getStoredTextScale() {
+  const savedScale = Number(localStorage.getItem(textSizeStorageKey));
+  return Number.isFinite(savedScale) ? clamp(savedScale, minTextScale, maxTextScale) : defaultTextScale;
+}
+
+function setTextScale(scale) {
+  const nextScale = clamp(Number(scale.toFixed(2)), minTextScale, maxTextScale);
+  document.documentElement.style.setProperty("--study-font-scale", String(nextScale));
+  localStorage.setItem(textSizeStorageKey, String(nextScale));
+
+  if (elements.decreaseTextSize) {
+    elements.decreaseTextSize.disabled = nextScale <= minTextScale;
+  }
+
+  if (elements.increaseTextSize) {
+    elements.increaseTextSize.disabled = nextScale >= maxTextScale;
+  }
+}
+
+function adjustTextScale(direction) {
+  const currentScale = getStoredTextScale();
+  setTextScale(currentScale + (direction * textScaleStep));
 }
 
 function formatDisplayDate(dateString) {
@@ -609,6 +644,7 @@ function toggleReadingSpeech(index, button) {
 
 populateSelect();
 populateVoiceSelect();
+setTextScale(getStoredTextScale());
 const defaultIndex = findDefaultIndex();
 elements.select.value = String(defaultIndex);
 renderWeek(defaultIndex);
@@ -625,6 +661,18 @@ if (elements.voiceSelect) {
   elements.voiceSelect.addEventListener("change", () => {
     localStorage.setItem("stMarthaVoice", elements.voiceSelect.value);
     stopSpeech();
+  });
+}
+
+if (elements.decreaseTextSize) {
+  elements.decreaseTextSize.addEventListener("click", () => {
+    adjustTextScale(-1);
+  });
+}
+
+if (elements.increaseTextSize) {
+  elements.increaseTextSize.addEventListener("click", () => {
+    adjustTextScale(1);
   });
 }
 
