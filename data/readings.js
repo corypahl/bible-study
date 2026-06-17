@@ -1,5 +1,534 @@
 window.ST_MARTHA_READINGS = [
   {
+    date: "2026-01-04",
+    title: "The Epiphany of the Lord",
+    cycle: "Year A",
+    theme: "Christ is revealed as light for all nations, and wise hearts still seek him.",
+    officialUrl: "https://bible.usccb.org/bible/readings/010426.cfm",
+    readings: [
+      { label: "First Reading", ref: "Isa 60:1-6" },
+      { label: "Responsorial Psalm", ref: "Ps 72:1-2, 7-8, 10-13" },
+      { label: "Second Reading", ref: "Eph 3:2-3, 5-6" },
+      { label: "Gospel", ref: "Matt 2:1-12" }
+    ],
+    reflection:
+      "The magi show that faith often begins with attention: noticing the light, taking a step, asking questions, and worshiping when Christ is found. Epiphany invites parents to consider what our choices reveal about the treasure we are seeking.",
+    discussion: [
+      "What signs of God's light have I noticed recently but not followed?",
+      "Where do our calendars, spending, or conversations show what we are seeking?",
+      "How can our home make room for worship before activity?"
+    ],
+    prayer:
+      "Lord Jesus, light of the nations, guide our families toward you. Give us wise hearts that seek, find, and worship you."
+  },
+  {
+    date: "2026-01-11",
+    title: "The Baptism of the Lord",
+    cycle: "Year A",
+    theme: "Jesus enters the waters and reveals the beloved Son who brings justice and mercy.",
+    officialUrl: "https://bible.usccb.org/bible/readings/011126.cfm",
+    readings: [
+      { label: "First Reading", ref: "Isa 42:1-4, 6-7" },
+      { label: "Responsorial Psalm", ref: "Ps 29:1-4, 9-10" },
+      { label: "Second Reading", ref: "Acts 10:34-38" },
+      { label: "Gospel", ref: "Matt 3:13-17" }
+    ],
+    reflection:
+      "At the Jordan, Jesus identifies with sinners even though he is without sin. The Father's voice reveals him as beloved, and the Spirit descends. Baptism is not only a past event; it is the identity from which Christian parents live and lead.",
+    discussion: [
+      "Where do I need to live more securely as a beloved child of God?",
+      "How does baptism shape the way we parent, work, and make decisions?",
+      "What would gentle strength look like in our home this week?"
+    ],
+    prayer:
+      "Father, remind us that we are beloved in Christ. Help our families live from baptismal grace with courage and humility."
+  },
+  {
+    date: "2026-01-18",
+    title: "Second Sunday in Ordinary Time",
+    cycle: "Year A",
+    theme: "John points away from himself and toward Jesus, the Lamb of God.",
+    officialUrl: "https://bible.usccb.org/bible/readings/011826.cfm",
+    readings: [
+      { label: "First Reading", ref: "Isa 49:3, 5-6" },
+      { label: "Responsorial Psalm", ref: "Ps 40:2, 4, 7-10" },
+      { label: "Second Reading", ref: "1 Cor 1:1-3" },
+      { label: "Gospel", ref: "John 1:29-34" }
+    ],
+    reflection:
+      "John knows his role: to recognize Jesus and point others to him. The readings invite us to humility and clarity. Parents do not need to be the center of the story; our task is to help others see Christ.",
+    discussion: [
+      "Where am I tempted to make something about me instead of pointing to Christ?",
+      "How can I witness to Jesus naturally at work or with friends?",
+      "What family habit helps our children recognize Jesus?"
+    ],
+    prayer:
+      "Lamb of God, help us recognize you and point others to you. Make our homes places of humble witness."
+  },
+  {
+    date: "2026-01-25",
+    title: "Third Sunday in Ordinary Time",
+    cycle: "Year A",
+    theme: "Jesus calls ordinary people to follow him and become fishers of men.",
+    officialUrl: "https://bible.usccb.org/bible/readings/012526.cfm",
+    readings: [
+      { label: "First Reading", ref: "Isa 8:23-9:3" },
+      { label: "Responsorial Psalm", ref: "Ps 27:1, 4, 13-14" },
+      { label: "Second Reading", ref: "1 Cor 1:10-13, 17" },
+      { label: "Gospel", ref: "Matt 4:12-23" }
+    ],
+    reflection:
+      "Jesus begins his mission in a place that needs light and calls fishermen in the middle of ordinary work. Discipleship rarely begins when life is perfectly arranged. It begins when Christ interrupts us with an invitation.",
+    discussion: [
+      "Where might Jesus be calling me to follow with more immediacy?",
+      "What divisions or rivalries need healing in my relationships?",
+      "How can our family be a little more available for mission?"
+    ],
+    prayer:
+      "Jesus, call us again. Give us the courage to follow you promptly and to bring your light into ordinary places."
+  },
+  {
+    date: "2026-02-01",
+    title: "Fourth Sunday in Ordinary Time",
+    cycle: "Year A",
+    theme: "The Beatitudes reveal the surprising shape of blessedness.",
+    officialUrl: "https://bible.usccb.org/bible/readings/020126.cfm",
+    readings: [
+      { label: "First Reading", ref: "Zeph 2:3; 3:12-13" },
+      { label: "Responsorial Psalm", ref: "Ps 146:6-10" },
+      { label: "Second Reading", ref: "1 Cor 1:26-31" },
+      { label: "Gospel", ref: "Matt 5:1-12" }
+    ],
+    reflection:
+      "The Beatitudes challenge our usual measures of success. God blesses the poor in spirit, the meek, the merciful, the pure of heart, and the peacemakers. Christian maturity means letting Jesus redefine what a good life looks like.",
+    discussion: [
+      "Which Beatitude feels hardest for me to trust right now?",
+      "Where do I measure success differently from the Gospel?",
+      "How can our family practice mercy or peacemaking this week?"
+    ],
+    prayer:
+      "Lord Jesus, form our hearts by the Beatitudes. Teach us to seek the blessedness that comes from you."
+  },
+  {
+    date: "2026-02-08",
+    title: "Fifth Sunday in Ordinary Time",
+    cycle: "Year A",
+    theme: "Disciples are salt and light through concrete works of mercy.",
+    officialUrl: "https://bible.usccb.org/bible/readings/020826.cfm",
+    readings: [
+      { label: "First Reading", ref: "Isa 58:7-10" },
+      { label: "Responsorial Psalm", ref: "Ps 112:4-9" },
+      { label: "Second Reading", ref: "1 Cor 2:1-5" },
+      { label: "Gospel", ref: "Matt 5:13-16" }
+    ],
+    reflection:
+      "Jesus calls disciples salt and light, while Isaiah names practical mercy: feeding, sheltering, clothing, and removing oppression. Faith becomes visible when love takes form in ordinary decisions.",
+    discussion: [
+      "Where has my faith become private when it should give light?",
+      "What concrete need is close enough for our family to respond to?",
+      "How can I serve without drawing attention to myself?"
+    ],
+    prayer:
+      "Jesus, make us salt and light. Help our families love in concrete ways that give glory to the Father."
+  },
+  {
+    date: "2026-02-15",
+    title: "Sixth Sunday in Ordinary Time",
+    cycle: "Year A",
+    theme: "Jesus calls us beyond external rules into a converted heart.",
+    officialUrl: "https://bible.usccb.org/bible/readings/021526.cfm",
+    readings: [
+      { label: "First Reading", ref: "Sir 15:15-20" },
+      { label: "Responsorial Psalm", ref: "Ps 119:1-2, 4-5, 17-18, 33-34" },
+      { label: "Second Reading", ref: "1 Cor 2:6-10" },
+      { label: "Gospel", ref: "Matt 5:17-37" }
+    ],
+    reflection:
+      "The readings take freedom seriously. God places life before us, and Jesus shows that holiness reaches our anger, desires, speech, and promises. Family life gives daily chances to choose life in small hidden ways.",
+    discussion: [
+      "Where do I settle for looking right instead of becoming converted?",
+      "How do anger, tone, or careless words affect our home?",
+      "What choice for life is God placing before me this week?"
+    ],
+    prayer:
+      "Lord, convert our hearts. Help us choose life in our words, promises, relationships, and hidden thoughts."
+  },
+  {
+    date: "2026-02-22",
+    title: "Seventh Sunday in Ordinary Time",
+    cycle: "Year A",
+    theme: "The Father calls his children to holiness through love of enemies.",
+    officialUrl: "https://bible.usccb.org/bible/readings/022226.cfm",
+    readings: [
+      { label: "First Reading", ref: "Lev 19:1-2, 17-18" },
+      { label: "Responsorial Psalm", ref: "Ps 103:1-4, 8, 10, 12-13" },
+      { label: "Second Reading", ref: "1 Cor 3:16-23" },
+      { label: "Gospel", ref: "Matt 5:38-48" }
+    ],
+    reflection:
+      "Holiness is not abstract. Leviticus commands love of neighbor, and Jesus stretches that love toward enemies. Parents often practice this first in daily irritations: refusing revenge, praying for difficult people, and choosing mercy.",
+    discussion: [
+      "Who is difficult for me to love without resentment?",
+      "Where do I confuse justice with getting even?",
+      "How can our family practice mercy without ignoring real boundaries?"
+    ],
+    prayer:
+      "Merciful Father, make us holy as you are holy. Teach us to love with truth, patience, and freedom from revenge."
+  },
+  {
+    date: "2026-03-01",
+    title: "First Sunday of Lent",
+    cycle: "Year A",
+    theme: "Jesus resists temptation by trusting the Father and living from God's word.",
+    officialUrl: "https://bible.usccb.org/bible/readings/030126.cfm",
+    readings: [
+      { label: "First Reading", ref: "Gen 2:7-9; 3:1-7" },
+      { label: "Responsorial Psalm", ref: "Ps 51:3-6, 12-14, 17" },
+      { label: "Second Reading", ref: "Rom 5:12-19" },
+      { label: "Gospel", ref: "Matt 4:1-11" }
+    ],
+    reflection:
+      "Lent begins with the truth about temptation and mercy. Adam and Eve grasp, but Jesus trusts. The desert teaches parents to name the lies we are tempted to believe and return to the Father's word.",
+    discussion: [
+      "What temptation most often pulls me away from trust in God?",
+      "What lie do I need to reject this Lent?",
+      "How can our family make Lent concrete without making it performative?"
+    ],
+    prayer:
+      "Jesus, lead us through Lent with you. Strengthen us against temptation and renew our trust in the Father's word."
+  },
+  {
+    date: "2026-03-08",
+    title: "Second Sunday of Lent",
+    cycle: "Year A",
+    theme: "God calls us to trust the promise before we see the full road.",
+    officialUrl: "https://bible.usccb.org/bible/readings/030826.cfm",
+    readings: [
+      { label: "First Reading", ref: "Gen 12:1-4" },
+      { label: "Responsorial Psalm", ref: "Ps 33:4-5, 18-20, 22" },
+      { label: "Second Reading", ref: "2 Tim 1:8-10" },
+      { label: "Gospel", ref: "Matt 17:1-9" }
+    ],
+    reflection:
+      "Abram leaves in faith, Paul points to grace, and the disciples glimpse Christ's glory on the mountain. God sometimes gives enough light to keep us moving, not enough to control the whole journey.",
+    discussion: [
+      "Where is God asking me to trust without seeing every step?",
+      "What glimpse of grace has helped me keep going?",
+      "How can our family listen more attentively to Jesus this Lent?"
+    ],
+    prayer:
+      "Father, strengthen our trust. Help us listen to your beloved Son and walk where you call us."
+  },
+  {
+    date: "2026-03-15",
+    title: "Third Sunday of Lent",
+    cycle: "Year A",
+    theme: "Jesus meets thirst with living water.",
+    officialUrl: "https://bible.usccb.org/bible/readings/031526.cfm",
+    readings: [
+      { label: "First Reading", ref: "Exod 17:3-7" },
+      { label: "Responsorial Psalm", ref: "Ps 95:1-2, 6-9" },
+      { label: "Second Reading", ref: "Rom 5:1-2, 5-8" },
+      { label: "Gospel", ref: "John 4:5-42" }
+    ],
+    reflection:
+      "The Samaritan woman encounters Jesus in honesty. He does not avoid her thirst, history, or questions. Lent invites us to bring real thirst to Christ rather than hiding behind busyness, control, or distraction.",
+    discussion: [
+      "What thirst am I trying to satisfy in the wrong way?",
+      "Where do I need a more honest conversation with Jesus?",
+      "How can our family make room for prayer that is truthful, not polished?"
+    ],
+    prayer:
+      "Jesus, give us living water. Meet us in truth and renew our families with your grace."
+  },
+  {
+    date: "2026-03-22",
+    title: "Fourth Sunday of Lent",
+    cycle: "Year A",
+    theme: "Christ gives sight where we are blind.",
+    officialUrl: "https://bible.usccb.org/bible/readings/032226.cfm",
+    readings: [
+      { label: "First Reading", ref: "1 Sam 16:1, 6-7, 10-13" },
+      { label: "Responsorial Psalm", ref: "Ps 23:1-6" },
+      { label: "Second Reading", ref: "Eph 5:8-14" },
+      { label: "Gospel", ref: "John 9:1-41" }
+    ],
+    reflection:
+      "Samuel learns that God sees the heart, and the man born blind receives sight while others resist the truth in front of them. Laetare Sunday invites honest joy: Christ can heal blindness we have grown used to.",
+    discussion: [
+      "Where might I be judging by appearances instead of the heart?",
+      "What truth is hard for me to see right now?",
+      "How can our family walk more as children of light?"
+    ],
+    prayer:
+      "Jesus, light of the world, open our eyes. Help us see ourselves, others, and our family life with your truth."
+  },
+  {
+    date: "2026-03-29",
+    title: "Fifth Sunday of Lent",
+    cycle: "Year A",
+    theme: "Jesus calls Lazarus from the tomb and promises resurrection life.",
+    officialUrl: "https://bible.usccb.org/bible/readings/032926.cfm",
+    readings: [
+      { label: "First Reading", ref: "Ezek 37:12-14" },
+      { label: "Responsorial Psalm", ref: "Ps 130:1-8" },
+      { label: "Second Reading", ref: "Rom 8:8-11" },
+      { label: "Gospel", ref: "John 11:1-45" }
+    ],
+    reflection:
+      "The readings speak hope into places that feel closed, dry, or dead. Jesus weeps, commands the stone to be removed, and calls Lazarus out. Christian hope is not denial; it is trust that Christ can enter the tomb.",
+    discussion: [
+      "Where do I need hope instead of resignation?",
+      "What stone might Jesus be asking me to help remove?",
+      "How can our family speak life into discouragement?"
+    ],
+    prayer:
+      "Lord Jesus, call us into life. Bring hope to the places in us and in our homes that feel sealed off."
+  },
+  {
+    date: "2026-04-05",
+    title: "Palm Sunday of the Passion of the Lord",
+    cycle: "Year A",
+    theme: "Jesus enters Jerusalem in humility and gives himself completely in love.",
+    officialUrl: "https://bible.usccb.org/bible/readings/040526.cfm",
+    readings: [
+      { label: "At the Procession", ref: "Matt 21:1-11" },
+      { label: "First Reading", ref: "Isa 50:4-7" },
+      { label: "Responsorial Psalm", ref: "Ps 22:8-9, 17-20, 23-24" },
+      { label: "Second Reading", ref: "Phil 2:6-11" },
+      { label: "Gospel", ref: "Matt 26:14-27:66" }
+    ],
+    reflection:
+      "Palm Sunday holds praise and betrayal together. The crowd welcomes Jesus, but the Passion reveals the depth of his obedience. Holy Week asks parents to slow down and stand near Christ's self-giving love.",
+    discussion: [
+      "Where do I praise Jesus with words but resist him with choices?",
+      "What part of Christ's humility challenges me most?",
+      "How can our family enter Holy Week with more attention and less rush?"
+    ],
+    prayer:
+      "Jesus, humble King, draw us close to your Passion. Teach our families to love with patience, obedience, and trust."
+  },
+  {
+    date: "2026-04-12",
+    title: "Easter Sunday of the Resurrection of the Lord",
+    cycle: "Year A",
+    theme: "The empty tomb changes everything.",
+    officialUrl: "https://bible.usccb.org/bible/readings/041226.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 10:34-43" },
+      { label: "Responsorial Psalm", ref: "Ps 118:1-2, 16-17, 22-23" },
+      { label: "Second Reading", ref: "Col 3:1-4" },
+      { label: "Gospel", ref: "John 20:1-9" }
+    ],
+    reflection:
+      "Peter proclaims the Resurrection, Paul calls us to seek what is above, and the disciples begin to believe at the empty tomb. Easter faith changes what we fear, what we hope for, and how we live ordinary days.",
+    discussion: [
+      "Where do I need Easter hope to become practical, not just seasonal?",
+      "What does it mean to seek what is above in daily responsibilities?",
+      "How can our family keep Easter as a season of joy?"
+    ],
+    prayer:
+      "Risen Lord, fill our homes with Easter hope. Help us live as people who believe you are alive."
+  },
+  {
+    date: "2026-04-19",
+    title: "Second Sunday of Easter",
+    cycle: "Year A",
+    theme: "The risen Jesus brings peace, mercy, and faith to wounded disciples.",
+    officialUrl: "https://bible.usccb.org/bible/readings/041926.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 2:42-47" },
+      { label: "Responsorial Psalm", ref: "Ps 118:2-4, 13-15, 22-24" },
+      { label: "Second Reading", ref: "1 Peter 1:3-9" },
+      { label: "Gospel", ref: "John 20:19-31" }
+    ],
+    reflection:
+      "Jesus comes through locked doors and speaks peace. Thomas is invited to bring his doubt close to the wounds of Christ. Divine Mercy Sunday is a reminder that faith grows when mercy meets fear honestly.",
+    discussion: [
+      "What locked door do I need Jesus to enter with peace?",
+      "How do I handle doubt in myself or in people I love?",
+      "What practice would make our home more merciful?"
+    ],
+    prayer:
+      "Risen Jesus, have mercy on us. Bring peace through our locked doors and strengthen our faith."
+  },
+  {
+    date: "2026-04-26",
+    title: "Third Sunday of Easter",
+    cycle: "Year A",
+    theme: "Jesus walks with discouraged disciples and makes himself known in the breaking of bread.",
+    officialUrl: "https://bible.usccb.org/bible/readings/042626.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 2:14, 22-33" },
+      { label: "Responsorial Psalm", ref: "Ps 16:1-2, 5, 7-11" },
+      { label: "Second Reading", ref: "1 Peter 1:17-21" },
+      { label: "Gospel", ref: "Luke 24:13-35" }
+    ],
+    reflection:
+      "On the road to Emmaus, Jesus listens, opens the Scriptures, and is recognized in the breaking of bread. The pattern of Mass becomes a pattern for family life: bring confusion to Christ, hear the word, and recognize him at the table.",
+    discussion: [
+      "Where am I walking with disappointment or confusion?",
+      "How has Scripture helped me reinterpret something hard?",
+      "How can our family be more attentive to Jesus in the Eucharist?"
+    ],
+    prayer:
+      "Lord Jesus, walk with us. Open the Scriptures to us and help us recognize you in the breaking of bread."
+  },
+  {
+    date: "2026-05-03",
+    title: "Fourth Sunday of Easter",
+    cycle: "Year A",
+    theme: "Jesus is the gate and shepherd who leads us to abundant life.",
+    officialUrl: "https://bible.usccb.org/bible/readings/050326.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 2:14, 36-41" },
+      { label: "Responsorial Psalm", ref: "Ps 23:1-6" },
+      { label: "Second Reading", ref: "1 Peter 2:20-25" },
+      { label: "Gospel", ref: "John 10:1-10" }
+    ],
+    reflection:
+      "The Good Shepherd knows his sheep and leads them through the right gate. Parents are surrounded by many voices promising safety, success, and fulfillment. This Sunday asks whose voice we are learning to trust.",
+    discussion: [
+      "Which voices compete most strongly for my attention and trust?",
+      "Where do I need Jesus to shepherd me rather than manage everything myself?",
+      "How can our family make the Shepherd's voice easier to hear?"
+    ],
+    prayer:
+      "Good Shepherd, lead our families. Help us recognize your voice and follow you into abundant life."
+  },
+  {
+    date: "2026-05-10",
+    title: "Fifth Sunday of Easter",
+    cycle: "Year A",
+    theme: "Jesus is the way, the truth, and the life.",
+    officialUrl: "https://bible.usccb.org/bible/readings/051026.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 6:1-7" },
+      { label: "Responsorial Psalm", ref: "Ps 33:1-2, 4-5, 18-19" },
+      { label: "Second Reading", ref: "1 Peter 2:4-9" },
+      { label: "Gospel", ref: "John 14:1-12" }
+    ],
+    reflection:
+      "The early Church responds to real needs with ordered service, while Jesus tells troubled hearts to trust him. Faith does not remove responsibility; it gives direction. Christ is not one option among many but the way home to the Father.",
+    discussion: [
+      "What is troubling my heart, and how is Jesus asking me to trust?",
+      "Where do practical needs require better service or communication?",
+      "How can our family remember that Jesus is the way, not just a helper?"
+    ],
+    prayer:
+      "Jesus, way, truth, and life, steady our troubled hearts. Lead our families to the Father."
+  },
+  {
+    date: "2026-05-17",
+    title: "Sixth Sunday of Easter",
+    cycle: "Year A",
+    theme: "Love for Jesus becomes obedience, and the Spirit remains with us.",
+    officialUrl: "https://bible.usccb.org/bible/readings/051726.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 8:5-8, 14-17" },
+      { label: "Responsorial Psalm", ref: "Ps 66:1-7, 16, 20" },
+      { label: "Second Reading", ref: "1 Peter 3:15-18" },
+      { label: "Gospel", ref: "John 14:15-21" }
+    ],
+    reflection:
+      "Jesus connects love with keeping his commandments and promises the Advocate. The Spirit helps us live faith when it is costly, explain hope with gentleness, and stay close to Christ in daily life.",
+    discussion: [
+      "Where do I need love to become concrete obedience?",
+      "How can I explain the reason for my hope with gentleness?",
+      "What would help our family rely more on the Holy Spirit?"
+    ],
+    prayer:
+      "Holy Spirit, remain with us. Teach our families to love Jesus through faithful, gentle obedience."
+  },
+  {
+    date: "2026-05-24",
+    title: "The Ascension of the Lord",
+    cycle: "Year A",
+    theme: "The risen Jesus sends his disciples and promises to remain with them.",
+    officialUrl: "https://bible.usccb.org/bible/readings/052426.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 1:1-11" },
+      { label: "Responsorial Psalm", ref: "Ps 47:2-3, 6-9" },
+      { label: "Second Reading", ref: "Eph 1:17-23" },
+      { label: "Gospel", ref: "Matt 28:16-20" }
+    ],
+    reflection:
+      "The Ascension is not Jesus leaving us alone. He sends the Church on mission and promises his presence. Parents share in that mission by teaching, witnessing, baptizing faith into ordinary routines, and trusting Christ's authority.",
+    discussion: [
+      "Where do I feel sent but underprepared?",
+      "How does Jesus' promise to remain with us change my courage?",
+      "What is one way our family can live mission this week?"
+    ],
+    prayer:
+      "Lord Jesus, send us with confidence. Help our families trust your presence and share your Gospel."
+  },
+  {
+    date: "2026-05-31",
+    title: "Pentecost Sunday",
+    cycle: "Year A",
+    theme: "The Holy Spirit gives the Church courage, unity, and mission.",
+    officialUrl: "https://bible.usccb.org/bible/readings/053126.cfm",
+    readings: [
+      { label: "First Reading", ref: "Acts 2:1-11" },
+      { label: "Responsorial Psalm", ref: "Ps 104:1, 24, 29-31, 34" },
+      { label: "Second Reading", ref: "1 Cor 12:3-7, 12-13" },
+      { label: "Gospel", ref: "John 20:19-23" }
+    ],
+    reflection:
+      "Pentecost turns fear into witness. The Spirit gathers many languages into one proclamation and gives gifts for the good of the body. Family life needs the Spirit's breath: peace, forgiveness, courage, and unity.",
+    discussion: [
+      "Where do I need the Holy Spirit to replace fear with courage?",
+      "What gift has God given me for others rather than just for myself?",
+      "How can our family practice forgiveness and peace more intentionally?"
+    ],
+    prayer:
+      "Come, Holy Spirit. Fill our homes with courage, unity, forgiveness, and love."
+  },
+  {
+    date: "2026-06-07",
+    title: "The Most Holy Trinity",
+    cycle: "Year A",
+    theme: "God reveals himself as mercy, communion, and love.",
+    officialUrl: "https://bible.usccb.org/bible/readings/060726.cfm",
+    readings: [
+      { label: "First Reading", ref: "Exod 34:4-6, 8-9" },
+      { label: "Responsorial Canticle", ref: "Dn 3:52-56" },
+      { label: "Second Reading", ref: "2 Cor 13:11-13" },
+      { label: "Gospel", ref: "John 3:16-18" }
+    ],
+    reflection:
+      "The Trinity is not a puzzle to solve but the mystery of God's own life: merciful, gracious, and self-giving love. Paul blesses the Church with grace, love, and fellowship. Christian families are invited to reflect communion rather than isolation.",
+    discussion: [
+      "Where do I need to receive God as merciful rather than distant?",
+      "How can our relationships better reflect patience, communion, and peace?",
+      "What does it mean that God loved the world enough to give his Son?"
+    ],
+    prayer:
+      "Glory to the Father, and to the Son, and to the Holy Spirit. Draw our families into your communion of love."
+  },
+  {
+    date: "2026-06-14",
+    title: "The Most Holy Body and Blood of Christ",
+    cycle: "Year A",
+    theme: "Jesus gives himself as living bread for the life of the world.",
+    officialUrl: "https://bible.usccb.org/bible/readings/061426.cfm",
+    readings: [
+      { label: "First Reading", ref: "Deut 8:2-3, 14-16" },
+      { label: "Responsorial Psalm", ref: "Ps 147:12-15, 19-20" },
+      { label: "Second Reading", ref: "1 Cor 10:16-17" },
+      { label: "Gospel", ref: "John 6:51-58" }
+    ],
+    reflection:
+      "Corpus Christi centers family faith on the gift of the Eucharist. God fed Israel in the desert, and Jesus gives his flesh for the life of the world. The Eucharist teaches dependence, gratitude, unity, and mission.",
+    discussion: [
+      "Where do I forget my dependence on God and try to live by bread alone?",
+      "How can Sunday Mass shape the rest of our week more deeply?",
+      "What would Eucharistic gratitude look like in our home?"
+    ],
+    prayer:
+      "Jesus, living bread, feed our families with your life. Make us grateful, united, and ready to serve."
+  },
+  {
     date: "2026-06-21",
     title: "Twelfth Sunday in Ordinary Time",
     cycle: "Year A",
@@ -592,5 +1121,27 @@ window.ST_MARTHA_READINGS = [
     ],
     prayer:
       "Lord, give our families Mary's trust. Help us listen to your word and say yes with humble hearts."
+  },
+  {
+    date: "2026-12-27",
+    title: "The Holy Family of Jesus, Mary and Joseph",
+    cycle: "Year B",
+    theme: "The Holy Family shows how love is lived through patience, reverence, and faithful presence.",
+    officialUrl: "https://bible.usccb.org/bible/readings/122726.cfm",
+    readings: [
+      { label: "First Reading", ref: "Sir 3:2-6, 12-14" },
+      { label: "Responsorial Psalm", ref: "Ps 128:1-5" },
+      { label: "Second Reading", ref: "Col 3:12-21" },
+      { label: "Gospel", ref: "Luke 2:22-40" }
+    ],
+    reflection:
+      "The feast of the Holy Family brings Christmas grace into ordinary relationships. Holiness at home is practiced through compassion, forgiveness, gratitude, reverence, and patient love. Family life becomes a school of discipleship when Christ is allowed to shape daily habits.",
+    discussion: [
+      "Where does our home most need patience, gratitude, or forgiveness right now?",
+      "How can we honor parents, children, and spouses without pretending family life is easy?",
+      "What family habit would help Christ dwell more richly among us?"
+    ],
+    prayer:
+      "Jesus, Mary, and Joseph, pray for our families. Teach us patience, forgiveness, reverence, and faithful love at home."
   }
 ];

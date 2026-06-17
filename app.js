@@ -10,18 +10,26 @@ const bookMap = {
   "1 John": "1-john",
   "1 Kgs": "3-kings",
   "1 Peter": "1-peter",
+  "1 Sam": "1-kings",
   "1 Thess": "1-thessalonians",
   "2 Cor": "2-corinthians",
   "2 Kgs": "4-kings",
   "2 Pet": "2-peter",
   "2 Sam": "2-kings",
+  "2 Tim": "2-timothy",
   "Acts": "acts",
+  "Col": "colossians",
+  "Deut": "deuteronomy",
+  "Dn": "daniel",
   "Ezek": "ezechiel",
   "Exod": "exodus",
+  "Eph": "ephesians",
+  "Gen": "genesis",
   "Hos": "osee",
   "Isa": "isaie",
   "Jer": "jeremie",
   "John": "john",
+  "Lev": "leviticus",
   "Luke": "luke",
   "Mal": "malachie",
   "Mark": "mark",
@@ -33,6 +41,7 @@ const bookMap = {
   "Rom": "romans",
   "Sir": "ecclesiasticus",
   "Wis": "wisdom",
+  "Zeph": "sophonias",
   "Zech": "zacharias"
 };
 
@@ -210,21 +219,6 @@ function pickDiscussionQuestion(questions, preferredTerms, fallbackIndex, usedIn
   return "";
 }
 
-function pickPreferredDiscussionQuestion(questions, preferredTerms, usedIndexes) {
-  const normalizedTerms = preferredTerms.map((term) => term.toLowerCase());
-  const preferredIndex = questions.findIndex((question, index) => (
-    !usedIndexes.has(index)
-    && normalizedTerms.some((term) => question.toLowerCase().includes(term))
-  ));
-
-  if (preferredIndex !== -1) {
-    usedIndexes.add(preferredIndex);
-    return questions[preferredIndex];
-  }
-
-  return "";
-}
-
 function compactQuestions(questions) {
   return questions.filter(Boolean).map((question) => question.trim());
 }
@@ -253,7 +247,9 @@ function parentizeQuestion(question) {
 
 function getDiscussionLevels(week) {
   if (week.discussionLevels) {
-    return week.discussionLevels.map(normalizeDiscussionTopic);
+    return week.discussionLevels
+      .filter((topic) => topic.title.toLowerCase() !== "faith")
+      .map(normalizeDiscussionTopic);
   }
 
   const questions = week.discussion || [];
@@ -262,11 +258,6 @@ function getDiscussionLevels(week) {
     questions,
     ["family", "home", "parents", "children", "kids", "conversations", "apology"],
     1,
-    usedIndexes
-  );
-  const faithQuestion = pickPreferredDiscussionQuestion(
-    questions,
-    ["God", "Jesus", "Mass", "Church", "prayer", "faith", "baptism", "saints"],
     usedIndexes
   );
 
@@ -296,15 +287,6 @@ function getDiscussionLevels(week) {
         parentizeQuestion(familyQuestion || "Where do these readings challenge the way we speak, forgive, or make decisions at home?"),
         "What habit, boundary, or conversation would help our family live this Gospel more concretely?",
         "How can we model this reading for our children without turning it into a lecture?"
-      ])
-    },
-    {
-      title: "Faith",
-      helper: "How the readings deepen prayer, Mass, and trust in God.",
-      questions: compactQuestions([
-        parentizeQuestion(faithQuestion || "What do these readings reveal about who God is and how he is acting?"),
-        "How can this Sunday's readings change the way I pray or participate at Mass?",
-        "What grace should I ask God for this week?"
       ])
     }
   ].map(normalizeDiscussionTopic);
