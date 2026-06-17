@@ -210,39 +210,104 @@ function pickDiscussionQuestion(questions, preferredTerms, fallbackIndex, usedIn
   return "";
 }
 
+function pickPreferredDiscussionQuestion(questions, preferredTerms, usedIndexes) {
+  const normalizedTerms = preferredTerms.map((term) => term.toLowerCase());
+  const preferredIndex = questions.findIndex((question, index) => (
+    !usedIndexes.has(index)
+    && normalizedTerms.some((term) => question.toLowerCase().includes(term))
+  ));
+
+  if (preferredIndex !== -1) {
+    usedIndexes.add(preferredIndex);
+    return questions[preferredIndex];
+  }
+
+  return "";
+}
+
+function compactQuestions(questions) {
+  return questions.filter(Boolean).map((question) => question.trim());
+}
+
+function normalizeDiscussionTopic(topic) {
+  if (Array.isArray(topic.questions)) {
+    return {
+      ...topic,
+      questions: compactQuestions(topic.questions)
+    };
+  }
+
+  return {
+    ...topic,
+    questions: compactQuestions([topic.question])
+  };
+}
+
+function parentizeQuestion(question) {
+  return question
+    .replace(/^Where do kids and parents feel pressure/i, "Where do we as parents feel pressure")
+    .replace(/^How can kids teach adults to receive God with trust\?$/i, "What can we learn from our children's trust, and how can we receive God more simply?")
+    .replace(/^How can kids practice/i, "How can we help our children practice")
+    .replace(/\bkids\b/gi, "our children");
+}
+
 function getDiscussionLevels(week) {
   if (week.discussionLevels) {
-    return week.discussionLevels;
+    return week.discussionLevels.map(normalizeDiscussionTopic);
   }
 
   const questions = week.discussion || [];
   const usedIndexes = new Set();
+  const familyQuestion = pickDiscussionQuestion(
+    questions,
+    ["family", "home", "parents", "children", "kids", "conversations", "apology"],
+    1,
+    usedIndexes
+  );
+  const faithQuestion = pickPreferredDiscussionQuestion(
+    questions,
+    ["God", "Jesus", "Mass", "Church", "prayer", "faith", "baptism", "saints"],
+    usedIndexes
+  );
 
   return [
     {
-      title: "Kids",
-      helper: "A simple question children can answer first.",
-      question: pickDiscussionQuestion(questions, ["kids", "children", "child", "school"], 0, usedIndexes)
-        || "What did you notice about God or Jesus in these readings?"
+      title: "Personal",
+      helper: "How this Sunday's readings meet each parent personally.",
+      questions: compactQuestions([
+        "Where is God inviting me to live this Sunday's theme in my own life?",
+        "What reaction in me needs honesty, conversion, courage, or rest?",
+        "What is one concrete step I can take before we meet again?"
+      ])
     },
     {
-      title: "Parents",
-      helper: "A prompt for adult reflection and family leadership.",
-      question: pickDiscussionQuestion(questions, ["parents", "adults", "home", "family life", "conversations"], 1, usedIndexes)
-        || "Where do these readings challenge us as parents or adults?"
+      title: "Work",
+      helper: "How faith shapes decisions, pressure, and relationships outside the home.",
+      questions: compactQuestions([
+        "Where do these readings connect with pressure, priorities, or relationships at work?",
+        "What would it look like to bring Christian charity into a difficult work situation?",
+        "Is there a place where I am separating Sunday faith from weekday decisions?"
+      ])
     },
     {
-      title: "Whole Family",
-      helper: "A question everyone can answer together.",
-      question: pickDiscussionQuestion(questions, ["family", "we", "our", "together", "someone"], 2, usedIndexes)
-        || "What is one way we can live this reading together this week?"
+      title: "Family",
+      helper: "How parents can lead the home with patience, truth, and love.",
+      questions: compactQuestions([
+        parentizeQuestion(familyQuestion || "Where do these readings challenge the way we speak, forgive, or make decisions at home?"),
+        "What habit, boundary, or conversation would help our family live this Gospel more concretely?",
+        "How can we model this reading for our children without turning it into a lecture?"
+      ])
     },
     {
-      title: "Deeper Reflection",
-      helper: "Use this if the group is ready to go further.",
-      question: `What is one concrete way our family can practice this Sunday's theme: ${week.theme}`
+      title: "Faith",
+      helper: "How the readings deepen prayer, Mass, and trust in God.",
+      questions: compactQuestions([
+        parentizeQuestion(faithQuestion || "What do these readings reveal about who God is and how he is acting?"),
+        "How can this Sunday's readings change the way I pray or participate at Mass?",
+        "What grace should I ask God for this week?"
+      ])
     }
-  ];
+  ].map(normalizeDiscussionTopic);
 }
 
 function sanitizeReference(ref) {
@@ -475,12 +540,13 @@ function renderWeek(index) {
   getDiscussionLevels(week).forEach((level) => {
     const card = document.createElement("article");
     card.className = "discussion-level";
+    const questions = level.questions.map((question) => `<li>${question}</li>`).join("");
     card.innerHTML = `
       <div class="discussion-level-heading">
         <h4>${level.title}</h4>
         <p>${level.helper}</p>
       </div>
-      <p class="discussion-question">${level.question}</p>
+      <ul class="discussion-questions">${questions}</ul>
     `;
     elements.discussion.append(card);
   });

@@ -369,11 +369,18 @@ footer {
   font-size: 0.84rem;
 }
 
-.discussion-question {
+.discussion-questions {
+  display: grid;
+  gap: 8px;
   margin: 0;
+  padding-left: 20px;
   color: var(--ink);
   font-size: 0.96rem;
   line-height: 1.48;
+}
+
+.discussion-questions li::marker {
+  color: var(--gold);
 }
 
 .official-link {
