@@ -2,6 +2,8 @@ const readings = window.ST_MARTHA_READINGS;
 const bookCache = new Map();
 const passageCache = new Map();
 let availableVoices = [];
+let activeSpeechButton = null;
+let activeUtterance = null;
 
 const bookMap = {
   "1 Cor": "1-corinthians",
@@ -66,6 +68,14 @@ const preferredVoiceTerms = [
 
 const defaultVoiceLang = "en-US";
 
+function normalizeVoiceLang(lang) {
+  return String(lang || "").replace("_", "-").toLowerCase();
+}
+
+function isDefaultVoiceLang(voice) {
+  return normalizeVoiceLang(voice.lang) === normalizeVoiceLang(defaultVoiceLang);
+}
+
 function formatDisplayDate(dateString) {
   const date = new Date(`${dateString}T12:00:00`);
   return new Intl.DateTimeFormat("en-US", {
@@ -94,7 +104,7 @@ function populateSelect() {
 
 function scoreVoice(voice) {
   const name = voice.name.toLowerCase();
-  const lang = voice.lang.toLowerCase();
+  const lang = normalizeVoiceLang(voice.lang);
   let score = 0;
 
   if (lang.startsWith("en-us")) {
@@ -121,8 +131,8 @@ function getVoiceId(voice) {
 }
 
 function getBestVoice() {
-  const englishUsVoices = availableVoices.filter((voice) => voice.lang.toLowerCase() === defaultVoiceLang.toLowerCase());
-  const englishVoices = availableVoices.filter((voice) => voice.lang.toLowerCase().startsWith("en"));
+  const englishUsVoices = availableVoices.filter(isDefaultVoiceLang);
+  const englishVoices = availableVoices.filter((voice) => normalizeVoiceLang(voice.lang).startsWith("en"));
   return (englishUsVoices.length ? englishUsVoices : englishVoices)
     .sort((a, b) => scoreVoice(b) - scoreVoice(a))[0] || null;
 }
@@ -138,14 +148,15 @@ function populateVoiceSelect() {
   }
 
   availableVoices = voices;
-  const savedVoice = localStorage.getItem("stMarthaVoice");
   const bestVoice = getBestVoice();
-  const selectedVoice = savedVoice || (bestVoice ? getVoiceId(bestVoice) : "");
 
   elements.voiceSelect.innerHTML = "";
-  const englishUsVoices = availableVoices.filter((voice) => voice.lang.toLowerCase() === defaultVoiceLang.toLowerCase());
-  const englishVoices = availableVoices.filter((voice) => voice.lang.toLowerCase().startsWith("en"));
+  const englishUsVoices = availableVoices.filter(isDefaultVoiceLang);
+  const englishVoices = availableVoices.filter((voice) => normalizeVoiceLang(voice.lang).startsWith("en"));
   const displayedVoices = englishUsVoices.length ? englishUsVoices : englishVoices;
+  const savedVoiceId = localStorage.getItem("stMarthaVoice");
+  const savedVoiceIsDisplayed = displayedVoices.some((voice) => getVoiceId(voice) === savedVoiceId);
+  const selectedVoice = savedVoiceIsDisplayed ? savedVoiceId : (bestVoice ? getVoiceId(bestVoice) : "");
 
   displayedVoices
     .sort((a, b) => scoreVoice(b) - scoreVoice(a) || a.name.localeCompare(b.name))
@@ -421,11 +432,8 @@ function setLoadingReadings(week) {
           <cite>${reading.ref}</cite>
         </div>
         <div class="reading-actions">
-          <button class="small-button read-reading-button" type="button" data-reading-index="${index}" disabled>
+          <button class="small-button read-reading-button" type="button" data-reading-index="${index}" aria-pressed="false" disabled>
             Read
-          </button>
-          <button class="small-button stop-reading-button" type="button">
-            Stop
           </button>
         </div>
       </div>
@@ -453,7 +461,7 @@ async function renderReadings(week) {
 }
 
 function renderWeek(index) {
-  window.speechSynthesis.cancel();
+  stopSpeech();
   const week = readings[index];
 
   elements.liturgicalDate.textContent = `${formatDisplayDate(week.date)} - ${week.cycle}`;
@@ -481,7 +489,7 @@ function renderWeek(index) {
   renderReadings(week);
 }
 
-function speakReading(index) {
+function speakReading(index, button) {
   if (!("speechSynthesis" in window)) {
     alert("This browser does not support built-in text to speech.");
     return;
@@ -496,7 +504,6 @@ function speakReading(index) {
   const ref = card.querySelector("cite").textContent;
   const text = card.querySelector(".reading-text").textContent;
 
-  window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(`${label}. ${ref}. ${text}`);
   const voice = getSelectedVoice();
   if (voice) {
@@ -507,7 +514,49 @@ function speakReading(index) {
   }
   utterance.rate = 0.88;
   utterance.pitch = 1.02;
+  activeSpeechButton = button;
+  activeUtterance = utterance;
+  button.textContent = "Stop";
+  button.setAttribute("aria-pressed", "true");
+  utterance.addEventListener("end", () => {
+    if (activeUtterance === utterance) {
+      resetActiveSpeechButton();
+    }
+  });
+  utterance.addEventListener("error", () => {
+    if (activeUtterance === utterance) {
+      resetActiveSpeechButton();
+    }
+  });
   window.speechSynthesis.speak(utterance);
+}
+
+function resetActiveSpeechButton() {
+  if (activeSpeechButton) {
+    activeSpeechButton.textContent = "Read";
+    activeSpeechButton.setAttribute("aria-pressed", "false");
+  }
+
+  activeSpeechButton = null;
+  activeUtterance = null;
+}
+
+function stopSpeech() {
+  if ("speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
+  }
+
+  resetActiveSpeechButton();
+}
+
+function toggleReadingSpeech(index, button) {
+  if (activeSpeechButton === button) {
+    stopSpeech();
+    return;
+  }
+
+  stopSpeech();
+  speakReading(index, button);
 }
 
 populateSelect();
@@ -527,18 +576,14 @@ if ("speechSynthesis" in window) {
 if (elements.voiceSelect) {
   elements.voiceSelect.addEventListener("change", () => {
     localStorage.setItem("stMarthaVoice", elements.voiceSelect.value);
-    window.speechSynthesis.cancel();
+    stopSpeech();
   });
 }
 
 elements.readingsList.addEventListener("click", (event) => {
   const readButton = event.target.closest(".read-reading-button");
   if (readButton) {
-    speakReading(Number(readButton.dataset.readingIndex));
+    toggleReadingSpeech(Number(readButton.dataset.readingIndex), readButton);
     return;
-  }
-
-  if (event.target.closest(".stop-reading-button")) {
-    window.speechSynthesis.cancel();
   }
 });

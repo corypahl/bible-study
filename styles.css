@@ -290,10 +290,10 @@ main {
   background: var(--maroon);
 }
 
-.stop-reading-button {
+.read-reading-button[aria-pressed="true"] {
   color: var(--maroon);
-  background: transparent;
-  border-color: var(--line);
+  background: white;
+  border-color: var(--maroon);
 }
 
 .reading-text {
