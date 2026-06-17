@@ -334,12 +334,46 @@ footer {
   color: var(--ink);
 }
 
-.discussion-list {
+.discussion-levels {
   display: grid;
   gap: 10px;
   margin: 10px 0 0;
-  padding-left: 20px;
   font-family: Arial, sans-serif;
+}
+
+.discussion-level {
+  padding: 12px;
+  background: #fbf8f2;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--green);
+  border-radius: 8px;
+}
+
+.discussion-level-heading {
+  display: grid;
+  gap: 2px;
+  margin-bottom: 8px;
+}
+
+.discussion-level h4 {
+  margin: 0;
+  color: var(--green);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.discussion-level-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.discussion-question {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.96rem;
+  line-height: 1.48;
 }
 
 .official-link {

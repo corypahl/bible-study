@@ -173,6 +173,67 @@ function getSelectedVoice() {
   return availableVoices.find((voice) => getVoiceId(voice) === voiceId) || getBestVoice();
 }
 
+function pickDiscussionQuestion(questions, preferredTerms, fallbackIndex, usedIndexes) {
+  const normalizedTerms = preferredTerms.map((term) => term.toLowerCase());
+  const preferredIndex = questions.findIndex((question, index) => (
+    !usedIndexes.has(index)
+    && normalizedTerms.some((term) => question.toLowerCase().includes(term))
+  ));
+
+  if (preferredIndex !== -1) {
+    usedIndexes.add(preferredIndex);
+    return questions[preferredIndex];
+  }
+
+  if (questions[fallbackIndex] && !usedIndexes.has(fallbackIndex)) {
+    usedIndexes.add(fallbackIndex);
+    return questions[fallbackIndex];
+  }
+
+  const nextIndex = questions.findIndex((_, index) => !usedIndexes.has(index));
+  if (nextIndex !== -1) {
+    usedIndexes.add(nextIndex);
+    return questions[nextIndex];
+  }
+
+  return "";
+}
+
+function getDiscussionLevels(week) {
+  if (week.discussionLevels) {
+    return week.discussionLevels;
+  }
+
+  const questions = week.discussion || [];
+  const usedIndexes = new Set();
+
+  return [
+    {
+      title: "Kids",
+      helper: "A simple question children can answer first.",
+      question: pickDiscussionQuestion(questions, ["kids", "children", "child", "school"], 0, usedIndexes)
+        || "What did you notice about God or Jesus in these readings?"
+    },
+    {
+      title: "Parents",
+      helper: "A prompt for adult reflection and family leadership.",
+      question: pickDiscussionQuestion(questions, ["parents", "adults", "home", "family life", "conversations"], 1, usedIndexes)
+        || "Where do these readings challenge us as parents or adults?"
+    },
+    {
+      title: "Whole Family",
+      helper: "A question everyone can answer together.",
+      question: pickDiscussionQuestion(questions, ["family", "we", "our", "together", "someone"], 2, usedIndexes)
+        || "What is one way we can live this reading together this week?"
+    },
+    {
+      title: "Deeper Reflection",
+      helper: "Use this if the group is ready to go further.",
+      question: `What is one concrete way our family can practice this Sunday's theme: ${week.theme}`
+    }
+  ];
+}
+
 function sanitizeReference(ref) {
   return ref
     .replace(/\u2014/g, "-")
@@ -403,10 +464,17 @@ function renderWeek(index) {
   elements.officialLink.href = week.officialUrl;
 
   elements.discussion.innerHTML = "";
-  week.discussion.forEach((question) => {
-    const item = document.createElement("li");
-    item.textContent = question;
-    elements.discussion.append(item);
+  getDiscussionLevels(week).forEach((level) => {
+    const card = document.createElement("article");
+    card.className = "discussion-level";
+    card.innerHTML = `
+      <div class="discussion-level-heading">
+        <h4>${level.title}</h4>
+        <p>${level.helper}</p>
+      </div>
+      <p class="discussion-question">${level.question}</p>
+    `;
+    elements.discussion.append(card);
   });
 
   setLoadingReadings(week);
