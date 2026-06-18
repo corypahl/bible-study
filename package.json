@@ -1,0 +1,12 @@
+{
+  "name": "st-martha-bible-study",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import-readings": "node scripts/import-readings.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "openai": "^6.44.0"
+  }
+}

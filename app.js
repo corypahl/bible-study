@@ -1,49 +1,11 @@
-const readings = window.ST_MARTHA_READINGS;
-const bookCache = new Map();
-const passageCache = new Map();
+const readings = window.ST_MARTHA_READINGS.filter(
+  (week) => Array.isArray(week.readings)
+    && week.readings.length > 0
+    && week.readings.every((reading) => typeof reading.text === "string" && reading.text.trim())
+);
 let availableVoices = [];
 let activeSpeechButton = null;
 let activeUtterance = null;
-
-const bookMap = {
-  "1 Cor": "1-corinthians",
-  "1 John": "1-john",
-  "1 Kgs": "3-kings",
-  "1 Peter": "1-peter",
-  "1 Sam": "1-kings",
-  "1 Thess": "1-thessalonians",
-  "2 Cor": "2-corinthians",
-  "2 Kgs": "4-kings",
-  "2 Pet": "2-peter",
-  "2 Sam": "2-kings",
-  "2 Tim": "2-timothy",
-  "Acts": "acts",
-  "Col": "colossians",
-  "Deut": "deuteronomy",
-  "Dn": "daniel",
-  "Ezek": "ezechiel",
-  "Exod": "exodus",
-  "Eph": "ephesians",
-  "Gen": "genesis",
-  "Hos": "osee",
-  "Isa": "isaie",
-  "Jer": "jeremie",
-  "John": "john",
-  "Lev": "leviticus",
-  "Luke": "luke",
-  "Mal": "malachie",
-  "Mark": "mark",
-  "Matt": "matthew",
-  "Phil": "philippians",
-  "Prov": "proverbs",
-  "Ps": "psalms",
-  "Rev": "apocalypse",
-  "Rom": "romans",
-  "Sir": "ecclesiasticus",
-  "Wis": "wisdom",
-  "Zeph": "sophonias",
-  "Zech": "zacharias"
-};
 
 const elements = {
   select: document.querySelector("#weekSelect"),
@@ -720,182 +682,7 @@ function getDiscussionLevels(week) {
   ].map(normalizeDiscussionTopic);
 }
 
-function sanitizeReference(ref) {
-  return ref
-    .replace(/\u2014/g, "-")
-    .replace(/\u2013/g, "-")
-    .replace(/\bor\b.*$/i, "")
-    .replace(/\([^)]*\)/g, "")
-    .replace(/\bcf\.\s*/gi, "")
-    .trim();
-}
-
-function getBookKey(ref) {
-  const names = Object.keys(bookMap).sort((a, b) => b.length - a.length);
-  return names.find((name) => ref === name || ref.startsWith(`${name} `));
-}
-
-function parseVerseNumber(value) {
-  const match = String(value).trim().match(/\d+/);
-  return match ? Number(match[0]) : null;
-}
-
-function toDouayPsalmChapter(chapter) {
-  if (chapter <= 8 || chapter >= 148) {
-    return chapter;
-  }
-
-  if (chapter <= 113) {
-    return chapter - 1;
-  }
-
-  if (chapter === 114 || chapter === 115) {
-    return 113;
-  }
-
-  if (chapter === 116) {
-    return 114;
-  }
-
-  if (chapter <= 146) {
-    return chapter - 1;
-  }
-
-  return 146;
-}
-
-function normalizeChapter(bookKey, chapter) {
-  return bookKey === "Ps" ? toDouayPsalmChapter(chapter) : chapter;
-}
-
-function parseSegments(ref) {
-  const cleanRef = sanitizeReference(ref);
-  const bookKey = getBookKey(cleanRef);
-  if (!bookKey) {
-    throw new Error(`Unsupported book in reference: ${ref}`);
-  }
-
-  const segmentText = cleanRef.slice(bookKey.length).trim();
-  const parts = segmentText.split(/[,;]/).map((part) => part.trim()).filter(Boolean);
-  const segments = [];
-  let currentChapter = null;
-
-  parts.forEach((part) => {
-    const normalized = part.replace(/\+/g, ",");
-    normalized.split(",").map((piece) => piece.trim()).filter(Boolean).forEach((piece) => {
-      let working = piece;
-      if (working.includes(":")) {
-        const chapterMatch = working.match(/^(\d+)\s*:/);
-        if (chapterMatch) {
-          currentChapter = Number(chapterMatch[1]);
-          working = working.slice(chapterMatch[0].length);
-        }
-      }
-
-      if (!currentChapter) {
-        return;
-      }
-
-      if (working.includes("-")) {
-        const [startRaw, endRaw] = working.split("-").map((value) => value.trim());
-        const start = parseVerseNumber(startRaw);
-        let endChapter = currentChapter;
-        let end = parseVerseNumber(endRaw);
-
-        if (endRaw.includes(":")) {
-          const [chapterRaw, verseRaw] = endRaw.split(":");
-          endChapter = Number(chapterRaw);
-          end = parseVerseNumber(verseRaw);
-        }
-
-        if (start && end) {
-          segments.push({
-            chapter: normalizeChapter(bookKey, currentChapter),
-            start,
-            endChapter: normalizeChapter(bookKey, endChapter),
-            end
-          });
-          currentChapter = endChapter;
-        }
-      } else {
-        const verse = parseVerseNumber(working);
-        if (verse) {
-          segments.push({
-            chapter: normalizeChapter(bookKey, currentChapter),
-            start: verse,
-            endChapter: normalizeChapter(bookKey, currentChapter),
-            end: verse
-          });
-        }
-      }
-    });
-  });
-
-  return { bookKey, file: bookMap[bookKey], segments };
-}
-
-async function loadBook(file) {
-  if (bookCache.has(file)) {
-    return bookCache.get(file);
-  }
-
-  const url = `https://raw.githubusercontent.com/janvier-s/original-douay-rheims/main/bible/raw/${file}.json`;
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`Could not load ${file}`);
-  }
-
-  const data = await response.json();
-  bookCache.set(file, data);
-  return data;
-}
-
-function getChapter(book, chapterNumber) {
-  return book.chapters.find((chapter) => Number(chapter.chapter) === Number(chapterNumber));
-}
-
-function versesForSegment(book, segment) {
-  const verses = [];
-  for (let chapterNumber = segment.chapter; chapterNumber <= segment.endChapter; chapterNumber += 1) {
-    const chapter = getChapter(book, chapterNumber);
-    if (!chapter) {
-      continue;
-    }
-
-    const start = chapterNumber === segment.chapter ? segment.start : 1;
-    const end = chapterNumber === segment.endChapter
-      ? segment.end
-      : Math.max(...chapter.verses.map((verse) => Number(verse.verse)));
-
-    chapter.verses.forEach((verse) => {
-      const verseNumber = Number(verse.verse);
-      if (verseNumber >= start && verseNumber <= end) {
-        const text = String(verse.text).replace(/<br\s*\/?>/gi, " ").replace(/\s+/g, " ").trim();
-        verses.push(text);
-      }
-    });
-  }
-  return verses;
-}
-
-async function loadPassage(ref) {
-  const cacheKey = sanitizeReference(ref);
-  if (passageCache.has(cacheKey)) {
-    return passageCache.get(cacheKey);
-  }
-
-  const parsed = parseSegments(ref);
-  const book = await loadBook(parsed.file);
-  const text = parsed.segments
-    .flatMap((segment) => versesForSegment(book, segment))
-    .join("\n");
-
-  const result = text || "Passage text is not available for this citation. Use the official readings link for the liturgical text.";
-  passageCache.set(cacheKey, result);
-  return result;
-}
-
-function setLoadingReadings(week) {
+function renderReadings(week) {
   elements.readingsList.innerHTML = "";
   week.readings.forEach((reading, index) => {
     const article = document.createElement("article");
@@ -913,27 +700,12 @@ function setLoadingReadings(week) {
           </button>
         </div>
       </div>
-      <p class="reading-text loading">Loading passage text...</p>
+      <p class="reading-text"></p>
     `;
+    article.querySelector(".reading-text").textContent = reading.text;
+    article.querySelector(".read-reading-button").disabled = false;
     elements.readingsList.append(article);
   });
-}
-
-async function renderReadings(week) {
-  const cards = [...elements.readingsList.querySelectorAll(".reading")];
-
-  await Promise.all(week.readings.map(async (reading, index) => {
-    const textElement = cards[index].querySelector(".reading-text");
-    try {
-      textElement.textContent = await loadPassage(reading.ref);
-      textElement.classList.remove("loading");
-      cards[index].querySelector(".read-reading-button").disabled = false;
-    } catch (error) {
-      textElement.textContent = "Passage text could not be loaded. Use the official readings link for this citation.";
-      textElement.classList.add("loading");
-      console.warn(error);
-    }
-  }));
 }
 
 function renderWeek(index) {
@@ -962,7 +734,6 @@ function renderWeek(index) {
     elements.discussion.append(card);
   });
 
-  setLoadingReadings(week);
   renderReadings(week);
 }
 
@@ -1036,12 +807,24 @@ function toggleReadingSpeech(index, button) {
   speakReading(index, button);
 }
 
-populateSelect();
 populateVoiceSelect();
 setTextScale(getStoredTextScale());
-const defaultIndex = findDefaultIndex();
-elements.select.value = String(defaultIndex);
-renderWeek(defaultIndex);
+
+if (readings.length) {
+  populateSelect();
+  const defaultIndex = findDefaultIndex();
+  elements.select.value = String(defaultIndex);
+  renderWeek(defaultIndex);
+} else {
+  elements.select.disabled = true;
+  elements.title.textContent = "No readings imported";
+  elements.theme.textContent = "Add dated TXT files and run the reading importer.";
+  elements.readingsList.textContent = "";
+  elements.reflection.textContent = "";
+  elements.discussion.textContent = "";
+  elements.prayer.textContent = "";
+  elements.officialLink.hidden = true;
+}
 
 elements.select.addEventListener("change", (event) => {
   renderWeek(Number(event.target.value));
