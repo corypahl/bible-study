@@ -147,6 +147,12 @@ function parseDateFromFilename(filename) {
 
 function normalizeSectionLabel(line) {
   const normalized = line.trim().toLowerCase();
+  if (normalized.startsWith("at the procession with palms") && normalized.endsWith("gospel")) {
+    return "Procession Gospel";
+  }
+  if (normalized.startsWith("at the mass") && /reading\s+(1|i)$/.test(normalized)) {
+    return "First Reading";
+  }
   if (normalized.startsWith("sequence")) {
     return "Sequence";
   }
@@ -200,8 +206,8 @@ export function parseReadingFile(filename, rawText) {
     }
 
     let text = body.join("\n").replace(/^\n+|\n+$/g, "").replace(/\n{3,}/g, "\n\n");
-    if (label === "Gospel") {
-      [text] = text.split(/\n\s*or\s*\n(?=[A-Z])/i);
+    if (!["Responsorial Psalm", "Alleluia", "Verse Before the Gospel"].includes(label)) {
+      [text] = text.split(/\n\s*or:?\s*\n+(?=(?:[1-3]\s+)?[A-Z])/i);
       text = text.trim();
     }
     if (!text) {
@@ -352,7 +358,8 @@ function parseArguments(argv) {
     inputDirectory: defaultInputDirectory,
     outputFile: defaultOutputFile,
     model: defaultModel,
-    studyData: null
+    studyData: null,
+    skipInvalid: false
   };
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -369,6 +376,8 @@ function parseArguments(argv) {
       options.model = argv[++index];
     } else if (argument === "--study-data") {
       options.studyData = path.resolve(argv[++index]);
+    } else if (argument === "--skip-invalid") {
+      options.skipInvalid = true;
     } else {
       throw new Error(`Unknown argument: ${argument}`);
     }
@@ -418,7 +427,16 @@ async function main() {
 
   for (const inputFile of inputFiles) {
     const rawText = await fs.readFile(inputFile, "utf8");
-    const parsedFile = parseReadingFile(inputFile, rawText);
+    let parsedFile;
+    try {
+      parsedFile = parseReadingFile(inputFile, rawText);
+    } catch (error) {
+      if (options.skipInvalid) {
+        console.warn(`Skipping ${path.basename(inputFile)}: ${error.message}`);
+        continue;
+      }
+      throw error;
+    }
     const weekIndex = weeks.findIndex((week) => week.date === parsedFile.date);
     if (weekIndex === -1) {
       throw new Error(`${inputFile}: no existing readings.js entry for ${parsedFile.date}`);

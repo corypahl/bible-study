@@ -39,6 +39,12 @@ To use reviewed study content without an API call:
 node scripts/import-readings.mjs --study-data data/study-content.json
 ```
 
+Use `--skip-invalid` when incomplete placeholder files should remain unavailable:
+
+```powershell
+node scripts/import-readings.mjs --study-data data/study-content.json --skip-invalid
+```
+
 ## Publish on GitHub Pages
 
 1. Push this folder to a GitHub repository.

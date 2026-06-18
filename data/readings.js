@@ -142,19 +142,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Isa 49:3, 5-6"
+        "ref": "Isaiah 49:3, 5-6",
+        "text": "The LORD said to me: You are my servant,\nIsrael, through whom I show my glory.\nNow the LORD has spoken\nwho formed me as his servant from the womb,\nthat Jacob may be brought back to him\nand Israel gathered to him;\nand I am made glorious in the sight of the LORD,\nand my God is now my strength!\nIt is too little, the LORD says, for you to be my servant,\nto raise up the tribes of Jacob,\nand restore the survivors of Israel;\nI will make you a light to the nations,\nthat my salvation may reach to the ends of the earth."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 40:2, 4, 7-10"
+        "ref": "Psalm 40:2, 4, 7-8, 8-9, 10",
+        "text": "R/ (8a and 9a) Here am I, Lord; I come to do your will.\nI have waited, waited for the LORD,\nand he stooped toward me and heard my cry.\nAnd he put a new song into my mouth,\na hymn to our God.\nR/ Here am I, Lord; I come to do your will.\nSacrifice or offering you wished not,\nbut ears open to obedience you gave me.\nHolocausts or sin-offerings you sought not;\nthen said I, “Behold I come.”\nR/ Here am I, Lord; I come to do your will.\n“In the written scroll it is prescribed for me,\nto do your will, O my God, is my delight,\nand your law is within my heart!”\nR/ Here am I, Lord; I come to do your will.\nI announced your justice in the vast assembly;\nI did not restrain my lips, as you, O LORD, know.\nR/ Here am I, Lord; I come to do your will."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Cor 1:1-3"
+        "ref": "1 Corinthians 1:1-3",
+        "text": "Paul, called to be an apostle of Christ Jesus by the will of God,\nand Sosthenes our brother,\nto the church of God that is in Corinth,\nto you who have been sanctified in Christ Jesus, called to be holy,\nwith all those everywhere who call upon the name of our Lord Jesus Christ, their Lord and ours.\nGrace to you and peace from God our Father\nand the Lord Jesus Christ."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "John 1:14a, 12a",
+        "text": "R. Alleluia, alleluia.\nThe Word of God became flesh and dwelt among us.\nTo those who accepted him,\nhe gave power to become children of God.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "John 1:29-34"
+        "ref": "John 1:29-34",
+        "text": "John the Baptist saw Jesus coming toward him and said,\n“Behold, the Lamb of God, who takes away the sin of the world.\nHe is the one of whom I said,\n‘A man is coming after me who ranks ahead of me\nbecause he existed before me.’\nI did not know him,\nbut the reason why I came baptizing with water\nwas that he might be made known to Israel.”\nJohn testified further, saying,\n“I saw the Spirit come down like a dove from heaven\nand remain upon him.\nI did not know him,\nbut the one who sent me to baptize with water told me,\n‘On whomever you see the Spirit come down and remain,\nhe is the one who will baptize with the Holy Spirit.’\nNow I have seen and testified that he is the Son of God.”"
       }
     ],
     "reflection": "John knows his role: to recognize Jesus and point others to him. The readings invite us to humility and clarity. Parents do not need to be the center of the story; our task is to help others see Christ.",
@@ -163,7 +172,9 @@ window.ST_MARTHA_READINGS = [
       "How can I witness to Jesus naturally at work or with friends?",
       "What family habit helps our children recognize Jesus?"
     ],
-    "prayer": "Lamb of God, help us recognize you and point others to you. Make our homes places of humble witness."
+    "prayer": "Lamb of God, help us recognize you and point others to you. Make our homes places of humble witness.",
+    "lectionary": 64,
+    "sourceFile": "data/readings/011826.txt"
   },
   {
     "date": "2026-01-25",
@@ -174,19 +185,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Isa 8:23-9:3"
+        "ref": "Isaiah 8:23—9:3",
+        "text": "First the Lord degraded the land of Zebulun\nand the land of Naphtali;\nbut in the end he has glorified the seaward road,\nthe land west of the Jordan,\nthe District of the Gentiles.\n\nAnguish has taken wing, dispelled is darkness:\nfor there is no gloom where but now there was distress.\nThe people who walked in darkness\nhave seen a great light;\nupon those who dwelt in the land of gloom\na light has shone.\nYou have brought them abundant joy\nand great rejoicing,\nas they rejoice before you as at the harvest,\nas people make merry when dividing spoils.\nFor the yoke that burdened them,\nthe pole on their shoulder,\nand the rod of their taskmaster\nyou have smashed, as on the day of Midian."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 27:1, 4, 13-14"
+        "ref": "Psalm 27:1, 4, 13-14",
+        "text": "R. (1a) The Lord is my light and my salvation.\nThe LORD is my light and my salvation;\nwhom should I fear?\nThe LORD is my life’s refuge;\nof whom should I be afraid?\nR. The Lord is my light and my salvation.\nOne thing I ask of the LORD;\nthis I seek:\nTo dwell in the house of the LORD\nall the days of my life,\nThat I may gaze on the loveliness of the LORD\nand contemplate his temple.\nR. The Lord is my light and my salvation.\nI believe that I shall see the bounty of the LORD\nin the land of the living.\nWait for the LORD with courage;\nbe stouthearted, and wait for the LORD.\nR. The Lord is my light and my salvation."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Cor 1:10-13, 17"
+        "ref": "1 Corinthians 1:10-13, 17",
+        "text": "I urge you, brothers and sisters, in the name of our Lord Jesus Christ,\nthat all of you agree in what you say,\nand that there be no divisions among you,\nbut that you be united in the same mind and in the same purpose.\nFor it has been reported to me about you, my brothers and sisters,\nby Chloe’s people, that there are rivalries among you.\nI mean that each of you is saying,\n“I belong to Paul,” or “I belong to Apollos,”\nor “I belong to Cephas,” or “I belong to Christ.”\nIs Christ divided?\nWas Paul crucified for you?\nOr were you baptized in the name of Paul?\nFor Christ did not send me to baptize but to preach the gospel,\nand not with the wisdom of human eloquence,\nso that the cross of Christ might not be emptied of its meaning."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "Matthew 4:23",
+        "text": "R. Alleluia, alleluia.\nJesus proclaimed the Gospel of the kingdom\nand cured every disease among the people.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "Matt 4:12-23"
+        "ref": "Matthew 4:12-23 or 4:12-17",
+        "text": "When Jesus heard that John had been arrested,\nhe withdrew to Galilee.\nHe left Nazareth and went to live in Capernaum by the sea,\nin the region of Zebulun and Naphtali,\nthat what had been said through Isaiah the prophet\nmight be fulfilled:\nLand of Zebulun and land of Naphtali,\nthe way to the sea, beyond the Jordan,\nGalilee of the Gentiles,\nthe people who sit in darkness have seen a great light,\non those dwelling in a land overshadowed by death\nlight has arisen.\nFrom that time on, Jesus began to preach and say,\n“Repent, for the kingdom of heaven is at hand.”\n\nAs he was walking by the Sea of Galilee, he saw two brothers,\nSimon who is called Peter, and his brother Andrew,\ncasting a net into the sea; they were fishermen.\nHe said to them,\n“Come after me, and I will make you fishers of men.”\nAt once they left their nets and followed him.\nHe walked along from there and saw two other brothers,\nJames, the son of Zebedee, and his brother John.\nThey were in a boat, with their father Zebedee, mending their nets.\nHe called them, and immediately they left their boat and their father\nand followed him.\nHe went around all of Galilee,\nteaching in their synagogues, proclaiming the gospel of the kingdom,\nand curing every disease and illness among the people."
       }
     ],
     "reflection": "Jesus begins his mission in a place that needs light and calls fishermen in the middle of ordinary work. Discipleship rarely begins when life is perfectly arranged. It begins when Christ interrupts us with an invitation.",
@@ -195,7 +215,9 @@ window.ST_MARTHA_READINGS = [
       "What divisions or rivalries need healing in my relationships?",
       "How can our family be a little more available for mission?"
     ],
-    "prayer": "Jesus, call us again. Give us the courage to follow you promptly and to bring your light into ordinary places."
+    "prayer": "Jesus, call us again. Give us the courage to follow you promptly and to bring your light into ordinary places.",
+    "lectionary": 67,
+    "sourceFile": "data/readings/012526.txt"
   },
   {
     "date": "2026-02-01",
@@ -206,19 +228,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Zeph 2:3; 3:12-13"
+        "ref": "Zephaniah 2:3; 3:12-13",
+        "text": "Seek the LORD, all you humble of the earth,\nwho have observed his law;\nseek justice, seek humility;\nperhaps you may be sheltered\non the day of the LORD's anger.\n\nBut I will leave as a remnant in your midst\na people humble and lowly,\nwho shall take refuge in the name of the LORD:\nthe remnant of Israel.\nThey shall do no wrong\nand speak no lies;\nnor shall there be found in their mouths\na deceitful tongue;\nthey shall pasture and couch their flocks\nwith none to disturb them."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 146:6-10"
+        "ref": "Psalm 146:6-7, 8-9, 9-10",
+        "text": "R. (Mt 5:3) Blessed are the poor in spirit; the kingdom of heaven is theirs!\nor:\nR. Alleluia.\nThe LORD keeps faith forever,\nsecures justice for the oppressed,\ngives food to the hungry.\nThe LORD sets captives free.\nR. Blessed are the poor in spirit; the kingdom of heaven is theirs!\nor:\nR. Alleluia.\nThe LORD gives sight to the blind;\nthe LORD raises up those who were bowed down.\nThe LORD loves the just;\nthe LORD protects strangers.\nR. Blessed are the poor in spirit; the kingdom of heaven is theirs!\nor:\nR. Alleluia.\nThe fatherless and the widow the LORD sustains,\nbut the way of the wicked he thwarts.\nThe LORD shall reign forever;\nyour God, O Zion, through all generations. Alleluia.\nR. Blessed are the poor in spirit; the kingdom of heaven is theirs!\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Cor 1:26-31"
+        "ref": "1 Corinthians 1:26-31",
+        "text": "Consider your own calling, brothers and sisters.\nNot many of you were wise by human standards,\nnot many were powerful,\nnot many were of noble birth.\nRather, God chose the foolish of the world to shame the wise,\nand God chose the weak of the world to shame the strong,\nand God chose the lowly and despised of the world,\nthose who count for nothing,\nto reduce to nothing those who are something,\nso that no human being might boast before God.\nIt is due to him that you are in Christ Jesus,\nwho became for us wisdom from God,\nas well as righteousness, sanctification, and redemption,\nso that, as it is written,\n\"Whoever boasts, should boast in the Lord.\""
+      },
+      {
+        "label": "Alleluia",
+        "ref": "Matthew 5:12a",
+        "text": "R. Alleluia, alleluia.\nRejoice and be glad;\nyour reward will be great in heaven.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "Matt 5:1-12"
+        "ref": "Matthew 5:1-12a",
+        "text": "When Jesus saw the crowds, he went up the mountain,\nand after he had sat down, his disciples came to him.\nHe began to teach them, saying:\n\"Blessed are the poor in spirit,\nfor theirs is the kingdom of heaven.\nBlessed are they who mourn,\nfor they will be comforted.\nBlessed are the meek,\nfor they will inherit the land.\nBlessed are they who hunger and thirst for righteousness,\nfor they will be satisfied.\nBlessed are the merciful,\nfor they will be shown mercy.\nBlessed are the clean of heart,\nfor they will see God.\nBlessed are the peacemakers,\nfor they will be called children of God.\nBlessed are they who are persecuted for the sake of righteousness,\nfor theirs is the kingdom of heaven.\nBlessed are you when they insult you and persecute you\nand utter every kind of evil against you falsely because of me.\nRejoice and be glad,\nfor your reward will be great in heaven.\""
       }
     ],
     "reflection": "The Beatitudes challenge our usual measures of success. God blesses the poor in spirit, the meek, the merciful, the pure of heart, and the peacemakers. Christian maturity means letting Jesus redefine what a good life looks like.",
@@ -227,7 +258,9 @@ window.ST_MARTHA_READINGS = [
       "Where do I measure success differently from the Gospel?",
       "How can our family practice mercy or peacemaking this week?"
     ],
-    "prayer": "Lord Jesus, form our hearts by the Beatitudes. Teach us to seek the blessedness that comes from you."
+    "prayer": "Lord Jesus, form our hearts by the Beatitudes. Teach us to seek the blessedness that comes from you.",
+    "lectionary": 70,
+    "sourceFile": "data/readings/020126.txt"
   },
   {
     "date": "2026-02-08",
@@ -238,19 +271,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Isa 58:7-10"
+        "ref": "Isaiah 58:7-10",
+        "text": "Thus says the LORD:\nShare your bread with the hungry,\nshelter the oppressed and the homeless;\nclothe the naked when you see them,\nand do not turn your back on your own.\nThen your light shall break forth like the dawn,\nand your wound shall quickly be healed;\nyour vindication shall go before you,\nand the glory of the LORD shall be your rear guard.\nThen you shall call, and the LORD will answer,\nyou shall cry for help, and he will say: Here I am!\nIf you remove from your midst\noppression, false accusation and malicious speech;\nif you bestow your bread on the hungry\nand satisfy the afflicted;\nthen light shall rise for you in the darkness,\nand the gloom shall become for you like midday."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 112:4-9"
+        "ref": "Psalm 112:4-5, 6-7, 8-9",
+        "text": "R. (4a) The just man is a light in darkness to the upright.\nor:\nR. Alleluia.\nLight shines through the darkness for the upright;\nhe is gracious and merciful and just.\nWell for the man who is gracious and lends,\nwho conducts his affairs with justice.\nR. The just man is a light in darkness to the upright.\nor:\nR. Alleluia.\nHe shall never be moved;\nthe just one shall be in everlasting remembrance.\nAn evil report he shall not fear;\nhis heart is firm, trusting in the LORD.\nR. The just man is a light in darkness to the upright.\nor:\nR. Alleluia.\nHis heart is steadfast; he shall not fear.\nLavishly he gives to the poor;\nHis justice shall endure forever;\nhis horn shall be exalted in glory.\nR. The just man is a light in darkness to the upright.\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Cor 2:1-5"
+        "ref": "1 Corinthians 2:1-5",
+        "text": "When I came to you, brothers and sisters,\nproclaiming the mystery of God,\nI did not come with sublimity of words or of wisdom.\nFor I resolved to know nothing while I was with you\nexcept Jesus Christ, and him crucified.\nI came to you in weakness and fear and much trembling,\nand my message and my proclamation\nwere not with persuasive words of wisdom,\nbut with a demonstration of Spirit and power,\nso that your faith might rest not on human wisdom\nbut on the power of God."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "John 8:12",
+        "text": "R. Alleluia, alleluia.\nI am the light of the world, says the Lord;\nwhoever follows me will have the light of life.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "Matt 5:13-16"
+        "ref": "Matthew 5:13-16",
+        "text": "Jesus said to his disciples:\n\"You are the salt of the earth.\nBut if salt loses its taste, with what can it be seasoned?\nIt is no longer good for anything\nbut to be thrown out and trampled underfoot.\nYou are the light of the world.\nA city set on a mountain cannot be hidden.\nNor do they light a lamp and then put it under a bushel basket;\nit is set on a lampstand,\nwhere it gives light to all in the house.\nJust so, your light must shine before others,\nthat they may see your good deeds\nand glorify your heavenly Father.\""
       }
     ],
     "reflection": "Jesus calls disciples salt and light, while Isaiah names practical mercy: feeding, sheltering, clothing, and removing oppression. Faith becomes visible when love takes form in ordinary decisions.",
@@ -259,7 +301,9 @@ window.ST_MARTHA_READINGS = [
       "What concrete need is close enough for our family to respond to?",
       "How can I serve without drawing attention to myself?"
     ],
-    "prayer": "Jesus, make us salt and light. Help our families love in concrete ways that give glory to the Father."
+    "prayer": "Jesus, make us salt and light. Help our families love in concrete ways that give glory to the Father.",
+    "lectionary": 73,
+    "sourceFile": "data/readings/020826.txt"
   },
   {
     "date": "2026-02-15",
@@ -270,19 +314,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Sir 15:15-20"
+        "ref": "Sirach 15:15-20",
+        "text": "If you choose you can keep the commandments, they will save you;\nif you trust in God, you too shall live;\nhe has set before you fire and water\nto whichever you choose, stretch forth your hand.\nBefore man are life and death, good and evil,\nwhichever he chooses shall be given him.\nImmense is the wisdom of the Lord;\nhe is mighty in power, and all-seeing.\nThe eyes of God are on those who fear him;\nhe understands man's every deed.\nNo one does he command to act unjustly,\nto none does he give license to sin."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 119:1-2, 4-5, 17-18, 33-34"
+        "ref": "Psalm 119:1-2, 4-5, 17-18, 33-34",
+        "text": "R. (1b) Blessed are they who follow the law of the Lord!\nBlessed are they whose way is blameless,\nwho walk in the law of the LORD.\nBlessed are they who observe his decrees,\nwho seek him with all their heart.\nR. Blessed are they who follow the law of the Lord!\nYou have commanded that your precepts\nbe diligently kept.\nOh, that I might be firm in the ways\nof keeping your statutes!\nR. Blessed are they who follow the law of the Lord!\nBe good to your servant, that I may live\nand keep your words.\nOpen my eyes, that I may consider\nthe wonders of your law.\nR. Blessed are they who follow the law of the Lord!\nInstruct me, O LORD, in the way of your statutes,\nthat I may exactly observe them.\nGive me discernment, that I may observe your law\nand keep it with all my heart.\nR. Blessed are they who follow the law of the Lord!"
       },
       {
         "label": "Second Reading",
-        "ref": "1 Cor 2:6-10"
+        "ref": "1 Corinthians 2:6-10",
+        "text": "Brothers and sisters:\nWe speak a wisdom to those who are mature,\nnot a wisdom of this age,\nnor of the rulers of this age who are passing away.\nRather, we speak God's wisdom, mysterious, hidden,\nwhich God predetermined before the ages for our glory,\nand which none of the rulers of this age knew;\nfor, if they had known it,\nthey would not have crucified the Lord of glory.\nBut as it is written:\nWhat eye has not seen, and ear has not heard,\nand what has not entered the human heart,\nwhat God has prepared for those who love him,\nthis God has revealed to us through the Spirit.\n\nFor the Spirit scrutinizes everything, even the depths of God."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "cf. Matthew 11:25",
+        "text": "R. Alleluia, alleluia.\nBlessed are you, Father, Lord of heaven and earth;\nyou have revealed to little ones the mysteries of the kingdom.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "Matt 5:17-37"
+        "ref": "Matthew 5:17-37",
+        "text": "Jesus said to his disciples:\n\"Do not think that I have come to abolish the law or the prophets.\nI have come not to abolish but to fulfill.\nAmen, I say to you, until heaven and earth pass away,\nnot the smallest letter or the smallest part of a letter\nwill pass from the law,\nuntil all things have taken place.\nTherefore, whoever breaks one of the least of these commandments\nand teaches others to do so\nwill be called least in the kingdom of heaven.\nBut whoever obeys and teaches these commandments\nwill be called greatest in the kingdom of heaven.\nI tell you, unless your righteousness surpasses\nthat of the scribes and Pharisees,\nyou will not enter the kingdom of heaven.\n\n\"You have heard that it was said to your ancestors,\nYou shall not kill; and whoever kills will be liable to judgment.\nBut I say to you,\nwhoever is angry with his brother\nwill be liable to judgment;\nand whoever says to his brother, 'Raqa,'\nwill be answerable to the Sanhedrin;\nand whoever says, 'You fool,'\nwill be liable to fiery Gehenna.\nTherefore, if you bring your gift to the altar,\nand there recall that your brother\nhas anything against you,\nleave your gift there at the altar,\ngo first and be reconciled with your brother,\nand then come and offer your gift.\nSettle with your opponent quickly while on the way to court.\nOtherwise your opponent will hand you over to the judge,\nand the judge will hand you over to the guard,\nand you will be thrown into prison.\nAmen, I say to you,\nyou will not be released until you have paid the last penny.\n\n\"You have heard that it was said,\nYou shall not commit adultery.\nBut I say to you,\neveryone who looks at a woman with lust\nhas already committed adultery with her in his heart.\nIf your right eye causes you to sin,\ntear it out and throw it away.\nIt is better for you to lose one of your members\nthan to have your whole body thrown into Gehenna.\nAnd if your right hand causes you to sin,\ncut it off and throw it away.\nIt is better for you to lose one of your members\nthan to have your whole body go into Gehenna.\n\n\"It was also said,\nWhoever divorces his wife must give her a bill of divorce.\nBut I say to you,\nwhoever divorces his wife -  unless the marriage is unlawful -\ncauses her to commit adultery,\nand whoever marries a divorced woman commits adultery.\n\n\"Again you have heard that it was said to your ancestors,\nDo not take a false oath,\nbut make good to the Lord all that you vow.\nBut I say to you, do not swear at all;\nnot by heaven, for it is God's throne;\nnor by the earth, for it is his footstool;\nnor by Jerusalem, for it is the city of the great King.\nDo not swear by your head,\nfor you cannot make a single hair white or black.\nLet your 'Yes' mean 'Yes,' and your 'No' mean 'No.'\nAnything more is from the evil one.\""
       }
     ],
     "reflection": "The readings take freedom seriously. God places life before us, and Jesus shows that holiness reaches our anger, desires, speech, and promises. Family life gives daily chances to choose life in small hidden ways.",
@@ -291,7 +344,9 @@ window.ST_MARTHA_READINGS = [
       "How do anger, tone, or careless words affect our home?",
       "What choice for life is God placing before me this week?"
     ],
-    "prayer": "Lord, convert our hearts. Help us choose life in our words, promises, relationships, and hidden thoughts."
+    "prayer": "Lord, convert our hearts. Help us choose life in our words, promises, relationships, and hidden thoughts.",
+    "lectionary": 76,
+    "sourceFile": "data/readings/021526.txt"
   },
   {
     "date": "2026-02-22",
@@ -302,19 +357,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Gen 2:7-9; 3:1-7"
+        "ref": "Genesis 2:7-9; 3:1-7",
+        "text": "The LORD God formed man out of the clay of the ground\nand blew into his nostrils the breath of life,\nand so man became a living being.\n\nThen the LORD God planted a garden in Eden, in the east,\nand placed there the man whom he had formed.\nOut of the ground the LORD God made various trees grow\nthat were delightful to look at and good for food,\nwith the tree of life in the middle of the garden\nand the tree of the knowledge of good and evil.\n\nNow the serpent was the most cunning of all the animals\nthat the LORD God had made.\nThe serpent asked the woman,\n“Did God really tell you not to eat\nfrom any of the trees in the garden?”\nThe woman answered the serpent:\n“We may eat of the fruit of the trees in the garden;\nit is only about the fruit of the tree\nin the middle of the garden that God said,\n‘You shall not eat it or even touch it, lest you die.’”\nBut the serpent said to the woman:\n“You certainly will not die!\nNo, God knows well that the moment you eat of it\nyour eyes will be opened and you will be like gods\nwho know what is good and what is evil.”\nThe woman saw that the tree was good for food,\npleasing to the eyes, and desirable for gaining wisdom.\nSo she took some of its fruit and ate it;\nand she also gave some to her husband, who was with her,\nand he ate it.\nThen the eyes of both of them were opened,\nand they realized that they were naked;\nso they sewed fig leaves together\nand made loincloths for themselves."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 51:3-6, 12-14, 17"
+        "ref": "Psalm 51:3-4, 5-6, 12-13, 17",
+        "text": "R. (cf. 3a) Be merciful, O Lord, for we have sinned.\nHave mercy on me, O God, in your goodness;\nin the greatness of your compassion wipe out my offense.\nThoroughly wash me from my guilt\nand of my sin cleanse me.\nR. Be merciful, O Lord, for we have sinned.\nFor I acknowledge my offense,\nand my sin is before me always:\n“Against you only have I sinned,\nand done what is evil in your sight.”\nR. Be merciful, O Lord, for we have sinned.\nA clean heart create for me, O God,\nand a steadfast spirit renew within me.\nCast me not out from your presence,\nand your Holy Spirit take not from me.\nR. Be merciful, O Lord, for we have sinned.\nGive me back the joy of your salvation,\nand a willing spirit sustain in me.\nO Lord, open my lips,\nand my mouth shall proclaim your praise.\nR. Be merciful, O Lord, for we have sinned."
       },
       {
         "label": "Second Reading",
-        "ref": "Rom 5:12-19"
+        "ref": "Romans 5:12-19 or 5:12, 17-19",
+        "text": "Brothers and sisters:\nThrough one man sin entered the world,\nand through sin, death,\nand thus death came to all men, inasmuch as all sinned—\nfor up to the time of the law, sin was in the world,\nthough sin is not accounted when there is no law.\nBut death reigned from Adam to Moses,\neven over those who did not sin\nafter the pattern of the trespass of Adam,\nwho is the type of the one who was to come.\nBut the gift is not like the transgression.\nFor if by the transgression of the one, the many died,\nhow much more did the grace of God\nand the gracious gift of the one man Jesus Christ\noverflow for the many.\nAnd the gift is not like the result of the one who sinned.\nFor after one sin there was the judgment that brought condemnation;\nbut the gift, after many transgressions, brought acquittal.\nFor if, by the transgression of the one,\ndeath came to reign through that one,\nhow much more will those who receive the abundance of grace\nand of the gift of justification\ncome to reign in life through the one Jesus Christ.\nIn conclusion, just as through one transgression\ncondemnation came upon all,\nso, through one righteous act,\nacquittal and life came to all.\nFor just as through the disobedience of the one man\nthe many were made sinners,\nso, through the obedience of the one,\nthe many will be made righteous."
+      },
+      {
+        "label": "Verse Before the Gospel",
+        "ref": "Matthew 4:4b",
+        "text": "One does not live on bread alone,\nbut on every word that comes forth from the mouth of God."
       },
       {
         "label": "Gospel",
-        "ref": "Matt 4:1-11"
+        "ref": "Matthew 4:1-11",
+        "text": "At that time Jesus was led by the Spirit into the desert\nto be tempted by the devil.\nHe fasted for forty days and forty nights,\nand afterwards he was hungry.\nThe tempter approached and said to him,\n“If you are the Son of God,\ncommand that these stones become loaves of bread.”\nHe said in reply,\n“It is written:\nOne does not live on bread alone,\nbut on every word that comes forth\nfrom the mouth of God.”\n\nThen the devil took him to the holy city,\nand made him stand on the parapet of the temple,\nand said to him, “If you are the Son of God, throw yourself down.\nFor it is written:\nHe will command his angels concerning you\nand with their hands they will support you,\nlest you dash your foot against a stone.”\nJesus answered him,\n“Again it is written,\nYou shall not put the Lord, your God, to the test.”\nThen the devil took him up to a very high mountain,\nand showed him all the kingdoms of the world in their magnificence,\nand he said to him, \"\"All these I shall give to you,\nif you will prostrate yourself and worship me.”\nAt this, Jesus said to him,\n“Get away, Satan!\nIt is written:\nThe Lord, your God, shall you worship\nand him alone shall you serve.”\n\nThen the devil left him and, behold,\nangels came and ministered to him."
       }
     ],
     "reflection": "Lent begins with the truth about temptation and mercy. Adam and Eve grasp, but Jesus trusts. The desert teaches parents to name the lies we are tempted to believe and return to the Father's word.",
@@ -323,7 +387,9 @@ window.ST_MARTHA_READINGS = [
       "What lie do I need to reject this Lent?",
       "How can our family make Lent concrete without making it performative?"
     ],
-    "prayer": "Jesus, lead us through Lent with you. Strengthen us against temptation and renew our trust in the Father's word."
+    "prayer": "Jesus, lead us through Lent with you. Strengthen us against temptation and renew our trust in the Father's word.",
+    "lectionary": 22,
+    "sourceFile": "data/readings/022226.txt"
   },
   {
     "date": "2026-03-01",
@@ -334,19 +400,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Gen 12:1-4"
+        "ref": "Genesis 12:1-4a",
+        "text": "The LORD said to Abram:\n“Go forth from the land of your kinsfolk\nand from your father’s house to a land that I will show you.\n\n“I will make of you a great nation,\nand I will bless you;\nI will make your name great,\nso that you will be a blessing.\nI will bless those who bless you\nand curse those who curse you.\nAll the communities of the earth\nshall find blessing in you.”\n\nAbram went as the LORD directed him."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 33:4-5, 18-20, 22"
+        "ref": "Psalm 33:4-5, 18-19, 20, 22.",
+        "text": "R. (22) Lord, let your mercy be on us, as we place our trust in you.\nUpright is the word of the LORD,\nand all his works are trustworthy.\nHe loves justice and right;\nof the kindness of the LORD the earth is full.\nR. Lord, let your mercy be on us, as we place our trust in you.\nSee, the eyes of the LORD are upon those who fear him,\nupon those who hope for his kindness,\nTo deliver them from death\nand preserve them in spite of famine.\nR. Lord, let your mercy be on us, as we place our trust in you.\nOur soul waits for the LORD,\nwho is our help and our shield.\nMay your kindness, O LORD, be upon us\nwho have put our hope in you.\nR. Lord, let your mercy be on us, as we place our trust in you."
       },
       {
         "label": "Second Reading",
-        "ref": "2 Tim 1:8-10"
+        "ref": "2 Timothy 1:8b-10",
+        "text": "Beloved:\nBear your share of hardship for the gospel\nwith the strength that comes from God.\n\nHe saved us and called us to a holy life,\nnot according to our works\nbut according to his own design\nand the grace bestowed on us in Christ Jesus before time began,\nbut now made manifest\nthrough the appearance of our savior Christ Jesus,\nwho destroyed death and brought life and immortality\nto light through the gospel."
+      },
+      {
+        "label": "Verse Before the Gospel",
+        "ref": "Matthew 17:5",
+        "text": "From the shining cloud the Father’s voice is heard:\nThis is my beloved Son, hear him."
       },
       {
         "label": "Gospel",
-        "ref": "Matt 17:1-9"
+        "ref": "Matthew 17:1-9",
+        "text": "Jesus took Peter, James, and John his brother,\nand led them up a high mountain by themselves.\nAnd he was transfigured before them;\nhis face shone like the sun\nand his clothes became white as light.\nAnd behold, Moses and Elijah appeared to them,\nconversing with him.\nThen Peter said to Jesus in reply,\n“Lord, it is good that we are here.\nIf you wish, I will make three tents here,\none for you, one for Moses, and one for Elijah.”\nWhile he was still speaking, behold,\na bright cloud cast a shadow over them,\nthen from the cloud came a voice that said,\n“This is my beloved Son, with whom I am well pleased;\nlisten to him.”\nWhen the disciples heard this, they fell prostrate\nand were very much afraid.\nBut Jesus came and touched them, saying,\n“Rise, and do not be afraid.”\nAnd when the disciples raised their eyes,\nthey saw no one else but Jesus alone.\n\nAs they were coming down from the mountain,\nJesus charged them,\n“Do not tell the vision to anyone\nuntil the Son of Man has been raised from the dead.”"
       }
     ],
     "reflection": "Abram leaves in faith, Paul points to grace, and the disciples glimpse Christ's glory on the mountain. God sometimes gives enough light to keep us moving, not enough to control the whole journey.",
@@ -355,7 +430,9 @@ window.ST_MARTHA_READINGS = [
       "What glimpse of grace has helped me keep going?",
       "How can our family listen more attentively to Jesus this Lent?"
     ],
-    "prayer": "Father, strengthen our trust. Help us listen to your beloved Son and walk where you call us."
+    "prayer": "Father, strengthen our trust. Help us listen to your beloved Son and walk where you call us.",
+    "lectionary": 25,
+    "sourceFile": "data/readings/030126.txt"
   },
   {
     "date": "2026-03-08",
@@ -366,19 +443,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Exod 17:3-7"
+        "ref": "Exodus 17:3-7",
+        "text": "In those days, in their thirst for water,\nthe people grumbled against Moses,\nsaying, “Why did you ever make us leave Egypt?\nWas it just to have us die here of thirst\nwith our children and our livestock?”\nSo Moses cried out to the LORD,\n“What shall I do with this people?\na little more and they will stone me!”\nThe LORD answered Moses,\n“Go over there in front of the people,\nalong with some of the elders of Israel,\nholding in your hand, as you go,\nthe staff with which you struck the river.\nI will be standing there in front of you on the rock in Horeb.\nStrike the rock, and the water will flow from it\nfor the people to drink.”\nThis Moses did, in the presence of the elders of Israel.\nThe place was called Massah and Meribah,\nbecause the Israelites quarreled there\nand tested the LORD, saying,\n“Is the LORD in our midst or not?”"
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 95:1-2, 6-9"
+        "ref": "Psalm 95:1-2, 6-7, 8-9",
+        "text": "R. (8)  If today you hear his voice, harden not your hearts.\nCome, let us sing joyfully to the LORD;\n    let us acclaim the Rock of our salvation.\nLet us come into his presence with thanksgiving;\n    let us joyfully sing psalms to him.\nR. If today you hear his voice, harden not your hearts.\nCome, let us bow down in worship;\n    let us kneel before the LORD who made us.\nFor he is our God,\n    and we are the people he shepherds, the flock he guides.\nR. If today you hear his voice, harden not your hearts.\nOh, that today you would hear his voice:\n    “Harden not your hearts as at Meribah,\n    as in the day of Massah in the desert,\nWhere your fathers tempted me;\n    they tested me though they had seen my works.”\nR. If today you hear his voice, harden not your hearts."
       },
       {
         "label": "Second Reading",
-        "ref": "Rom 5:1-2, 5-8"
+        "ref": "Romans 5:1-2, 5-8",
+        "text": "Brothers and sisters:\nSince we have been justified by faith,\nwe have peace with God through our Lord Jesus Christ,\nthrough whom we have gained access by faith\nto this grace in which we stand,\nand we boast in hope of the glory of God.\n\nAnd hope does not disappoint,\nbecause the love of God has been poured out into our hearts\nthrough the Holy Spirit who has been given to us.\nFor Christ, while we were still helpless,\ndied at the appointed time for the ungodly.\nIndeed, only with difficulty does one die for a just person,\nthough perhaps for a good person one might even find courage to die.\nBut God proves his love for us\nin that while we were still sinners Christ died for us."
+      },
+      {
+        "label": "Verse Before the Gospel",
+        "ref": "John 4:42, 15",
+        "text": "Lord, you are truly the Savior of the world;\ngive me living water, that I may never thirst again."
       },
       {
         "label": "Gospel",
-        "ref": "John 4:5-42"
+        "ref": "John 4:5-42",
+        "text": "Jesus came to a town of Samaria called Sychar,\nnear the plot of land that Jacob had given to his son Joseph.\nJacob’s well was there.\nJesus, tired from his journey, sat down there at the well.\nIt was about noon.\n\nA woman of Samaria came to draw water.\nJesus said to her,\n“Give me a drink.”\nHis disciples had gone into the town to buy food.\nThe Samaritan woman said to him,\n“How can you, a Jew, ask me, a Samaritan woman, for a drink?”\n—For Jews use nothing in common with Samaritans.—\nJesus answered and said to her,\n“If you knew the gift of God\nand who is saying to you, ‘Give me a drink, ‘\nyou would have asked him\nand he would have given you living water.”\nThe woman said to him,\n“Sir, you do not even have a bucket and the cistern is deep;\nwhere then can you get this living water?\nAre you greater than our father Jacob,\nwho gave us this cistern and drank from it himself\nwith his children and his flocks?”\nJesus answered and said to her,\n“Everyone who drinks this water will be thirsty again;\nbut whoever drinks the water I shall give will never thirst;\nthe water I shall give will become in him\na spring of water welling up to eternal life.”\nThe woman said to him,\n“Sir, give me this water, so that I may not be thirsty\nor have to keep coming here to draw water.”\n\nJesus said to her,\n“Go call your husband and come back.”\nThe woman answered and said to him,\n“I do not have a husband.”\nJesus answered her,\n“You are right in saying, ‘I do not have a husband.’\nFor you have had five husbands,\nand the one you have now is not your husband.\nWhat you have said is true.”\nThe woman said to him,\n“Sir, I can see that you are a prophet.\nOur ancestors worshiped on this mountain;\nbut you people say that the place to worship is in Jerusalem.”\nJesus said to her,\n“Believe me, woman, the hour is coming\nwhen you will worship the Father\nneither on this mountain nor in Jerusalem.\nYou people worship what you do not understand;\nwe worship what we understand,\nbecause salvation is from the Jews.\nBut the hour is coming, and is now here,\nwhen true worshipers will worship the Father in Spirit and truth;\nand indeed the Father seeks such people to worship him.\nGod is Spirit, and those who worship him\nmust worship in Spirit and truth.”\nThe woman said to him,\n“I know that the Messiah is coming, the one called the Christ;\nwhen he comes, he will tell us everything.”\nJesus said to her,\n“I am he, the one speaking with you.”\n\nAt that moment his disciples returned,\nand were amazed that he was talking with a woman,\nbut still no one said, “What are you looking for?”\nor “Why are you talking with her?”\nThe woman left her water jar\nand went into the town and said to the people,\n“Come see a man who told me everything I have done.\nCould he possibly be the Christ?”\nThey went out of the town and came to him.\nMeanwhile, the disciples urged him, “Rabbi, eat.”\nBut he said to them,\n“I have food to eat of which you do not know.”\nSo the disciples said to one another,\n“Could someone have brought him something to eat?”\nJesus said to them,\n“My food is to do the will of the one who sent me\nand to finish his work.\nDo you not say, ‘In four months the harvest will be here’?\nI tell you, look up and see the fields ripe for the harvest.\nThe reaper is already receiving payment\nand gathering crops for eternal life,\nso that the sower and reaper can rejoice together.\nFor here the saying is verified that ‘One sows and another reaps.’\nI sent you to reap what you have not worked for;\nothers have done the work,\nand you are sharing the fruits of their work.”\n\nMany of the Samaritans of that town began to believe in him\nbecause of the word of the woman who testified,\n“He told me everything I have done.”\nWhen the Samaritans came to him,\n\nthey invited him to stay with them;\nand he stayed there two days.\nMany more began to believe in him because of his word,\nand they said to the woman,\n“We no longer believe because of your word;\nfor we have heard for ourselves,\nand we know that this is truly the savior of the world.”"
       }
     ],
     "reflection": "The Samaritan woman encounters Jesus in honesty. He does not avoid her thirst, history, or questions. Lent invites us to bring real thirst to Christ rather than hiding behind busyness, control, or distraction.",
@@ -387,7 +473,9 @@ window.ST_MARTHA_READINGS = [
       "Where do I need a more honest conversation with Jesus?",
       "How can our family make room for prayer that is truthful, not polished?"
     ],
-    "prayer": "Jesus, give us living water. Meet us in truth and renew our families with your grace."
+    "prayer": "Jesus, give us living water. Meet us in truth and renew our families with your grace.",
+    "lectionary": 28,
+    "sourceFile": "data/readings/030826.txt"
   },
   {
     "date": "2026-03-15",
@@ -398,19 +486,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "1 Sam 16:1, 6-7, 10-13"
+        "ref": "1 Samuel 16:1b, 6-7, 10-13a",
+        "text": "The LORD said to Samuel:\n“Fill your horn with oil, and be on your way.\nI am sending you to Jesse of Bethlehem,\nfor I have chosen my king from among his sons.”\n\nAs Jesse and his sons came to the sacrifice,\nSamuel looked at Eliab and thought,\n“Surely the LORD’s anointed is here before him.”\nBut the LORD said to Samuel:\n“Do not judge from his appearance or from his lofty stature,\nbecause I have rejected him.\nNot as man sees does God see,\nbecause man sees the appearance\nbut the LORD looks into the heart.”\nIn the same way Jesse presented seven sons before Samuel,\nbut Samuel said to Jesse,\n“The LORD has not chosen any one of these.”\nThen Samuel asked Jesse,\n“Are these all the sons you have?”\nJesse replied,\n“There is still the youngest, who is tending the sheep.”\nSamuel said to Jesse,\n“Send for him;\nwe will not begin the sacrificial banquet until he arrives here.”\nJesse sent and had the young man brought to them.\nHe was ruddy, a youth handsome to behold\nand making a splendid appearance.\nThe LORD said,\n“There—anoint him, for this is the one!”\nThen Samuel, with the horn of oil in hand,\nanointed David in the presence of his brothers;\nand from that day on, the spirit of the LORD rushed upon David."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 23:1-6"
+        "ref": "Psalm 23: 1-3a, 3b-4, 5, 6",
+        "text": "R. (1)  The Lord is my shepherd; there is nothing I shall want.\nThe LORD is my shepherd; I shall not want.\n    In verdant pastures he gives me repose;\nbeside restful waters he leads me;\n    he refreshes my soul.\nR. The Lord is my shepherd; there is nothing I shall want.\nHe guides me in right paths\n    for his name’s sake.\nEven though I walk in the dark valley\n    I fear no evil; for you are at my side\nWith your rod and your staff\n    that give me courage.\nR. The Lord is my shepherd; there is nothing I shall want.\nYou spread the table before me\n    in the sight of my foes;\nyou anoint my head with oil;\n    my cup overflows.\nR. The Lord is my shepherd; there is nothing I shall want.\nOnly goodness and kindness follow me\n    all the days of my life;\nand I shall dwell in the house of the LORD\n    for years to come.\nR. The Lord is my shepherd; there is nothing I shall want."
       },
       {
         "label": "Second Reading",
-        "ref": "Eph 5:8-14"
+        "ref": "Ephesians 5:8-14",
+        "text": "Brothers and sisters:\nYou were once darkness,\nbut now you are light in the Lord.\nLive as children of light,\nfor light produces every kind of goodness\nand righteousness and truth.\nTry to learn what is pleasing to the Lord.\nTake no part in the fruitless works of darkness;\nrather expose them, for it is shameful even to mention\nthe things done by them in secret;\nbut everything exposed by the light becomes visible,\nfor everything that becomes visible is light.\nTherefore, it says:\n    “Awake, O sleeper,\n    and arise from the dead,\n    and Christ will give you light.”"
+      },
+      {
+        "label": "Verse Before the Gospel",
+        "ref": "John 8:12",
+        "text": "I am the light of the world, says the Lord;\nwhoever follows me will have the light of life."
       },
       {
         "label": "Gospel",
-        "ref": "John 9:1-41"
+        "ref": "John 9:1-41",
+        "text": "As Jesus passed by he saw a man blind from birth.\nHis disciples asked him,\n“Rabbi, who sinned, this man or his parents,\nthat he was born blind?”\nJesus answered,\n“Neither he nor his parents sinned;\nit is so that the works of God might be made visible through him.\nWe have to do the works of the one who sent me while it is day.\nNight is coming when no one can work.\nWhile I am in the world, I am the light of the world.”\nWhen he had said this, he spat on the ground\nand made clay with the saliva,\nand smeared the clay on his eyes,\nand said to him,\n“Go wash in the Pool of Siloam” —which means Sent—.\nSo he went and washed, and came back able to see.\n\nHis neighbors and those who had seen him earlier as a beggar said,\n“Isn’t this the one who used to sit and beg?”\nSome said, “It is, “\nbut others said, “No, he just looks like him.”\nHe said, “I am.”\nSo they said to him, “How were your eyes opened?”\nHe replied,\n“The man called Jesus made clay and anointed my eyes\nand told me, ‘Go to Siloam and wash.’\nSo I went there and washed and was able to see.”\nAnd they said to him, “Where is he?”\nHe said, “I don’t know.”\n\nThey brought the one who was once blind to the Pharisees.\nNow Jesus had made clay and opened his eyes on a sabbath.\nSo then the Pharisees also asked him how he was able to see.\nHe said to them,\n“He put clay on my eyes, and I washed, and now I can see.”\nSo some of the Pharisees said,\n“This man is not from God,\nbecause he does not keep the sabbath.”\nBut others said,\n“How can a sinful man do such signs?”\nAnd there was a division among them.\nSo they said to the blind man again,\n“What do you have to say about him,\nsince he opened your eyes?”\nHe said, “He is a prophet.”\n\nNow the Jews did not believe\nthat he had been blind and gained his sight\nuntil they summoned the parents of the one who had gained his sight.\nThey asked them,\n“Is this your son, who you say was born blind?\nHow does he now see?”\nHis parents answered and said,\n“We know that this is our son and that he was born blind.\nWe do not know how he sees now,\nnor do we know who opened his eyes.\nAsk him, he is of age;\nhe can speak for himself.”\nHis parents said this because they were afraid\nof the Jews, for the Jews had already agreed\nthat if anyone acknowledged him as the Christ,\nhe would be expelled from the synagogue.\nFor this reason his parents said,\n“He is of age; question him.”\n\nSo a second time they called the man who had been blind\nand said to him, “Give God the praise!\nWe know that this man is a sinner.”\nHe replied,\n“If he is a sinner, I do not know.\nOne thing I do know is that I was blind and now I see.”\nSo they said to him,\n“What did he do to you?\nHow did he open your eyes?”\nHe answered them,\n“I told you already and you did not listen.\nWhy do you want to hear it again?\nDo you want to become his disciples, too?”\nThey ridiculed him and said,\n“You are that man’s disciple;\nwe are disciples of Moses!\nWe know that God spoke to Moses,\nbut we do not know where this one is from.”\nThe man answered and said to them,\n“This is what is so amazing,\nthat you do not know where he is from, yet he opened my eyes.\nWe know that God does not listen to sinners,\nbut if one is devout and does his will, he listens to him.\nIt is unheard of that anyone ever opened the eyes of a person born blind.\nIf this man were not from God,\nhe would not be able to do anything.”\nThey answered and said to him,\n“You were born totally in sin,\nand are you trying to teach us?”\nThen they threw him out.\n\nWhen Jesus heard that they had thrown him out,\nhe found him and said, Do you believe in the Son of Man?”\nHe answered and said,\n“Who is he, sir, that I may believe in him?”\nJesus said to him,\n“You have seen him,\nthe one speaking with you is he.”\nHe said,\n“I do believe, Lord,” and he worshiped him.\nThen Jesus said,\n“I came into this world for judgment,\nso that those who do not see might see,\nand those who do see might become blind.”\n\nSome of the Pharisees who were with him heard this\nand said to him, “Surely we are not also blind, are we?”\nJesus said to them,\n“If you were blind, you would have no sin;\nbut now you are saying, ‘We see,’ so your sin remains."
       }
     ],
     "reflection": "Samuel learns that God sees the heart, and the man born blind receives sight while others resist the truth in front of them. Laetare Sunday invites honest joy: Christ can heal blindness we have grown used to.",
@@ -419,7 +516,9 @@ window.ST_MARTHA_READINGS = [
       "What truth is hard for me to see right now?",
       "How can our family walk more as children of light?"
     ],
-    "prayer": "Jesus, light of the world, open our eyes. Help us see ourselves, others, and our family life with your truth."
+    "prayer": "Jesus, light of the world, open our eyes. Help us see ourselves, others, and our family life with your truth.",
+    "lectionary": 31,
+    "sourceFile": "data/readings/031526.txt"
   },
   {
     "date": "2026-03-22",
@@ -430,19 +529,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Ezek 37:12-14"
+        "ref": "Ezekiel 37:12-14",
+        "text": "Thus says the Lord GOD:\nO my people, I will open your graves\nand have you rise from them,\nand bring you back to the land of Israel.\nThen you shall know that I am the LORD,\nwhen I open your graves and have you rise from them,\nO my people!\nI will put my spirit in you that you may live,\nand I will settle you upon your land;\nthus you shall know that I am the LORD.\nI have promised, and I will do it, says the LORD."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 130:1-8"
+        "ref": "Psalm 130:1-2, 3-4, 5-6, 7-8",
+        "text": "R. (7) With the Lord there is mercy and fullness of redemption.\nOut of the depths I cry to you, O LORD;\n    LORD, hear my voice!\nLet your ears be attentive\n    to my voice in supplication.\nR. With the Lord there is mercy and fullness of redemption.\nIf you, O LORD, mark iniquities,\n    LORD, who can stand?\nBut with you is forgiveness,\n    that you may be revered.\nR. With the Lord there is mercy and fullness of redemption.\nI trust in the LORD;\n    my soul trusts in his word.\nMore than sentinels wait for the dawn,\n    let Israel wait for the LORD.\nR. With the Lord there is mercy and fullness of redemption.\nFor with the LORD is kindness\n    and with him is plenteous redemption;\nAnd he will redeem Israel\n    from all their iniquities.\nR. With the Lord there is mercy and fullness of redemption."
       },
       {
         "label": "Second Reading",
-        "ref": "Rom 8:8-11"
+        "ref": "Romans 8:8-11",
+        "text": "Brothers and sisters:\nThose who are in the flesh cannot please God.\nBut you are not in the flesh;\non the contrary, you are in the spirit,\nif only the Spirit of God dwells in you.\nWhoever does not have the Spirit of Christ does not belong to him.\nBut if Christ is in you,\nalthough the body is dead because of sin,\nthe spirit is alive because of righteousness.\nIf the Spirit of the one who raised Jesus from the dead dwells in you,\nthe one who raised Christ from the dead\nwill give life to your mortal bodies also,\nthrough his Spirit dwelling in you."
+      },
+      {
+        "label": "Verse Before the Gospel",
+        "ref": "John 11:25a, 26",
+        "text": "I am the resurrection and the life, says the Lord;\nwhoever believes in me, even if he dies, will never die."
       },
       {
         "label": "Gospel",
-        "ref": "John 11:1-45"
+        "ref": "John 11:1-45",
+        "text": "Now a man was ill, Lazarus from Bethany,\nthe village of Mary and her sister Martha.\nMary was the one who had anointed the Lord with perfumed oil\nand dried his feet with her hair;\nit was her brother Lazarus who was ill.\nSo the sisters sent word to him saying,\n“Master, the one you love is ill.”\nWhen Jesus heard this he said,\n“This illness is not to end in death,\nbut is for the glory of God,\nthat the Son of God may be glorified through it.”\nNow Jesus loved Martha and her sister and Lazarus.\nSo when he heard that he was ill,\nhe remained for two days in the place where he was.\nThen after this he said to his disciples,\n“Let us go back to Judea.”\nThe disciples said to him,\n“Rabbi, the Jews were just trying to stone you,\nand you want to go back there?”\nJesus answered,\n“Are there not twelve hours in a day?\nIf one walks during the day, he does not stumble,\nbecause he sees the light of this world.\nBut if one walks at night, he stumbles,\nbecause the light is not in him.”\nHe said this, and then told them,\n“Our friend Lazarus is asleep,\nbut I am going to awaken him.”\nSo the disciples said to him,\n“Master, if he is asleep, he will be saved.”\nBut Jesus was talking about his death,\nwhile they thought that he meant ordinary sleep.\nSo then Jesus said to them clearly,\n“Lazarus has died.\nAnd I am glad for you that I was not there,\nthat you may believe.\nLet us go to him.”\nSo Thomas, called Didymus, said to his fellow disciples,\n“Let us also go to die with him.”\n\nWhen Jesus arrived, he found that Lazarus\nhad already been in the tomb for four days.\nNow Bethany was near Jerusalem, only about two miles away.\nAnd many of the Jews had come to Martha and Mary\nto comfort them about their brother.\nWhen Martha heard that Jesus was coming,\nshe went to meet him;\nbut Mary sat at home.\nMartha said to Jesus,\n“Lord, if you had been here,\nmy brother would not have died.\nBut even now I know that whatever you ask of God,\nGod will give you.”\nJesus said to her,\n“Your brother will rise.”\nMartha said to him,\n“I know he will rise,\nin the resurrection on the last day.”\nJesus told her,\n“I am the resurrection and the life;\nwhoever believes in me, even if he dies, will live,\nand everyone who lives and believes in me will never die.\nDo you believe this?”\nShe said to him, “Yes, Lord.\nI have come to believe that you are the Christ, the Son of God,\nthe one who is coming into the world.”\n\nWhen she had said this,\nshe went and called her sister Mary secretly, saying,\n“The teacher is here and is asking for you.”\nAs soon as she heard this,\nshe rose quickly and went to him.\nFor Jesus had not yet come into the village,\nbut was still where Martha had met him.\nSo when the Jews who were with her in the house comforting her\nsaw Mary get up quickly and go out,\nthey followed her,\npresuming that she was going to the tomb to weep there.\nWhen Mary came to where Jesus was and saw him,\nshe fell at his feet and said to him,\n“Lord, if you had been here,\nmy brother would not have died.”\nWhen Jesus saw her weeping and the Jews who had come with her weeping,\nhe became perturbed and deeply troubled, and said,\n“Where have you laid him?”\nThey said to him, “Sir, come and see.”\nAnd Jesus wept.\nSo the Jews said, “See how he loved him.”\nBut some of them said,\n“Could not the one who opened the eyes of the blind man\nhave done something so that this man would not have died?”\n\nSo Jesus, perturbed again, came to the tomb.\nIt was a cave, and a stone lay across it.\nJesus said, “Take away the stone.”\nMartha, the dead man’s sister, said to him,\n“Lord, by now there will be a stench;\nhe has been dead for four days.”\nJesus said to her,\n“Did I not tell you that if you believe\nyou will see the glory of God?”\nSo they took away the stone.\nAnd Jesus raised his eyes and said,\n“Father, I thank you for hearing me.\nI know that you always hear me;\nbut because of the crowd here I have said this,\nthat they may believe that you sent me.”\nAnd when he had said this,\nHe cried out in a loud voice,\n“Lazarus, come out!”\nThe dead man came out,\ntied hand and foot with burial bands,\nand his face was wrapped in a cloth.\nSo Jesus said to them,\n“Untie him and let him go.”\n\nNow many of the Jews who had come to Mary\nand seen what he had done began to believe in him."
       }
     ],
     "reflection": "The readings speak hope into places that feel closed, dry, or dead. Jesus weeps, commands the stone to be removed, and calls Lazarus out. Christian hope is not denial; it is trust that Christ can enter the tomb.",
@@ -451,34 +559,46 @@ window.ST_MARTHA_READINGS = [
       "What stone might Jesus be asking me to help remove?",
       "How can our family speak life into discouragement?"
     ],
-    "prayer": "Lord Jesus, call us into life. Bring hope to the places in us and in our homes that feel sealed off."
+    "prayer": "Lord Jesus, call us into life. Bring hope to the places in us and in our homes that feel sealed off.",
+    "lectionary": 34,
+    "sourceFile": "data/readings/032226.txt"
   },
   {
     "date": "2026-03-29",
-    "title": "Palm Sunday of the Passion of the Lord",
+    "title": "Palm Sunday of the Lord's Passion",
     "cycle": "Year A",
     "theme": "Jesus enters Jerusalem in humility and gives himself completely in love.",
     "officialUrl": "https://bible.usccb.org/bible/readings/032926.cfm",
     "readings": [
       {
-        "label": "At the Procession",
-        "ref": "Matt 21:1-11"
+        "label": "Procession Gospel",
+        "ref": "Matthew 21:1-11",
+        "text": "When Jesus and the disciples drew near Jerusalem\nand came to Bethphage on the Mount of Olives,\nJesus sent two disciples, saying to them,\n\"Go into the village opposite you,\nand immediately you will find an ass tethered,\nand a colt with her.\nUntie them and bring them here to me.\nAnd if anyone should say anything to you, reply,\n'The master has need of them.'\nThen he will send them at once.\"\nThis happened so that what had been spoken through the prophet\nmight be fulfilled:\nSay to daughter Zion,\n\"Behold, your king comes to you,\nmeek and riding on an ass,\nand on a colt, the foal of a beast of burden.\"\nThe disciples went and did as Jesus had ordered them.\nThey brought the ass and the colt and laid their cloaks over them,\nand he sat upon them.\nThe very large crowd spread their cloaks on the road,\nwhile others cut branches from the trees\nand strewed them on the road.\nThe crowds preceding him and those following\nkept crying out and saying:\n\"Hosanna to the Son of David;\nblessed is he who comes in the name of the Lord;\nhosanna in the highest.\"\nAnd when he entered Jerusalem\nthe whole city was shaken and asked, \"Who is this?\"\nAnd the crowds replied,\n\"This is Jesus the prophet, from Nazareth in Galilee.\""
       },
       {
         "label": "First Reading",
-        "ref": "Isa 50:4-7"
+        "ref": "Isaiah 50:4-7",
+        "text": "The Lord GOD has given me\n    a well-trained tongue,\nthat I might know how to speak to the weary\n    a word that will rouse them.\nMorning after morning\n    he opens my ear that I may hear;\nand I have not rebelled,\n    have not turned back.\nI gave my back to those who beat me,\n    my cheeks to those who plucked my beard;\nmy face I did not shield\n    from buffets and spitting.\n\nThe Lord GOD is my help,\n    therefore I am not disgraced;\nI have set my face like flint,\n    knowing that I shall not be put to shame."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 22:8-9, 17-20, 23-24"
+        "ref": "Psalm 22:8-9, 17-18, 19-20, 23-24",
+        "text": "R. (2a)  My God, my God, why have you abandoned me?\nAll who see me scoff at me;\n    they mock me with parted lips, they wag their heads:\n“He relied on the LORD; let him deliver him,\n    let him rescue him, if he loves him.”\nR. My God, my God, why have you abandoned me?\nIndeed, many dogs surround me,\n    a pack of evildoers closes in upon me;\nThey have pierced my hands and my feet;\n    I can count all my bones.\nR. My God, my God, why have you abandoned me?\nThey divide my garments among them,\n    and for my vesture they cast lots.\nBut you, O LORD, be not far from me;\n    O my help, hasten to aid me.\nR. My God, my God, why have you abandoned me?\nI will proclaim your name to my brethren;\n    in the midst of the assembly I will praise you:\n“You who fear the LORD, praise him;\n    all you descendants of Jacob, give glory to him;\n    revere him, all you descendants of Israel!”\nR. My God, my God, why have you abandoned me?"
       },
       {
         "label": "Second Reading",
-        "ref": "Phil 2:6-11"
+        "ref": "Philippians 2:6-11",
+        "text": "Christ Jesus, though he was in the form of God,\n    did not regard equality with God\n    something to be grasped.\nRather, he emptied himself,\n    taking the form of a slave,\n    coming in human likeness;\n    and found human in appearance,\n    he humbled himself,\n    becoming obedient to the point of death,\n    even death on a cross.\nBecause of this, God greatly exalted him\n    and bestowed on him the name\n    which is above every name,\n    that at the name of Jesus\n    every knee should bend,\n    of those in heaven and on earth and under the earth,\n    and every tongue confess that\n    Jesus Christ is Lord,\n    to the glory of God the Father."
+      },
+      {
+        "label": "Verse Before the Gospel",
+        "ref": "Philippians 2:8-9",
+        "text": "Christ became obedient to the point of death,\neven death on a cross.\nBecause of this, God greatly exalted him\nand bestowed on him the name which is above every name."
       },
       {
         "label": "Gospel",
-        "ref": "Matt 26:14-27:66"
+        "ref": "Matthew 26:14—27:66",
+        "text": "One of the Twelve, who was called Judas Iscariot,\nwent to the chief priests and said,\n\"What are you willing to give me\nif I hand him over to you?\"\nThey paid him thirty pieces of silver,\nand from that time on he looked for an opportunity\nto hand him over.\n\nOn the first day of the Feast of Unleavened Bread,\nthe disciples approached Jesus and said,\n\"Where do you want us to prepare\nfor you to eat the Passover?\"\nHe said,\n\"Go into the city to a certain man and tell him,\n'The teacher says, \"My appointed time draws near;\nin your house I shall celebrate the Passover with my disciples.\"'\"\nThe disciples then did as Jesus had ordered,\nand prepared the Passover.\n\nWhen it was evening,\nhe reclined at table with the Twelve.\nAnd while they were eating, he said,\n\"Amen, I say to you, one of you will betray me.\"\nDeeply distressed at this,\nthey began to say to him one after another,\n\"Surely it is not I, Lord?\"\nHe said in reply,\n\"He who has dipped his hand into the dish with me\nis the one who will betray me.\nThe Son of Man indeed goes, as it is written of him,\nbut woe to that man by whom the Son of Man is betrayed.\nIt would be better for that man if he had never been born.\"\nThen Judas, his betrayer, said in reply,\n\"Surely it is not I, Rabbi?\"\nHe answered, \"You have said so.\"\n\nWhile they were eating,\nJesus took bread, said the blessing,\nbroke it, and giving it to his disciples said,\n\"Take and eat; this is my body.\"\nThen he took a cup, gave thanks, and gave it to them, saying,\n\"Drink from it, all of you,\nfor this is my blood of the covenant,\nwhich will be shed on behalf of many\nfor the forgiveness of sins.\nI tell you, from now on I shall not drink this fruit of the vine\nuntil the day when I drink it with you new\nin the kingdom of my Father.\"\nThen, after singing a hymn,\nthey went out to the Mount of Olives.\n\nThen Jesus said to them,\n\"This night all of you will have your faith in me shaken,\nfor it is written:\nI will strike the shepherd,\nand the sheep of the flock will be dispersed;\nbut after I have been raised up,\nI shall go before you to Galilee.\"\nPeter said to him in reply,\n\"Though all may have their faith in you shaken,\nmine will never be.\"\nJesus said to him,\n\"Amen, I say to you,\nthis very night before the cock crows,\nyou will deny me three times.\"\nPeter said to him,\n\"Even though I should have to die with you,\nI will not deny you.\"\nAnd all the disciples spoke likewise.\n\nThen Jesus came with them to a place called Gethsemane,\nand he said to his disciples,\n\"Sit here while I go over there and pray.\"\nHe took along Peter and the two sons of Zebedee,\nand began to feel sorrow and distress.\nThen he said to them,\n\"My soul is sorrowful even to death.\nRemain here and keep watch with me.\"\nHe advanced a little and fell prostrate in prayer, saying,\n\"My Father, if it is possible,\nlet this cup pass from me;\nyet, not as I will, but as you will.\"\nWhen he returned to his disciples he found them asleep.\nHe said to Peter,\n\"So you could not keep watch with me for one hour?\nWatch and pray that you may not undergo the test.\nThe spirit is willing, but the flesh is weak.\"\nWithdrawing a second time, he prayed again,\n\"My Father, if it is not possible that this cup pass\nwithout my drinking it, your will be done!\"\nThen he returned once more and found them asleep,\nfor they could not keep their eyes open.\nHe left them and withdrew again and prayed a third time,\nsaying the same thing again.\nThen he returned to his disciples and said to them,\n\"Are you still sleeping and taking your rest?\nBehold, the hour is at hand\nwhen the Son of Man is to be handed over to sinners.\nGet up, let us go.\nLook, my betrayer is at hand.\"\n\nWhile he was still speaking,\nJudas, one of the Twelve, arrived,\naccompanied by a large crowd, with swords and clubs,\nwho had come from the chief priests and the elders\nof the people.\nHis betrayer had arranged a sign with them, saying,\n\"The man I shall kiss is the one; arrest him.\"\nImmediately he went over to Jesus and said,\n\"Hail, Rabbi!\" and he kissed him.\nJesus answered him,\n\"Friend, do what you have come for.\"\nThen stepping forward they laid hands on Jesus and arrested him.\nAnd behold, one of those who accompanied Jesus\nput his hand to his sword, drew it,\nand struck the high priest's servant, cutting off his ear.\nThen Jesus said to him,\n\"Put your sword back into its sheath,\nfor all who take the sword will perish by the sword.\nDo you think that I cannot call upon my Father\nand he will not provide me at this moment\nwith more than twelve legions of angels?\nBut then how would the Scriptures be fulfilled\nwhich say that it must come to pass in this way?\"\nAt that hour Jesus said to the crowds,\n\"Have you come out as against a robber,\nwith swords and clubs to seize me?\nDay after day I sat teaching in the temple area,\nyet you did not arrest me.\nBut all this has come to pass\nthat the writings of the prophets may be fulfilled.\"\nThen all the disciples left him and fled.\n\nThose who had arrested Jesus led him away\nto Caiaphas the high priest,\nwhere the scribes and the elders were assembled.\nPeter was following him at a distance\nas far as the high priest's courtyard,\nand going inside he sat down with the servants\nto see the outcome.\nThe chief priests and the entire Sanhedrin\nkept trying to obtain false testimony against Jesus\nin order to put him to death,\nbut they found none,\nthough many false witnesses came forward.\nFinally two came forward who stated,\n\"This man said, 'I can destroy the temple of God\nand within three days rebuild it.'\"\nThe high priest rose and addressed him,\n\"Have you no answer?\nWhat are these men testifying against you?\"\nBut Jesus was silent.\nThen the high priest said to him,\n\"I order you to tell us under oath before the living God\nwhether you are the Christ, the Son of God.\"\nJesus said to him in reply,\n\"You have said so.\nBut I tell you:\nFrom now on you will see 'the Son of Man\nseated at the right hand of the Power'\nand 'coming on the clouds of heaven.'\"\nThen the high priest tore his robes and said,\n\"He has blasphemed!\nWhat further need have we of witnesses?\nYou have now heard the blasphemy;\nwhat is your opinion?\"\nThey said in reply,\n\"He deserves to die!\"\nThen they spat in his face and struck him,\nwhile some slapped him, saying,\n\"Prophesy for us, Christ: who is it that struck you?\"\n\nNow Peter was sitting outside in the courtyard.\nOne of the maids came over to him and said,\n\"You too were with Jesus the Galilean.\"\nBut he denied it in front of everyone, saying,\n\"I do not know what you are talking about!\"\nAs he went out to the gate, another girl saw him\nand said to those who were there,\n\"This man was with Jesus the Nazorean.\"\nAgain he denied it with an oath,\n\"I do not know the man!\"\nA little later the bystanders came over and said to Peter,\n\"Surely you too are one of them;\neven your speech gives you away.\"\nAt that he began to curse and to swear,\n\"I do not know the man.\"\nAnd immediately a cock crowed.\nThen Peter remembered the word that Jesus had spoken:\n\"Before the cock crows you will deny me three times.\"\nHe went out and began to weep bitterly.\n\nWhen it was morning,\nall the chief priests and the elders of the people\ntook counsel against Jesus to put him to death.\nThey bound him, led him away,\nand handed him over to Pilate, the governor.\n\nThen Judas, his betrayer, seeing that Jesus had been condemned,\ndeeply regretted what he had done.\nHe returned the thirty pieces of silver\nto the chief priests and elders, saying,\n\"I have sinned in betraying innocent blood.\"\nThey said,\n\"What is that to us?\nLook to it yourself.\"\nFlinging the money into the temple,\nhe departed and went off and hanged himself.\nThe chief priests gathered up the money, but said,\n\"It is not lawful to deposit this in the temple treasury,\nfor it is the price of blood.\"\nAfter consultation, they used it to buy the potter's field\nas a burial place for foreigners.\nThat is why that field even today is called the Field of Blood.\nThen was fulfilled what had been said through Jeremiah\nthe prophet,\nAnd they took the thirty pieces of silver,\nthe value of a man with a price on his head,\na price set by some of the Israelites,\nand they paid it out for the potter's field\njust as the Lord had commanded me.\n\nNow Jesus stood before the governor, and he questioned him,\n\"Are you the king of the Jews?\"\nJesus said, \"You say so.\"\nAnd when he was accused by the chief priests and elders,\nhe made no answer.\nThen Pilate said to him,\n\"Do you not hear how many things they are testifying against you?\"\nBut he did not answer him one word,\nso that the governor was greatly amazed.\n\nNow on the occasion of the feast\nthe governor was accustomed to release to the crowd\none prisoner whom they wished.\nAnd at that time they had a notorious prisoner called Barabbas.\nSo when they had assembled, Pilate said to them,\n\"Which one do you want me to release to you,\nBarabbas, or Jesus called Christ?\"\nFor he knew that it was out of envy\nthat they had handed him over.\nWhile he was still seated on the bench,\nhis wife sent him a message,\n\"Have nothing to do with that righteous man.\nI suffered much in a dream today because of him.\"\nThe chief priests and the elders persuaded the crowds\nto ask for Barabbas but to destroy Jesus.\nThe governor said to them in reply,\n\"Which of the two do you want me to release to you?\"\nThey answered, \"Barabbas!\"\nPilate said to them,\n\"Then what shall I do with Jesus called Christ?\"\nThey all said,\n\"Let him be crucified!\"\nBut he said,\n\"Why? What evil has he done?\"\nThey only shouted the louder,\n\"Let him be crucified!\"\nWhen Pilate saw that he was not succeeding at all,\nbut that a riot was breaking out instead,\nhe took water and washed his hands in the sight of the crowd,\nsaying, \"I am innocent of this man's blood.\nLook to it yourselves.\"\nAnd the whole people said in reply,\n\"His blood be upon us and upon our children.\"\nThen he released Barabbas to them,\nbut after he had Jesus scourged,\nhe handed him over to be crucified.\n\nThen the soldiers of the governor took Jesus inside the praetorium\nand gathered the whole cohort around him.\nThey stripped off his clothes\nand threw a scarlet military cloak about him.\nWeaving a crown out of thorns, they placed it on his head,\nand a reed in his right hand.\nAnd kneeling before him, they mocked him, saying,\n\"Hail, King of the Jews!\"\nThey spat upon him and took the reed\nand kept striking him on the head.\nAnd when they had mocked him,\nthey stripped him of the cloak,\ndressed him in his own clothes,\nand led him off to crucify him.\n\nAs they were going out, they met a Cyrenian named Simon;\nthis man they pressed into service\nto carry his cross.\n\nAnd when they came to a place called Golgotha\n—which means Place of the Skull —,\nthey gave Jesus wine to drink mixed with gall.\nBut when he had tasted it, he refused to drink.\nAfter they had crucified him,\nthey divided his garments by casting lots;\nthen they sat down and kept watch over him there.\nAnd they placed over his head the written charge against him:\nThis is Jesus, the King of the Jews.\nTwo revolutionaries were crucified with him,\none on his right and the other on his left.\nThose passing by reviled him, shaking their heads and saying,\n\"You who would destroy the temple and rebuild it in three days,\nsave yourself, if you are the Son of God,\nand come down from the cross!\"\nLikewise the chief priests with the scribes and elders mocked him and said,\n\"He saved others; he cannot save himself.\nSo he is the king of Israel!\nLet him come down from the cross now,\nand we will believe in him.\nHe trusted in God;\nlet him deliver him now if he wants him.\nFor he said, 'I am the Son of God.'\"\nThe revolutionaries who were crucified with him\nalso kept abusing him in the same way.\n\nFrom noon onward, darkness came over the whole land\nuntil three in the afternoon.\nAnd about three o'clock Jesus cried out in a loud voice,\n\"Eli, Eli, lema sabachthani?\"\nwhich means, \"My God, my God, why have you forsaken me?\"\nSome of the bystanders who heard it said,\n\"This one is calling for Elijah.\"\nImmediately one of them ran to get a sponge;\nhe soaked it in wine, and putting it on a reed,\ngave it to him to drink.\nBut the rest said,\n\"Wait, let us see if Elijah comes to save him.\"\nBut Jesus cried out again in a loud voice,\nand gave up his spirit.\n\nHere all kneel and pause for a short time.\n\nAnd behold, the veil of the sanctuary\nwas torn in two from top to bottom.\nThe earth quaked, rocks were split, tombs were opened,\nand the bodies of many saints who had fallen asleep were raised.\nAnd coming forth from their tombs after his resurrection,\nthey entered the holy city and appeared to many.\nThe centurion and the men with him who were keeping watch over Jesus\nfeared greatly when they saw the earthquake\nand all that was happening, and they said,\n\"Truly, this was the Son of God!\"\nThere were many women there, looking on from a distance,\nwho had followed Jesus from Galilee, ministering to him.\nAmong them were Mary Magdalene and Mary the mother of James and Joseph,\nand the mother of the sons of Zebedee.\n\nWhen it was evening,\nthere came a rich man from Arimathea named Joseph,\nwho was himself a disciple of Jesus.\nHe went to Pilate and asked for the body of Jesus;\nthen Pilate ordered it to be handed over.\nTaking the body, Joseph wrapped it in clean linen\nand laid it in his new tomb that he had hewn in the rock.\nThen he rolled a huge stone across the entrance to the tomb\nand departed.\nBut Mary Magdalene and the other Mary\nremained sitting there, facing the tomb.\n\nThe next day, the one following the day of preparation,\nthe chief priests and the Pharisees\ngathered before Pilate and said,\n\"Sir, we remember that this impostor while still alive said,\n'After three days I will be raised up.'\nGive orders, then, that the grave be secured until the third day,\nlest his disciples come and steal him and say to the people,\n'He has been raised from the dead.'\nThis last imposture would be worse than the first.\"\nPilate said to them,\n\"The guard is yours;\ngo, secure it as best you can.\"\nSo they went and secured the tomb\nby fixing a seal to the stone and setting the guard."
       }
     ],
     "reflection": "Palm Sunday holds praise and betrayal together. The crowd welcomes Jesus, but the Passion reveals the depth of his obedience. Holy Week asks parents to slow down and stand near Christ's self-giving love.",
@@ -487,30 +607,46 @@ window.ST_MARTHA_READINGS = [
       "What part of Christ's humility challenges me most?",
       "How can our family enter Holy Week with more attention and less rush?"
     ],
-    "prayer": "Jesus, humble King, draw us close to your Passion. Teach our families to love with patience, obedience, and trust."
+    "prayer": "Jesus, humble King, draw us close to your Passion. Teach our families to love with patience, obedience, and trust.",
+    "lectionary": 37,
+    "sourceFile": "data/readings/032926.txt"
   },
   {
     "date": "2026-04-05",
-    "title": "Easter Sunday of the Resurrection of the Lord",
+    "title": "The Resurrection of the Lord",
     "cycle": "Year A",
     "theme": "The empty tomb changes everything.",
     "officialUrl": "https://bible.usccb.org/bible/readings/040526.cfm",
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Acts 10:34-43"
+        "ref": "Acts 10:34a, 37-43",
+        "text": "Peter proceeded to speak and said:\n“You know what has happened all over Judea,\nbeginning in Galilee after the baptism\nthat John preached,\nhow God anointed Jesus of Nazareth\nwith the Holy Spirit and power.\nHe went about doing good\nand healing all those oppressed by the devil,\nfor God was with him.\nWe are witnesses of all that he did\nboth in the country of the Jews and in Jerusalem.\nThey put him to death by hanging him on a tree.\nThis man God raised on the third day and granted that he be visible,\nnot to all the people, but to us,\nthe witnesses chosen by God in advance,\nwho ate and drank with him after he rose from the dead.\nHe commissioned us to preach to the people\nand testify that he is the one appointed by God\nas judge of the living and the dead.\nTo him all the prophets bear witness,\nthat everyone who believes in him\nwill receive forgiveness of sins through his name.”"
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 118:1-2, 16-17, 22-23"
+        "ref": "Psalm 118:1-2, 16-17, 22-23",
+        "text": "R. (24) This is the day the Lord has made; let us rejoice and be glad.\nor:\nR. Alleluia.\nGive thanks to the LORD, for he is good,\nfor his mercy endures forever.\nLet the house of Israel say,\n“His mercy endures forever.”\nR. This is the day the Lord has made; let us rejoice and be glad.\nor:\nR. Alleluia.\n“The right hand of the LORD has struck with power;\nthe right hand of the LORD is exalted.\nI shall not die, but live,\nand declare the works of the LORD.”\nR. This is the day the Lord has made; let us rejoice and be glad.\nor:\nR. Alleluia.\nThe stone which the builders rejected\nhas become the cornerstone.\nBy the LORD has this been done;\nit is wonderful in our eyes.\nR. This is the day the Lord has made; let us rejoice and be glad.\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "Col 3:1-4"
+        "ref": "Colossians 3:1-4",
+        "text": "Brothers and sisters:\nIf then you were raised with Christ, seek what is above,\nwhere Christ is seated at the right hand of God.\nThink of what is above, not of what is on earth.\nFor you have died, and your life is hidden with Christ in God.\nWhen Christ your life appears,\nthen you too will appear with him in glory."
+      },
+      {
+        "label": "Sequence",
+        "ref": "Victimæ paschali laudes",
+        "text": "Christians, to the Paschal Victim\nOffer your thankful praises!\nA Lamb the sheep redeems;\nChrist, who only is sinless,\nReconciles sinners to the Father.\nDeath and life have contended in that combat stupendous:\nThe Prince of life, who died, reigns immortal.\nSpeak, Mary, declaring\nWhat you saw, wayfaring.\n“The tomb of Christ, who is living,\nThe glory of Jesus’ resurrection;\nbright angels attesting,\nThe shroud and napkin resting.\nYes, Christ my hope is arisen;\nto Galilee he goes before you.”\nChrist indeed from death is risen, our new life obtaining.\nHave mercy, victor King, ever reigning!\nAmen. Alleluia."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "cf. 1 Corinthians 5:7",
+        "text": "R. Alleluia, alleluia.\nChrist, our paschal lamb, has been sacrificed;\nlet us then feast with joy in the Lord.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "John 20:1-9"
+        "ref": "John 20:1-9",
+        "text": "On the first day of the week,\nMary of Magdala came to the tomb early in the morning,\nwhile it was still dark,\nand saw the stone removed from the tomb.\nSo she ran and went to Simon Peter\nand to the other disciple whom Jesus loved, and told them,\n“They have taken the Lord from the tomb,\nand we don’t know where they put him.”\nSo Peter and the other disciple went out and came to the tomb.\nThey both ran, but the other disciple ran faster than Peter\nand arrived at the tomb first;\nhe bent down and saw the burial cloths there, but did not go in.\nWhen Simon Peter arrived after him,\nhe went into the tomb and saw the burial cloths there,\nand the cloth that had covered his head,\nnot with the burial cloths but rolled up in a separate place.\nThen the other disciple also went in,\nthe one who had arrived at the tomb first,\nand he saw and believed.\nFor they did not yet understand the Scripture\nthat he had to rise from the dead."
       }
     ],
     "reflection": "Peter proclaims the Resurrection, Paul calls us to seek what is above, and the disciples begin to believe at the empty tomb. Easter faith changes what we fear, what we hope for, and how we live ordinary days.",
@@ -519,30 +655,41 @@ window.ST_MARTHA_READINGS = [
       "What does it mean to seek what is above in daily responsibilities?",
       "How can our family keep Easter as a season of joy?"
     ],
-    "prayer": "Risen Lord, fill our homes with Easter hope. Help us live as people who believe you are alive."
+    "prayer": "Risen Lord, fill our homes with Easter hope. Help us live as people who believe you are alive.",
+    "lectionary": 42,
+    "sourceFile": "data/readings/040526.txt"
   },
   {
     "date": "2026-04-12",
-    "title": "Second Sunday of Easter",
+    "title": "Second Sunday of Easter (or Sunday of Divine Mercy)",
     "cycle": "Year A",
     "theme": "The risen Jesus brings peace, mercy, and faith to wounded disciples.",
     "officialUrl": "https://bible.usccb.org/bible/readings/041226.cfm",
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Acts 2:42-47"
+        "ref": "Acts 2:42-47",
+        "text": "They devoted themselves\nto the teaching of the apostles and to the communal life,\nto the breaking of bread and to the prayers.\nAwe came upon everyone,\nand many wonders and signs were done through the apostles.\nAll who believed were together and had all things in common;\nthey would sell their property and possessions\nand divide them among all according to each one’s need.\nEvery day they devoted themselves\nto meeting together in the temple area\nand to breaking bread in their homes.\nThey ate their meals with exultation and sincerity of heart,\npraising God and enjoying favor with all the people.\nAnd every day the Lord added to their number those who were being saved."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 118:2-4, 13-15, 22-24"
+        "ref": "Psalm 118:2-4, 13-15, 22-24",
+        "text": "R. (1) Give thanks to the LORD for he is good, his love is everlasting.\nor:\nR. Alleluia.\nLet the house of Israel say,\n“His mercy endures forever.”\nLet the house of Aaron say,\n“His mercy endures forever.”\nLet those who fear the LORD say,\n“His mercy endures forever.”\nR. Give thanks to the LORD for he is good, his love is everlasting.\nor:\nR. Alleluia.\nI was hard pressed and was falling,\nbut the LORD helped me.\nMy strength and my courage is the LORD,\nand he has been my savior.\nThe joyful shout of victory\nin the tents of the just:\nR. Give thanks to the LORD for he is good, his love is everlasting.\nor:\nR. Alleluia.\nThe stone which the builders rejected\nhas become the cornerstone.\nBy the LORD has this been done;\nit is wonderful in our eyes.\nThis is the day the LORD has made;\nlet us be glad and rejoice in it.\nR. Give thanks to the LORD for he is good, his love is everlasting.\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Peter 1:3-9"
+        "ref": "1 Peter 1:3-9",
+        "text": "Blessed be the God and Father of our Lord Jesus Christ,\nwho in his great mercy gave us a new birth to a living hope\nthrough the resurrection of Jesus Christ from the dead,\nto an inheritance that is imperishable, undefiled, and unfading,\nkept in heaven for you\nwho by the power of God are safeguarded through faith,\nto a salvation that is ready to be revealed in the final time.\nIn this you rejoice, although now for a little while\nyou may have to suffer through various trials,\nso that the genuineness of your faith,\nmore precious than gold that is perishable even though tested by fire,\nmay prove to be for praise, glory, and honor\nat the revelation of Jesus Christ.\nAlthough you have not seen him you love him;\neven though you do not see him now yet believe in him,\nyou rejoice with an indescribable and glorious joy,\nas you attain the goal of your faith, the salvation of your souls."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "John 20:29",
+        "text": "R. Alleluia, alleluia.\nYou believe in me, Thomas, because you have seen me, says the Lord;\nblessed are they who have not seen me, but still believe!\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "John 20:19-31"
+        "ref": "John 20:19-31",
+        "text": "On the evening of that first day of the week,\nwhen the doors were locked, where the disciples were,\nfor fear of the Jews,\nJesus came and stood in their midst\nand said to them, “Peace be with you.”\nWhen he had said this, he showed them his hands and his side.\nThe disciples rejoiced when they saw the Lord.\nJesus said to them again, “Peace be with you.\nAs the Father has sent me, so I send you.”\nAnd when he had said this, he breathed on them and said to them,\n“Receive the Holy Spirit.\nWhose sins you forgive are forgiven them,\nand whose sins you retain are retained.”\n\nThomas, called Didymus, one of the Twelve,\nwas not with them when Jesus came.\nSo the other disciples said to him, “We have seen the Lord.”\nBut he said to them,\n“Unless I see the mark of the nails in his hands\nand put my finger into the nailmarks\nand put my hand into his side, I will not believe.”\n\nNow a week later his disciples were again inside\nand Thomas was with them.\nJesus came, although the doors were locked,\nand stood in their midst and said, “Peace be with you.”\nThen he said to Thomas, “Put your finger here and see my hands,\nand bring your hand and put it into my side,\nand do not be unbelieving, but believe.”\nThomas answered and said to him, “My Lord and my God!”\nJesus said to him, “Have you come to believe because you have seen me?\nBlessed are those who have not seen and have believed.”\n\nNow, Jesus did many other signs in the presence of his disciples\nthat are not written in this book.\nBut these are written that you may come to believe\nthat Jesus is the Christ, the Son of God,\nand that through this belief you may have life in his name."
       }
     ],
     "reflection": "Jesus comes through locked doors and speaks peace. Thomas is invited to bring his doubt close to the wounds of Christ. Divine Mercy Sunday is a reminder that faith grows when mercy meets fear honestly.",
@@ -551,7 +698,9 @@ window.ST_MARTHA_READINGS = [
       "How do I handle doubt in myself or in people I love?",
       "What practice would make our home more merciful?"
     ],
-    "prayer": "Risen Jesus, have mercy on us. Bring peace through our locked doors and strengthen our faith."
+    "prayer": "Risen Jesus, have mercy on us. Bring peace through our locked doors and strengthen our faith.",
+    "lectionary": 43,
+    "sourceFile": "data/readings/041226.txt"
   },
   {
     "date": "2026-04-19",
@@ -562,19 +711,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Acts 2:14, 22-33"
+        "ref": "Acts 2:14, 22-33",
+        "text": "Then Peter stood up with the Eleven,\nraised his voice, and proclaimed:\n\"You who are Jews, indeed all of you staying in Jerusalem.\nLet this be known to you, and listen to my words.\nYou who are Israelites, hear these words.\nJesus the Nazarene was a man commended to you by God\nwith mighty deeds, wonders, and signs,\nwhich God worked through him in your midst, as you yourselves know.\nThis man, delivered up by the set plan and foreknowledge of God,\nyou killed, using lawless men to crucify him.\nBut God raised him up, releasing him from the throes of death,\nbecause it was impossible for him to be held by it.\nFor David says of him:\nI saw the Lord ever before me,\nwith him at my right hand I shall not be disturbed.\nTherefore my heart has been glad and my tongue has exulted;\nmy flesh, too, will dwell in hope,\nbecause you will not abandon my soul to the netherworld,\nnor will you suffer your holy one to see corruption.\nYou have made known to me the paths of life;\nyou will fill me with joy in your presence.\n\n\"My brothers, one can confidently say to you\nabout the patriarch David that he died and was buried,\nand his tomb is in our midst to this day.\nBut since he was a prophet and knew that God had sworn an oath to him\nthat he would set one of his descendants upon his throne,\nhe foresaw and spoke of the resurrection of the Christ,\nthat neither was he abandoned to the netherworld\nnor did his flesh see corruption.\nGod raised this Jesus;\nof this we are all witnesses.\nExalted at the right hand of God,\nhe received the promise of the Holy Spirit from the Father\nand poured him forth, as you see and hear.\""
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 16:1-2, 5, 7-11"
+        "ref": "Psalm 16:1-2, 5, 7-8, 9-10, 11",
+        "text": "R. (11a) Lord, you will show us the path of life.\nor:\nR. Alleluia.\nKeep me, O God, for in you I take refuge;\nI say to the LORD, \"My Lord are you.\"\nO LORD, my allotted portion and my cup,\nyou it is who hold fast my lot.\nR. Lord, you will show us the path of life.\nor:\nR. Alleluia.\nI bless the LORD who counsels me;\neven in the night my heart exhorts me.\nI set the LORD ever before me;\nwith him at my right hand I shall not be disturbed.\nR. Lord, you will show us the path of life.\nor:\nR. Alleluia.\nTherefore my heart is glad and my soul rejoices,\nmy body, too, abides in confidence;\nbecause you will not abandon my soul to the netherworld,\nnor will you suffer your faithful one to undergo corruption.\nR. Lord, you will show us the path of life.\nor:\nR. Alleluia.\nYou will show me the path to life,\nabounding joy in your presence,\nthe delights at your right hand forever.\nR. Lord, you will show us the path of life.\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Peter 1:17-21"
+        "ref": "1 Peter 1:17-21",
+        "text": "Beloved:\nIf you invoke as Father him who judges impartially\naccording to each one's works,\nconduct yourselves with reverence during the time of your sojourning,\nrealizing that you were ransomed from your futile conduct,\nhanded on by your ancestors,\nnot with perishable things like silver or gold\nbut with the precious blood of Christ\nas of a spotless unblemished lamb.\n\nHe was known before the foundation of the world\nbut revealed in the final time for you,\nwho through him believe in God\nwho raised him from the dead and gave him glory,\nso that your faith and hope are in God."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "Cf. Luke 24:32",
+        "text": "R. Alleluia, alleluia.\nLord Jesus, open the Scriptures to us;\nmake our hearts burn while you speak to us.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "Luke 24:13-35"
+        "ref": "Luke 24:13-35",
+        "text": "That very day, the first day of the week,\ntwo of Jesus' disciples were going\nto a village seven miles from Jerusalem called Emmaus,\nand they were conversing about all the things that had occurred.\nAnd it happened that while they were conversing and debating,\nJesus himself drew near and walked with them,\nbut their eyes were prevented from recognizing him.\nHe asked them,\n\"What are you discussing as you walk along?\"\nThey stopped, looking downcast.\nOne of them, named Cleopas, said to him in reply,\n\"Are you the only visitor to Jerusalem\nwho does not know of the things\nthat have taken place there in these days?\"\nAnd he replied to them, \"What sort of things?\"\nThey said to him,\n\"The things that happened to Jesus the Nazarene,\nwho was a prophet mighty in deed and word\nbefore God and all the people,\nhow our chief priests and rulers both handed him over\nto a sentence of death and crucified him.\nBut we were hoping that he would be the one to redeem Israel;\nand besides all this,\nit is now the third day since this took place.\nSome women from our group, however, have astounded us:\nthey were at the tomb early in the morning\nand did not find his body;\nthey came back and reported\nthat they had indeed seen a vision of angels\nwho announced that he was alive.\nThen some of those with us went to the tomb\nand found things just as the women had described,\nbut him they did not see.\"\nAnd he said to them, \"Oh, how foolish you are!\nHow slow of heart to believe all that the prophets spoke!\nWas it not necessary that the Christ should suffer these things\nand enter into his glory?\"\nThen beginning with Moses and all the prophets,\nhe interpreted to them what referred to him\nin all the Scriptures.\nAs they approached the village to which they were going,\nhe gave the impression that he was going on farther.\nBut they urged him, \"Stay with us,\nfor it is nearly evening and the day is almost over.\"\nSo he went in to stay with them.\nAnd it happened that, while he was with them at table,\nhe took bread, said the blessing,\nbroke it, and gave it to them.\nWith that their eyes were opened and they recognized him,\nbut he vanished from their sight.\nThen they said to each other,\n\"Were not our hearts burning within us\nwhile he spoke to us on the way and opened the Scriptures to us?\"\nSo they set out at once and returned to Jerusalem\nwhere they found gathered together\nthe eleven and those with them who were saying,\n\"The Lord has truly been raised and has appeared to Simon!\"\nThen the two recounted\nwhat had taken place on the way\nand how he was made known to them in the breaking of bread."
       }
     ],
     "reflection": "On the road to Emmaus, Jesus listens, opens the Scriptures, and is recognized in the breaking of bread. The pattern of Mass becomes a pattern for family life: bring confusion to Christ, hear the word, and recognize him at the table.",
@@ -583,7 +741,9 @@ window.ST_MARTHA_READINGS = [
       "How has Scripture helped me reinterpret something hard?",
       "How can our family be more attentive to Jesus in the Eucharist?"
     ],
-    "prayer": "Lord Jesus, walk with us. Open the Scriptures to us and help us recognize you in the breaking of bread."
+    "prayer": "Lord Jesus, walk with us. Open the Scriptures to us and help us recognize you in the breaking of bread.",
+    "lectionary": 46,
+    "sourceFile": "data/readings/041926.txt"
   },
   {
     "date": "2026-04-26",
@@ -594,19 +754,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Acts 2:14, 36-41"
+        "ref": "Acts 2:14a, 36-41",
+        "text": "Then Peter stood up with the Eleven,\nraised his voice, and proclaimed:\n\"Let the whole house of Israel know for certain\nthat God has made both Lord and Christ,\nthis Jesus whom you crucified.\"\n\nNow when they heard this, they were cut to the heart,\nand they asked Peter and the other apostles,\n\"What are we to do, my brothers?\"\nPeter said to them,\n\"Repent and be baptized, every one of you,\nin the name of Jesus Christ for the forgiveness of your sins;\nand you will receive the gift of the Holy Spirit.\nFor the promise is made to you and to your children\nand to all those far off,\nwhomever the Lord our God will call.\"\nHe testified with many other arguments, and was exhorting them,\n\"Save yourselves from this corrupt generation.\"\nThose who accepted his message were baptized,\nand about three thousand persons were added that day."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 23:1-6"
+        "ref": "Psalm 23: 1-3a, 3b4, 5, 6",
+        "text": "R. (1) The Lord is my shepherd; there is nothing I shall want.\nor:\nR. Alleluia.\nThe LORD is my shepherd; I shall not want.\nIn verdant pastures he gives me repose;\nbeside restful waters he leads me;\nhe refreshes my soul.\nR. The Lord is my shepherd; there is nothing I shall want.\nor:\nR. Alleluia.\nHe guides me in right paths\nfor his name's sake.\nEven though I walk in the dark valley\nI fear no evil; for you are at my side.\nWith your rod and your staff\nthat give me courage.\nR. The Lord is my shepherd; there is nothing I shall want.\nor:\nR. Alleluia.\nYou spread the table before me\nin the sight of my foes;\nyou anoint my head with oil;\nmy cup overflows.\nR. The Lord is my shepherd; there is nothing I shall want.\nor:\nR. Alleluia.\nOnly goodness and kindness follow me\nall the days of my life;\nand I shall dwell in the house of the LORD\nfor years to come.\nR. The Lord is my shepherd; there is nothing I shall want.\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Peter 2:20-25"
+        "ref": "1 Peter 2:20b-25",
+        "text": "Beloved:\nIf you are patient when you suffer for doing what is good,\nthis is a grace before God.\nFor to this you have been called,\nbecause Christ also suffered for you,\nleaving you an example that you should follow in his footsteps.\nHe committed no sin, and no deceit was found in his mouth.\n\nWhen he was insulted, he returned no insult;\nwhen he suffered, he did not threaten;\ninstead, he handed himself over to the one who judges justly.\nHe himself bore our sins in his body upon the cross,\nso that, free from sin, we might live for righteousness.\nBy his wounds you have been healed.\nFor you had gone astray like sheep,\nbut you have now returned to the shepherd and guardian of your souls."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "John 10:14",
+        "text": "R. Alleluia, alleluia.\nI am the good shepherd, says the Lord;\nI know my sheep, and mine know me.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "John 10:1-10"
+        "ref": "John 10:1-10",
+        "text": "Jesus said:\n\"Amen, amen, I say to you,\nwhoever does not enter a sheepfold through the gate\nbut climbs over elsewhere is a thief and a robber.\nBut whoever enters through the gate is the shepherd of the sheep.\nThe gatekeeper opens it for him, and the sheep hear his voice,\nas the shepherd calls his own sheep by name and leads them out.\nWhen he has driven out all his own,\nhe walks ahead of them, and the sheep follow him,\nbecause they recognize his voice.\nBut they will not follow a stranger;\nthey will run away from him,\nbecause they do not recognize the voice of strangers.\"\nAlthough Jesus used this figure of speech,\nthe Pharisees did not realize what he was trying to tell them.\n\nSo Jesus said again, \"Amen, amen, I say to you,\nI am the gate for the sheep.\nAll who came before me are thieves and robbers,\nbut the sheep did not listen to them.\nI am the gate.\nWhoever enters through me will be saved,\nand will come in and go out and find pasture.\nA thief comes only to steal and slaughter and destroy;\nI came so that they might have life and have it more abundantly.\""
       }
     ],
     "reflection": "The Good Shepherd knows his sheep and leads them through the right gate. Parents are surrounded by many voices promising safety, success, and fulfillment. This Sunday asks whose voice we are learning to trust.",
@@ -615,7 +784,9 @@ window.ST_MARTHA_READINGS = [
       "Where do I need Jesus to shepherd me rather than manage everything myself?",
       "How can our family make the Shepherd's voice easier to hear?"
     ],
-    "prayer": "Good Shepherd, lead our families. Help us recognize your voice and follow you into abundant life."
+    "prayer": "Good Shepherd, lead our families. Help us recognize your voice and follow you into abundant life.",
+    "lectionary": 49,
+    "sourceFile": "data/readings/042626.txt"
   },
   {
     "date": "2026-05-03",
@@ -626,19 +797,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Acts 6:1-7"
+        "ref": "Acts 6:1-7",
+        "text": "As the number of disciples continued to grow,\nthe Hellenists complained against the Hebrews\nbecause their widows\nwere being neglected in the daily distribution.\nSo the Twelve called together the community of the disciples and said,\n\"It is not right for us to neglect the word of God to serve at table.\nBrothers, select from among you seven reputable men,\nfilled with the Spirit and wisdom,\nwhom we shall appoint to this task,\nwhereas we shall devote ourselves to prayer\nand to the ministry of the word.\"\nThe proposal was acceptable to the whole community,\nso they chose Stephen, a man filled with faith and the Holy Spirit,\nalso Philip, Prochorus, Nicanor, Timon, Parmenas,\nand Nicholas of Antioch, a convert to Judaism.\nThey presented these men to the apostles\nwho prayed and laid hands on them.\nThe word of God continued to spread,\nand the number of the disciples in Jerusalem increased greatly;\neven a large group of priests were becoming obedient to the faith."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 33:1-2, 4-5, 18-19"
+        "ref": "Psalm 33:1-2, 4-5, 18-19",
+        "text": "R. (22) Lord, let your mercy be on us, as we place our trust in you.\nor:\nR. Alleluia.\nExult, you just, in the LORD;\npraise from the upright is fitting.\nGive thanks to the LORD on the harp;\nwith the ten-stringed lyre chant his praises.\nR. Lord, let your mercy be on us, as we place our trust in you.\nor:\nR. Alleluia.\nUpright is the word of the LORD,\nand all his works are trustworthy.\nHe loves justice and right;\nof the kindness of the LORD the earth is full.\nR. Lord, let your mercy be on us, as we place our trust in you.\nor:\nR. Alleluia.\nSee, the eyes of the LORD are upon those who fear him,\nupon those who hope for his kindness,\nTo deliver them from death\nand preserve them in spite of famine.\nR. Lord, let your mercy be on us, as we place our trust in you.\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Peter 2:4-9"
+        "ref": "1 Peter 2:4-9",
+        "text": "Beloved:\nCome to him, a living stone, rejected by human beings\nbut chosen and precious in the sight of God,\nand, like living stones,\nlet yourselves be built into a spiritual house\nto be a holy priesthood to offer spiritual sacrifices\nacceptable to God through Jesus Christ.\nFor it says in Scripture:\nBehold, I am laying a stone in Zion,\na cornerstone, chosen and precious,\nand whoever believes in it shall not be put to shame.\nTherefore, its value is for you who have faith, but for those without faith:\nThe stone that the builders rejected\nhas become the cornerstone, and\nA stone that will make people stumble,\nand a rock that will make them fall.\nThey stumble by disobeying the word, as is their destiny.\n\nYou are \"a chosen race, a royal priesthood,\na holy nation, a people of his own,\nso that you may announce the praises\" of him\nwho called you out of darkness into his wonderful light."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "John 14:6",
+        "text": "R. Alleluia, alleluia.\nI am the way, the truth and the life, says the Lord;\nno one comes to the Father, except through me.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "John 14:1-12"
+        "ref": "John 14:1-12",
+        "text": "Jesus said to his disciples:\n\"Do not let your hearts be troubled.\nYou have faith in God; have faith also in me.\nIn my Father's house there are many dwelling places.\nIf there were not,\nwould I have told you that I am going to prepare a place for you?\nAnd if I go and prepare a place for you,\nI will come back again and take you to myself,\nso that where I am you also may be.\nWhere I am going you know the way.\"\nThomas said to him,\n\"Master, we do not know where you are going;\nhow can we know the way?\"\nJesus said to him, I am the way and the truth and the life.\nNo one comes to the Father except through me.\nIf you know me, then you will also know my Father.\nFrom now on you do know him and have seen him.\"\nPhilip said to him,\n\"Master, show us the Father, and that will be enough for us.\"\nJesus said to him, \"Have I been with you for so long a time\nand you still do not know me, Philip?\nWhoever has seen me has seen the Father.\nHow can you say, 'Show us the Father'?\nDo you not believe that I am in the Father and the Father is in me?\nThe words that I speak to you I do not speak on my own.\nThe Father who dwells in me is doing his works.\nBelieve me that I am in the Father and the Father is in me,\nor else, believe because of the works themselves.\nAmen, amen, I say to you,\nwhoever believes in me will do the works that I do,\nand will do greater ones than these,\nbecause I am going to the Father.\""
       }
     ],
     "reflection": "The early Church responds to real needs with ordered service, while Jesus tells troubled hearts to trust him. Faith does not remove responsibility; it gives direction. Christ is not one option among many but the way home to the Father.",
@@ -647,7 +827,9 @@ window.ST_MARTHA_READINGS = [
       "Where do practical needs require better service or communication?",
       "How can our family remember that Jesus is the way, not just a helper?"
     ],
-    "prayer": "Jesus, way, truth, and life, steady our troubled hearts. Lead our families to the Father."
+    "prayer": "Jesus, way, truth, and life, steady our troubled hearts. Lead our families to the Father.",
+    "lectionary": 52,
+    "sourceFile": "data/readings/050326.txt"
   },
   {
     "date": "2026-05-10",
@@ -658,19 +840,28 @@ window.ST_MARTHA_READINGS = [
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Acts 8:5-8, 14-17"
+        "ref": "Acts 8:5-8, 14-17",
+        "text": "Philip went down to the city of Samaria\nand proclaimed the Christ to them.\nWith one accord, the crowds paid attention to what was said by Philip\nwhen they heard it and saw the signs he was doing.\nFor unclean spirits, crying out in a loud voice,\ncame out of many possessed people,\nand many paralyzed or crippled people were cured.\nThere was great joy in that city.\n\nNow when the apostles in Jerusalem\nheard that Samaria had accepted the word of God,\nthey sent them Peter and John,\nwho went down and prayed for them,\nthat they might receive the Holy Spirit,\nfor it had not yet fallen upon any of them;\nthey had only been baptized in the name of the Lord Jesus.\nThen they laid hands on them\nand they received the Holy Spirit."
       },
       {
         "label": "Responsorial Psalm",
-        "ref": "Ps 66:1-7, 16, 20"
+        "ref": "Psalm 66:1-3, 4-5, 6-7, 16, 20",
+        "text": "R. (1) Let all the earth cry out to God with joy.\nor:\nR. Alleluia.\nShout joyfully to God, all the earth,\nsing praise to the glory of his name;\nproclaim his glorious praise.\nSay to God, “How tremendous are your deeds!”\nR. Let all the earth cry out to God with joy.\nor:\nR. Alleluia.\n“Let all on earth worship and sing praise to you,\nsing praise to your name!”\nCome and see the works of God,\nhis tremendous deeds among the children of Adam.\nR. Let all the earth cry out to God with joy.\nor:\nR. Alleluia.\nHe has changed the sea into dry land;\nthrough the river they passed on foot;\ntherefore let us rejoice in him.\nHe rules by his might forever.\nR. Let all the earth cry out to God with joy.\nor:\nR. Alleluia.\nHear now, all you who fear God, while I declare\nwhat he has done for me.\nBlessed be God who refused me not\nmy prayer or his kindness!\nR. Let all the earth cry out to God with joy.\nor:\nR. Alleluia."
       },
       {
         "label": "Second Reading",
-        "ref": "1 Peter 3:15-18"
+        "ref": "1 Peter 3:15-18",
+        "text": "Beloved:\nSanctify Christ as Lord in your hearts.\nAlways be ready to give an explanation\nto anyone who asks you for a reason for your hope,\nbut do it with gentleness and reverence,\nkeeping your conscience clear,\nso that, when you are maligned,\nthose who defame your good conduct in Christ\nmay themselves be put to shame.\nFor it is better to suffer for doing good,\nif that be the will of God, than for doing evil.\n\nFor Christ also suffered for sins once,\nthe righteous for the sake of the unrighteous,\nthat he might lead you to God.\nPut to death in the flesh,\nhe was brought to life in the Spirit."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "John 14:23",
+        "text": "R. Alleluia, alleluia.\nWhoever loves me will keep my word, says the Lord,\nand my Father will love him and we will come to him.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "John 14:15-21"
+        "ref": "John 14:15-21",
+        "text": "Jesus said to his disciples:\n“If you love me, you will keep my commandments.\nAnd I will ask the Father,\nand he will give you another Advocate to be with you always,\nthe Spirit of truth, whom the world cannot accept,\nbecause it neither sees nor knows him.\nBut you know him, because he remains with you,\nand will be in you.\nI will not leave you orphans; I will come to you.\nIn a little while the world will no longer see me,\nbut you will see me, because I live and you will live.\nOn that day you will realize that I am in my Father\nand you are in me and I in you.\nWhoever has my commandments and observes them\nis the one who loves me.\nAnd whoever loves me will be loved by my Father,\nand I will love him and reveal myself to him.”"
       }
     ],
     "reflection": "Jesus connects love with keeping his commandments and promises the Advocate. The Spirit helps us live faith when it is costly, explain hope with gentleness, and stay close to Christ in daily life.",
@@ -679,7 +870,9 @@ window.ST_MARTHA_READINGS = [
       "How can I explain the reason for my hope with gentleness?",
       "What would help our family rely more on the Holy Spirit?"
     ],
-    "prayer": "Holy Spirit, remain with us. Teach our families to love Jesus through faithful, gentle obedience."
+    "prayer": "Holy Spirit, remain with us. Teach our families to love Jesus through faithful, gentle obedience.",
+    "lectionary": 55,
+    "sourceFile": "data/readings/051026.txt"
   },
   {
     "date": "2026-05-17",
@@ -747,29 +940,35 @@ window.ST_MARTHA_READINGS = [
   },
   {
     "date": "2026-05-31",
-    "title": "The Most Holy Trinity",
+    "title": "The Solemnity of the Most Holy Trinity",
     "cycle": "Year A",
     "theme": "God reveals himself as mercy, communion, and love.",
     "officialUrl": "https://bible.usccb.org/bible/readings/053126.cfm",
     "readings": [
       {
         "label": "First Reading",
-        "ref": "Exod 34:4-6, 8-9",
-        "displayRef": "Exodus 34:4b-6, 8-9"
+        "ref": "Exodus 34:4b-6, 8-9",
+        "text": "Early in the morning Moses went up Mount Sinai\nas the LORD had commanded him,\ntaking along the two stone tablets.\n\nHaving come down in a cloud, the LORD stood with Moses there\nand proclaimed his name, \"LORD.\"\nThus the LORD passed before him and cried out,\n\"The LORD, the LORD, a merciful and gracious God,\nslow to anger and rich in kindness and fidelity.\"\nMoses at once bowed down to the ground in worship.\nThen he said, \"If I find favor with you, O Lord,\ndo come along in our company.\nThis is indeed a stiff-necked people; yet pardon our wickedness and sins,\nand receive us as your own.\""
       },
       {
-        "label": "Responsorial Canticle",
-        "ref": "Dn 3:52-56",
-        "displayRef": "Daniel 3:52, 53, 54, 55, 56"
+        "label": "Responsorial Psalm",
+        "ref": "Daniel 3:52, 53, 54, 55, 56",
+        "text": "R. (52b) Glory and praise for ever!\nBlessed are you, O Lord, the God of our fathers,\npraiseworthy and exalted above all forever;\nAnd blessed is your holy and glorious name,\npraiseworthy and exalted above all for all ages.\nR. Glory and praise for ever!\nBlessed are you in the temple of your holy glory,\npraiseworthy and glorious above all forever.\nR. Glory and praise for ever!\nBlessed are you on the throne of your kingdom,\npraiseworthy and exalted above all forever.\nR. Glory and praise for ever!\nBlessed are you who look into the depths\nfrom your throne upon the cherubim,\npraiseworthy and exalted above all forever.\nR. Glory and praise for ever!"
       },
       {
         "label": "Second Reading",
-        "ref": "2 Cor 13:11-13",
-        "displayRef": "2 Corinthians 13:11-13"
+        "ref": "2 Corinthians 13:11-13",
+        "text": "Brothers and sisters, rejoice.\nMend your ways, encourage one another,\nagree with one another, live in peace,\nand the God of love and peace will be with you.\nGreet one another with a holy kiss.\nAll the holy ones greet you.\n\nThe grace of the Lord Jesus Christ\nand the love of God\nand the fellowship of the Holy Spirit be with all of you."
+      },
+      {
+        "label": "Alleluia",
+        "ref": "Cf. Revelation 1:8",
+        "text": "R. Alleluia, alleluia.\nGlory to the Father, the Son, and the Holy Spirit;\nto God who is, who was, and who is to come.\nR. Alleluia, alleluia."
       },
       {
         "label": "Gospel",
-        "ref": "John 3:16-18"
+        "ref": "John 3:16-18",
+        "text": "God so loved the world that he gave his only Son,\nso that everyone who believes in him might not perish\nbut might have eternal life.\nFor God did not send his Son into the world to condemn the world,\nbut that the world might be saved through him.\nWhoever believes in him will not be condemned,\nbut whoever does not believe has already been condemned,\nbecause he has not believed in the name of the only Son of God."
       }
     ],
     "reflection": "The Trinity is not a puzzle to solve but the mystery of God's own life: merciful, gracious, and self-giving love. Paul blesses the Church with grace, love, and fellowship. Christian families are invited to reflect communion rather than isolation.",
@@ -778,7 +977,9 @@ window.ST_MARTHA_READINGS = [
       "How can our relationships better reflect patience, communion, and peace?",
       "What does it mean that God loved the world enough to give his Son?"
     ],
-    "prayer": "Glory to the Father, and to the Son, and to the Holy Spirit. Draw our families into your communion of love."
+    "prayer": "Glory to the Father, and to the Son, and to the Holy Spirit. Draw our families into your communion of love.",
+    "lectionary": 164,
+    "sourceFile": "data/readings/053126.txt"
   },
   {
     "date": "2026-06-07",
@@ -1685,7 +1886,7 @@ window.ST_MARTHA_READINGS = [
       {
         "label": "Second Reading",
         "ref": "Philippians 2:1-11",
-        "text": "Brothers and sisters:\nIf there is any encouragement in Christ,\nany solace in love,\nany participation in the Spirit,\nany compassion and mercy,\ncomplete my joy by being of the same mind, with the same love,\nunited in heart, thinking one thing.\nDo nothing out of selfishness or out of vainglory;\nrather, humbly regard others as more important than yourselves,\neach looking out not for his own interests,\nbut also for those of others.\n\nHave in you the same attitude\nthat is also in Christ Jesus,\nWho, though he was in the form of God,\ndid not regard equality with God\nsomething to be grasped.\nRather, he emptied himself,\ntaking the form of a slave,\ncoming in human likeness;\nand found human in appearance,\nhe humbled himself,\nbecoming obedient to the point of death,\neven death on a cross.\nBecause of this, God greatly exalted him\nand bestowed on him the name\nwhich is above every name,\nthat at the name of Jesus\nevery knee should bend,\nof those in heaven and on earth and under the earth,\nand every tongue confess that\nJesus Christ is Lord,\nto the glory of God the Father.\n\nor\nPhilippians 2:1-5\nBrothers and sisters:\nIf there is any encouragement in Christ,\nany solace in love,\nany participation in the Spirit,\nany compassion and mercy,\ncomplete my joy by being of the same mind, with the same love,\nunited in heart, thinking one thing.\nDo nothing out of selfishness or out of vainglory;\nrather, humbly regard others as more important than yourselves,\neach looking out not for his own interests,\nbut also for those of others.\n\nHave in you the same attitude\nthat is also in Christ Jesus."
+        "text": "Brothers and sisters:\nIf there is any encouragement in Christ,\nany solace in love,\nany participation in the Spirit,\nany compassion and mercy,\ncomplete my joy by being of the same mind, with the same love,\nunited in heart, thinking one thing.\nDo nothing out of selfishness or out of vainglory;\nrather, humbly regard others as more important than yourselves,\neach looking out not for his own interests,\nbut also for those of others.\n\nHave in you the same attitude\nthat is also in Christ Jesus,\nWho, though he was in the form of God,\ndid not regard equality with God\nsomething to be grasped.\nRather, he emptied himself,\ntaking the form of a slave,\ncoming in human likeness;\nand found human in appearance,\nhe humbled himself,\nbecoming obedient to the point of death,\neven death on a cross.\nBecause of this, God greatly exalted him\nand bestowed on him the name\nwhich is above every name,\nthat at the name of Jesus\nevery knee should bend,\nof those in heaven and on earth and under the earth,\nand every tongue confess that\nJesus Christ is Lord,\nto the glory of God the Father."
       },
       {
         "label": "Alleluia",
@@ -1943,7 +2144,7 @@ window.ST_MARTHA_READINGS = [
       {
         "label": "Second Reading",
         "ref": "1 Thessalonians 4:13-18",
-        "text": "We do not want you to be unaware, brothers and sisters,\nabout those who have fallen asleep,\nso that you may not grieve like the rest, who have no hope.\nFor if we believe that Jesus died and rose,\nso too will God, through Jesus,\nbring with him those who have fallen asleep.\nIndeed, we tell you this, on the word of the Lord,\nthat we who are alive,\nwho are left until the coming of the Lord,\nwill surely not precede those who have fallen asleep.\nFor the Lord himself, with a word of command,\nwith the voice of an archangel and with the trumpet of God,\nwill come down from heaven,\nand the dead in Christ will rise first.\nThen we who are alive, who are left,\nwill be caught up together with them in the clouds\nto meet the Lord in the air.\nThus we shall always be with the Lord.\nTherefore, console one another with these words.\n\nor\n1 Thessalonians 4:13-14\nWe do not want you to be unaware, brothers and sisters,\nabout those who have fallen asleep,\nso that you may not grieve like the rest, who have no hope.\nFor if we believe that Jesus died and rose,\nso too will God, through Jesus,\nbring with him those who have fallen asleep."
+        "text": "We do not want you to be unaware, brothers and sisters,\nabout those who have fallen asleep,\nso that you may not grieve like the rest, who have no hope.\nFor if we believe that Jesus died and rose,\nso too will God, through Jesus,\nbring with him those who have fallen asleep.\nIndeed, we tell you this, on the word of the Lord,\nthat we who are alive,\nwho are left until the coming of the Lord,\nwill surely not precede those who have fallen asleep.\nFor the Lord himself, with a word of command,\nwith the voice of an archangel and with the trumpet of God,\nwill come down from heaven,\nand the dead in Christ will rise first.\nThen we who are alive, who are left,\nwill be caught up together with them in the clouds\nto meet the Lord in the air.\nThus we shall always be with the Lord.\nTherefore, console one another with these words."
       },
       {
         "label": "Alleluia",
@@ -2234,7 +2435,7 @@ window.ST_MARTHA_READINGS = [
       {
         "label": "First Reading",
         "ref": "Sirach 3:2-6, 12-14",
-        "text": "God sets a father in honor over his children;\na mother’s authority he confirms over her sons.\nWhoever honors his father atones for sins,\nand preserves himself from them.\nWhen he prays, he is heard;\nhe stores up riches who reveres his mother.\nWhoever honors his father is gladdened by children,\nand, when he prays, is heard.\nWhoever reveres his father will live a long life;\nhe who obeys his father brings comfort to his mother.\n\nMy son, take care of your father when he is old;\ngrieve him not as long as he lives.\nEven if his mind fail, be considerate of him;\nrevile him not all the days of his life;\nkindness to a father will not be forgotten,\nfirmly planted against the debt of your sins\n—a house raised in justice to you.\n\nor\n\nGenesis 15:1-6; 21:1-3\n\nThe word of the LORD came to Abram in a vision, saying:\n“Fear not, Abram!\nI am your shield;\nI will make your reward very great.”\nBut Abram said,\n“O Lord GOD, what good will your gifts be,\nif I keep on being childless\nand have as my heir the steward of my house, Eliezer?”\nAbram continued,\n“See, you have given me no offspring,\nand so one of my servants will be my heir.”\nThen the word of the LORD came to him:\n“No, that one shall not be your heir;\nyour own issue shall be your heir.”\nThe Lord took Abram outside and said,\n“Look up at the sky and count the stars, if you can.\nJust so,” he added, “shall your descendants be.”\nAbram put his faith in the LORD,\nwho credited it to him as an act of righteousness.\n\nThe LORD took note of Sarah as he had said he would;\nhe did for her as he had promised.\nSarah became pregnant and bore Abraham a son in his old age,\nat the set time that God had stated.\nAbraham gave the name Isaac to this son of his\nwhom Sarah bore him."
+        "text": "God sets a father in honor over his children;\na mother’s authority he confirms over her sons.\nWhoever honors his father atones for sins,\nand preserves himself from them.\nWhen he prays, he is heard;\nhe stores up riches who reveres his mother.\nWhoever honors his father is gladdened by children,\nand, when he prays, is heard.\nWhoever reveres his father will live a long life;\nhe who obeys his father brings comfort to his mother.\n\nMy son, take care of your father when he is old;\ngrieve him not as long as he lives.\nEven if his mind fail, be considerate of him;\nrevile him not all the days of his life;\nkindness to a father will not be forgotten,\nfirmly planted against the debt of your sins\n—a house raised in justice to you."
       },
       {
         "label": "Responsorial Psalm",
@@ -2244,7 +2445,7 @@ window.ST_MARTHA_READINGS = [
       {
         "label": "Second Reading",
         "ref": "Colossians 3:12-21",
-        "text": "Brothers and sisters:\nPut on, as God’s chosen ones, holy and beloved,\nheartfelt compassion, kindness, humility, gentleness, and patience,\nbearing with one another and forgiving one another,\nif one has a grievance against another;\nas the Lord has forgiven you, so must you also do.\nAnd over all these put on love,\nthat is, the bond of perfection.\nAnd let the peace of Christ control your hearts,\nthe peace into which you were also called in one body.\nAnd be thankful.\nLet the word of Christ dwell in you richly,\nas in all wisdom you teach and admonish one another,\nsinging psalms, hymns, and spiritual songs\nwith gratitude in your hearts to God.\nAnd whatever you do, in word or in deed,\ndo everything in the name of the Lord Jesus,\ngiving thanks to God the Father through him.\n\nWives, be subordinate to your husbands,\nas is proper in the Lord.\nHusbands, love your wives,\nand avoid any bitterness toward them.\nChildren, obey your parents in everything,\nfor this is pleasing to the Lord.\nFathers, do not provoke your children,\nso they may not become discouraged.\n\nOr\nColossians 3:12-17\n\nBrothers and sisters:\nPut on, as God’s chosen ones, holy and beloved,\nheartfelt compassion, kindness, humility, gentleness, and patience,\nbearing with one another and forgiving one another,\nif one has a grievance against another;\nas the Lord has forgiven you, so must you also do.\nAnd over all these put on love,\nthat is, the bond of perfection.\nAnd let the peace of Christ control your hearts,\nthe peace into which you were also called in one body.\nAnd be thankful.\nLet the word of Christ dwell in you richly,\nas in all wisdom you teach and admonish one another,\nsinging psalms, hymns, and spiritual songs\nwith gratitude in your hearts to God.\nAnd whatever you do, in word or in deed,\ndo everything in the name of the Lord Jesus,\ngiving thanks to God the Father through him.\n\nOr\n\nHebrews 11:8, 11-12, 17-19\n\nBrothers and sisters:\nBy faith Abraham obeyed when he was called to go out to a place\nthat he was to receive as an inheritance;\nhe went out, not knowing where he was to go.\nBy faith he received power to generate,\neven though he was past the normal age\n--and Sarah herself was sterile--\nfor he thought that the one who had made the promise was trustworthy.\nSo it was that there came forth from one man,\nhimself as good as dead,\ndescendants as numerous as the stars in the sky\nand as countless as the sands on the seashore.\n\nBy faith Abraham, when put to the test, offered up Isaac,\nand he who had received the promises was ready to offer\nhis only son,\nof whom it was said,\n“Through Isaac descendants shall bear your name.”\nHe reasoned that God was able to raise even from the dead,\nand he received Isaac back as a symbol."
+        "text": "Brothers and sisters:\nPut on, as God’s chosen ones, holy and beloved,\nheartfelt compassion, kindness, humility, gentleness, and patience,\nbearing with one another and forgiving one another,\nif one has a grievance against another;\nas the Lord has forgiven you, so must you also do.\nAnd over all these put on love,\nthat is, the bond of perfection.\nAnd let the peace of Christ control your hearts,\nthe peace into which you were also called in one body.\nAnd be thankful.\nLet the word of Christ dwell in you richly,\nas in all wisdom you teach and admonish one another,\nsinging psalms, hymns, and spiritual songs\nwith gratitude in your hearts to God.\nAnd whatever you do, in word or in deed,\ndo everything in the name of the Lord Jesus,\ngiving thanks to God the Father through him.\n\nWives, be subordinate to your husbands,\nas is proper in the Lord.\nHusbands, love your wives,\nand avoid any bitterness toward them.\nChildren, obey your parents in everything,\nfor this is pleasing to the Lord.\nFathers, do not provoke your children,\nso they may not become discouraged."
       },
       {
         "label": "Alleluia",

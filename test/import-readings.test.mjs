@@ -58,3 +58,16 @@ test("keeps sequences separate and removes alternate short Gospels", async () =>
   const gospel = fifteenthParsed.readings.find((reading) => reading.label === "Gospel");
   assert.doesNotMatch(gospel.text, /\nor\nMatthew 13:1-9/);
 });
+
+test("parses Palm Sunday special headings and keeps the first alternate reading", async () => {
+  const palmSunday = path.join(projectRoot, "data", "readings", "032926.txt");
+  const palmParsed = parseReadingFile(palmSunday, await fs.readFile(palmSunday, "utf8"));
+  assert.equal(palmParsed.readings[0].label, "Procession Gospel");
+  assert.equal(palmParsed.readings[1].label, "First Reading");
+
+  const easter = path.join(projectRoot, "data", "readings", "040526.txt");
+  const easterParsed = parseReadingFile(easter, await fs.readFile(easter, "utf8"));
+  const secondReading = easterParsed.readings.find((reading) => reading.label === "Second Reading");
+  assert.equal(secondReading.ref, "Colossians 3:1-4");
+  assert.doesNotMatch(secondReading.text, /1 Corinthians 5:6b-8/);
+});
