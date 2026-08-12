@@ -1618,27 +1618,32 @@ window.ST_MARTHA_READINGS = [
       {
         "label": "First Reading",
         "ref": "Isaiah 56:1, 6-7",
-        "text": "Thus says the LORD:\nObserve what is right, do what is just;\nfor my salvation is about to come,\nmy justice, about to be revealed.\n\nThe foreigners who join themselves to the LORD,\nministering to him,\nloving the name of the LORD,\nand becoming his servants—\nall who keep the sabbath free from profanation\nand hold to my covenant,\nthem I will bring to my holy mountain\nand make joyful in my house of prayer;\ntheir burnt offerings and sacrifices\nwill be acceptable on my altar,\nfor my house shall be called\na house of prayer for all peoples."
+        "text": "Thus says the LORD:\nObserve what is right, do what is just;\nfor my salvation is about to come,\nmy justice, about to be revealed.\n\nThe foreigners who join themselves to the LORD,\nministering to him,\nloving the name of the LORD,\nand becoming his servants—\nall who keep the sabbath free from profanation\nand hold to my covenant,\nthem I will bring to my holy mountain\nand make joyful in my house of prayer;\ntheir burnt offerings and sacrifices\nwill be acceptable on my altar,\nfor my house shall be called\na house of prayer for all peoples.",
+        "audioSrc": "data/audio/2026-08-16/reading-1.mp3"
       },
       {
         "label": "Responsorial Psalm",
         "ref": "Psalm 67:2-3, 5, 6, 8",
-        "text": "R. (4) O God, let all the nations praise you!\nMay God have pity on us and bless us;\nmay he let his face shine upon us.\nSo may your way be known upon earth;\namong all nations, your salvation.\nR. O God, let all the nations praise you!\nMay the nations be glad and exult\nbecause you rule the peoples in equity;\nthe nations on the earth you guide.\nR. O God, let all the nations praise you!\nMay the peoples praise you, O God;\nmay all the peoples praise you!\nMay God bless us,\nand may all the ends of the earth fear him!\nR. O God, let all the nations praise you!"
+        "text": "R. (4) O God, let all the nations praise you!\nMay God have pity on us and bless us;\nmay he let his face shine upon us.\nSo may your way be known upon earth;\namong all nations, your salvation.\nR. O God, let all the nations praise you!\nMay the nations be glad and exult\nbecause you rule the peoples in equity;\nthe nations on the earth you guide.\nR. O God, let all the nations praise you!\nMay the peoples praise you, O God;\nmay all the peoples praise you!\nMay God bless us,\nand may all the ends of the earth fear him!\nR. O God, let all the nations praise you!",
+        "audioSrc": "data/audio/2026-08-16/reading-2.mp3"
       },
       {
         "label": "Second Reading",
         "ref": "Romans 11:13-15, 29-32",
-        "text": "Brothers and sisters:\nI am speaking to you Gentiles.\nInasmuch as I am the apostle to the Gentiles,\nI glory in my ministry in order to make my race jealous\nand thus save some of them.\nFor if their rejection is the reconciliation of the world,\nwhat will their acceptance be but life from the dead?\n\nFor the gifts and the call of God are irrevocable.\nJust as you once disobeyed God\nbut have now received mercy because of their disobedience,\nso they have now disobeyed in order that,\nby virtue of the mercy shown to you,\nthey too may now receive mercy.\nFor God delivered all to disobedience,\nthat he might have mercy upon all."
+        "text": "Brothers and sisters:\nI am speaking to you Gentiles.\nInasmuch as I am the apostle to the Gentiles,\nI glory in my ministry in order to make my race jealous\nand thus save some of them.\nFor if their rejection is the reconciliation of the world,\nwhat will their acceptance be but life from the dead?\n\nFor the gifts and the call of God are irrevocable.\nJust as you once disobeyed God\nbut have now received mercy because of their disobedience,\nso they have now disobeyed in order that,\nby virtue of the mercy shown to you,\nthey too may now receive mercy.\nFor God delivered all to disobedience,\nthat he might have mercy upon all.",
+        "audioSrc": "data/audio/2026-08-16/reading-3.mp3"
       },
       {
         "label": "Alleluia",
         "ref": "Cf. Matthew 4:23",
-        "text": "R. Alleluia, alleluia.\nJesus proclaimed the Gospel of the kingdom\nand cured every disease among the people.\nR. Alleluia, alleluia."
+        "text": "R. Alleluia, alleluia.\nJesus proclaimed the Gospel of the kingdom\nand cured every disease among the people.\nR. Alleluia, alleluia.",
+        "audioSrc": "data/audio/2026-08-16/reading-4.mp3"
       },
       {
         "label": "Gospel",
         "ref": "Matthew 15:21-28",
-        "text": "At that time, Jesus withdrew to the region of Tyre and Sidon.\nAnd behold, a Canaanite woman of that district came and called out,\n\"Have pity on me, Lord, Son of David!\nMy daughter is tormented by a demon.\"\nBut Jesus did not say a word in answer to her.\nJesus' disciples came and asked him,\n\"Send her away, for she keeps calling out after us.\"\nHe said in reply,\n\"I was sent only to the lost sheep of the house of Israel.\"\nBut the woman came and did Jesus homage, saying, \"Lord, help me.\"\nHe said in reply,\n\"It is not right to take the food of the children\nand throw it to the dogs.\"\nShe said, \"Please, Lord, for even the dogs eat the scraps\nthat fall from the table of their masters.\"\nThen Jesus said to her in reply,\n\"O woman, great is your faith!\nLet it be done for you as you wish.\"\nAnd the woman's daughter was healed from that hour."
+        "text": "At that time, Jesus withdrew to the region of Tyre and Sidon.\nAnd behold, a Canaanite woman of that district came and called out,\n\"Have pity on me, Lord, Son of David!\nMy daughter is tormented by a demon.\"\nBut Jesus did not say a word in answer to her.\nJesus' disciples came and asked him,\n\"Send her away, for she keeps calling out after us.\"\nHe said in reply,\n\"I was sent only to the lost sheep of the house of Israel.\"\nBut the woman came and did Jesus homage, saying, \"Lord, help me.\"\nHe said in reply,\n\"It is not right to take the food of the children\nand throw it to the dogs.\"\nShe said, \"Please, Lord, for even the dogs eat the scraps\nthat fall from the table of their masters.\"\nThen Jesus said to her in reply,\n\"O woman, great is your faith!\nLet it be done for you as you wish.\"\nAnd the woman's daughter was healed from that hour.",
+        "audioSrc": "data/audio/2026-08-16/reading-5.mp3"
       }
     ],
     "reflection": "Isaiah sees foreigners brought to God's holy mountain, and Jesus praises the Canaanite woman's faith. The readings stretch our sense of who belongs. Families can practice Catholic hospitality by noticing outsiders and refusing to make faith feel like a closed circle.",

@@ -6,6 +6,8 @@ const readings = window.ST_MARTHA_READINGS.filter(
 let availableVoices = [];
 let activeSpeechButton = null;
 let activeUtterance = null;
+let activeAudio = null;
+let activeAudioButton = null;
 
 const elements = {
   select: document.querySelector("#weekSelect"),
@@ -688,6 +690,9 @@ function renderReadings(week) {
     const article = document.createElement("article");
     article.className = "reading";
     const displayRef = reading.displayRef || reading.ref;
+    const audioButton = reading.audioSrc
+      ? `<button class="small-button fr-ryan-button" type="button" data-reading-index="${index}" aria-pressed="false">Fr Ryan</button>`
+      : "";
     article.innerHTML = `
       <div class="reading-header">
         <div>
@@ -698,6 +703,7 @@ function renderReadings(week) {
           <button class="small-button read-reading-button" type="button" data-reading-index="${index}" aria-pressed="false" disabled>
             Read
           </button>
+          ${audioButton}
         </div>
       </div>
       <p class="reading-text"></p>
@@ -710,6 +716,7 @@ function renderReadings(week) {
 
 function renderWeek(index) {
   stopSpeech();
+  stopAudio();
   const week = readings[index];
 
   elements.liturgicalDate.textContent = `${formatDisplayDate(week.date)} - ${week.cycle}`;
@@ -789,6 +796,25 @@ function resetActiveSpeechButton() {
   activeUtterance = null;
 }
 
+function resetActiveAudioButton() {
+  if (activeAudioButton) {
+    activeAudioButton.textContent = "Fr Ryan";
+    activeAudioButton.setAttribute("aria-pressed", "false");
+  }
+
+  activeAudio = null;
+  activeAudioButton = null;
+}
+
+function stopAudio() {
+  if (activeAudio) {
+    activeAudio.pause();
+    activeAudio.currentTime = 0;
+  }
+
+  resetActiveAudioButton();
+}
+
 function stopSpeech() {
   if ("speechSynthesis" in window) {
     window.speechSynthesis.cancel();
@@ -804,7 +830,49 @@ function toggleReadingSpeech(index, button) {
   }
 
   stopSpeech();
+  stopAudio();
   speakReading(index, button);
+}
+
+function toggleFrRyanAudio(index, button) {
+  if (activeAudioButton === button) {
+    stopAudio();
+    return;
+  }
+
+  const week = readings[Number(elements.select.value)];
+  const reading = week?.readings?.[index];
+  if (!reading?.audioSrc) {
+    return;
+  }
+
+  stopSpeech();
+  stopAudio();
+
+  const audio = new Audio(reading.audioSrc);
+  activeAudio = audio;
+  activeAudioButton = button;
+  button.textContent = "Stop";
+  button.setAttribute("aria-pressed", "true");
+
+  audio.addEventListener("ended", () => {
+    if (activeAudio === audio) {
+      resetActiveAudioButton();
+    }
+  });
+  audio.addEventListener("error", () => {
+    if (activeAudio === audio) {
+      resetActiveAudioButton();
+      alert("This audio file could not be played.");
+    }
+  });
+
+  audio.play().catch(() => {
+    if (activeAudio === audio) {
+      resetActiveAudioButton();
+      alert("This browser blocked the audio from playing.");
+    }
+  });
 }
 
 populateVoiceSelect();
@@ -857,6 +925,12 @@ elements.readingsList.addEventListener("click", (event) => {
   const readButton = event.target.closest(".read-reading-button");
   if (readButton) {
     toggleReadingSpeech(Number(readButton.dataset.readingIndex), readButton);
+    return;
+  }
+
+  const frRyanButton = event.target.closest(".fr-ryan-button");
+  if (frRyanButton) {
+    toggleFrRyanAudio(Number(frRyanButton.dataset.readingIndex), frRyanButton);
     return;
   }
 });

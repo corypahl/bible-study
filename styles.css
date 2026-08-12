@@ -322,6 +322,18 @@ main {
   border-color: var(--maroon);
 }
 
+.fr-ryan-button {
+  color: var(--maroon);
+  background: white;
+  border-color: var(--gold);
+}
+
+.fr-ryan-button[aria-pressed="true"] {
+  color: white;
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
 .reading-text {
   margin: 0;
   white-space: pre-wrap;

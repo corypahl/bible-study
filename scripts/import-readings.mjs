@@ -321,11 +321,20 @@ async function loadExistingWeeks(filename) {
 }
 
 function mergeImportedWeek(existingWeek, parsedFile, studyContent, sourceFilename) {
+  const existingAudioByReading = new Map(
+    (existingWeek.readings || [])
+      .filter((reading) => reading.audioSrc)
+      .map((reading) => [`${reading.label}|${reading.ref}`, reading.audioSrc])
+  );
+  const readings = parsedFile.readings.map((reading) => {
+    const audioSrc = existingAudioByReading.get(`${reading.label}|${reading.ref}`);
+    return audioSrc ? { ...reading, audioSrc } : reading;
+  });
   const importedWeek = {
     ...existingWeek,
     title: parsedFile.title,
     ...(parsedFile.lectionary ? { lectionary: parsedFile.lectionary } : {}),
-    readings: parsedFile.readings,
+    readings,
     sourceFile: `data/readings/${sourceFilename}`
   };
 
