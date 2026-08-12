@@ -165,6 +165,93 @@ main {
   margin: 14px auto 34px;
 }
 
+.cdc-panel {
+  margin: 0 0 12px;
+  color: var(--ink);
+  background: rgba(255, 253, 249, 0.82);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.cdc-panel summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.cdc-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.cdc-panel summary::before {
+  flex: 0 0 auto;
+  color: var(--gold);
+  content: "+";
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.cdc-panel[open] summary::before {
+  content: "-";
+}
+
+.cdc-panel summary span:first-child {
+  margin-right: auto;
+}
+
+#cdcUpdated {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.cdc-outbreaks {
+  padding: 0 12px 4px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.cdc-outbreak-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cdc-outbreak-list li {
+  display: grid;
+  gap: 2px;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+}
+
+.cdc-outbreak-list a {
+  color: var(--maroon);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.cdc-outbreak-list span,
+.cdc-source-link {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.cdc-source-link {
+  display: inline-block;
+  padding: 6px 12px 12px;
+}
+
 .summary-band {
   display: block;
   padding: 18px;

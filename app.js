@@ -20,6 +20,8 @@ const elements = {
   discussion: document.querySelector("#discussionList"),
   prayer: document.querySelector("#prayerText"),
   officialLink: document.querySelector("#officialLink"),
+  cdcUpdated: document.querySelector("#cdcUpdated"),
+  cdcOutbreaks: document.querySelector("#cdcOutbreaks"),
   decreaseTextSize: document.querySelector("#decreaseTextSize"),
   increaseTextSize: document.querySelector("#increaseTextSize")
 };
@@ -82,6 +84,73 @@ function setTextScale(scale) {
 function adjustTextScale(direction) {
   const currentScale = getStoredTextScale();
   setTextScale(currentScale + (direction * textScaleStep));
+}
+
+function formatOutbreakDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
+
+  return date.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric"
+  });
+}
+
+function renderCdcOutbreaks(data) {
+  if (!elements.cdcOutbreaks || !elements.cdcUpdated) {
+    return;
+  }
+
+  const items = Array.isArray(data.items) ? data.items : [];
+  elements.cdcUpdated.textContent = items.length ? `${items.length} CDC items` : "No items";
+
+  if (!items.length) {
+    elements.cdcOutbreaks.textContent = "No current outbreak items were found in the CDC snapshot.";
+    return;
+  }
+
+  const list = document.createElement("ul");
+  list.className = "cdc-outbreak-list";
+  items.forEach((item) => {
+    const date = formatOutbreakDate(item.date);
+    const li = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = item.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = item.title;
+    li.append(link);
+
+    if (date) {
+      const meta = document.createElement("span");
+      meta.textContent = date;
+      li.append(meta);
+    }
+
+    list.append(li);
+  });
+
+  elements.cdcOutbreaks.replaceChildren(list);
+}
+
+async function loadCdcOutbreaks() {
+  if (!elements.cdcOutbreaks) {
+    return;
+  }
+
+  try {
+    const response = await fetch("data/cdc-outbreaks.json?v=1", { cache: "no-cache" });
+    if (!response.ok) {
+      throw new Error(`CDC snapshot request failed: ${response.status}`);
+    }
+
+    renderCdcOutbreaks(await response.json());
+  } catch {
+    elements.cdcUpdated.textContent = "CDC list unavailable";
+    elements.cdcOutbreaks.textContent = "Could not load the CDC snapshot. Use the CDC link below.";
+  }
 }
 
 function formatDisplayDate(dateString) {
@@ -877,6 +946,7 @@ function toggleFrRyanAudio(index, button) {
 
 populateVoiceSelect();
 setTextScale(getStoredTextScale());
+loadCdcOutbreaks();
 
 if (readings.length) {
   populateSelect();

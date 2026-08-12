@@ -8,7 +8,7 @@
       name="description"
       content="Sunday Catholic readings, reflections, and family discussion prompts for a St. Martha Bible study group."
     >
-    <link rel="stylesheet" href="styles.css?v=12">
+    <link rel="stylesheet" href="styles.css?v=13">
   </head>
   <body>
     <header class="site-header">
@@ -44,6 +44,15 @@
     </header>
 
     <main>
+      <details class="cdc-panel">
+        <summary>
+          <span>Current CDC U.S. outbreak warnings</span>
+          <span id="cdcUpdated">Loading...</span>
+        </summary>
+        <div id="cdcOutbreaks" class="cdc-outbreaks" aria-live="polite"></div>
+        <a class="cdc-source-link" href="https://www.cdc.gov/outbreaks/index.html" target="_blank" rel="noreferrer">Open CDC outbreak list</a>
+      </details>
+
       <section class="summary-band" aria-labelledby="weekTitle">
         <div>
           <p id="liturgicalDate" class="eyebrow"></p>
@@ -85,6 +94,6 @@
     </footer>
 
     <script src="data/readings.js?v=13"></script>
-    <script src="app.js?v=16"></script>
+    <script src="app.js?v=17"></script>
   </body>
 </html>

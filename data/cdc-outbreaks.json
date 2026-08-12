@@ -1,0 +1,44 @@
+{
+  "sourceName": "CDC Current Outbreak List",
+  "sourceUrl": "https://www.cdc.gov/outbreaks/index.html",
+  "feedUrl": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
+  "updatedAt": "2026-08-12T20:20:18.998Z",
+  "items": [
+    {
+      "title": "CDC warns of Salmonella outbreak linked to jalapeños",
+      "description": "A CDC food safety alert regarding a multistate outbreak of Salmonella linked to jalapeños",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766165",
+      "date": "Wed, 05 Aug 2026 08:00:00 GMT"
+    },
+    {
+      "title": "Cyclospora outbreak linked to iceberg lettuce expanded to four new states.",
+      "description": "Cyclospora outbreak linked to iceberg lettuce expanded to four new states.",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766095",
+      "date": "Fri, 24 Jul 2026 21:00:00 GMT"
+    },
+    {
+      "title": "Shredded iceberg lettuce served at Taco Bell locations is source of cyclosporiasis infections in five states",
+      "description": "CDC: Avoid Taco Bell shredded lettuce in 5 states after Cyclospora outbreak; 1,644 sick",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766028",
+      "date": "Fri, 17 Jul 2026 08:00:00 GMT"
+    },
+    {
+      "title": "CDC Statement on Ebola Outbreak in the Democratic Republic of Congo and Uganda: 7/10/26",
+      "description": "CDC Statement on Ebola Outbreak in the Democratic Republic of Congo and Uganda: July 10, 2026",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765993",
+      "date": "Fri, 10 Jul 2026 08:00:00 GMT"
+    },
+    {
+      "title": "CDC warns of E. coli outbreak linked to frozen blueberries.",
+      "description": "CDC alert: Recall of frozen blueberries linked to E. coli outbreak; do not eat recalled product.",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765973",
+      "date": "Tue, 07 Jul 2026 19:47:00 GMT"
+    },
+    {
+      "title": "CDC Outbreak Update: Infant Botulism Linked to Powdered Infant Formula",
+      "description": "Parents urged to immediately stop using all Nara Organics Whole Milk Organic Infant Formula.",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765836",
+      "date": "Sat, 13 Jun 2026 08:00:00 GMT"
+    }
+  ]
+}

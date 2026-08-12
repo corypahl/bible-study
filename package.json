@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "import-readings": "node scripts/import-readings.mjs",
+    "update-cdc-outbreaks": "node scripts/update-cdc-outbreaks.mjs",
     "test": "node --test"
   },
   "dependencies": {
