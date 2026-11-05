@@ -1,3 +1,33 @@
+// Verified public SALT videos matched to this app's dated Sunday readings.
+// Add new exact matches here. Unmatched weeks get a clearly labeled channel search,
+// never a link to an unrelated video.
+const saltLiturgyVideosByDate = Object.freeze({
+  "2026-09-13": { id: "NNE3-cpqoy4", title: "Parable of the Unforgiving Servant" },
+  "2026-09-20": { id: "LIYgiJm7CYM", title: "Parable of the Workers in the Vineyard" },
+  "2026-09-27": { id: "BTsTAZMQe3Y", title: "Parable of the Two Sons Sent to the Vineyard" },
+  "2026-10-04": { id: "YdkE2At1VYM", title: "This Is the Landlord's Heir" },
+  "2026-10-11": { id: "H33OhD9xl9k", title: "Parable of the Wedding Feast" },
+  "2026-10-25": { id: "x37LWM-pqX4", title: "The Great Commandments" },
+  "2026-11-01": { id: "NjOIG2e7O50", title: "Feast of All Saints" },
+  "2026-11-08": { id: "jJWMqbddqQM", title: "The Parable of the Wise and Foolish Maidens" }
+});
+
+function renderKidsVideo(week) {
+  const video = saltLiturgyVideosByDate[week.date];
+  if (video) {
+    elements.kidsVideoLink.href = `https://www.youtube.com/watch?v=${video.id}`;
+    elements.kidsVideoTitle.textContent = "Watch this week's liturgy video";
+    elements.kidsVideoDescription.textContent = `${video.title} — matched to ${week.title}.`;
+    return;
+  }
+
+  // SALT does not have a verified direct link for every study week.
+  const search = encodeURIComponent(`${week.title} ${week.cycle || ""}`.trim());
+  elements.kidsVideoLink.href = `https://www.youtube.com/channel/UCIti6Av_evK_btWumA0_ECQ/search?query=${search}`;
+  elements.kidsVideoTitle.textContent = "Find this week's liturgy video";
+  elements.kidsVideoDescription.textContent = "No confirmed video link for this week. Search SALT's YouTube channel.";
+}
+
 const readings = window.ST_MARTHA_READINGS.filter(
   (week) => Array.isArray(week.readings)
     && week.readings.length > 0
@@ -20,6 +50,9 @@ const elements = {
   discussion: document.querySelector("#discussionList"),
   prayer: document.querySelector("#prayerText"),
   officialLink: document.querySelector("#officialLink"),
+  kidsVideoLink: document.querySelector("#kidsVideoLink"),
+  kidsVideoTitle: document.querySelector("#kidsVideoTitle"),
+  kidsVideoDescription: document.querySelector("#kidsVideoDescription"),
   cdcUpdated: document.querySelector("#cdcUpdated"),
   cdcOutbreaks: document.querySelector("#cdcOutbreaks"),
   decreaseTextSize: document.querySelector("#decreaseTextSize"),
@@ -794,6 +827,7 @@ function renderWeek(index) {
   elements.reflection.textContent = week.reflection;
   elements.prayer.textContent = week.prayer;
   elements.officialLink.href = week.officialUrl;
+  renderKidsVideo(week);
 
   elements.discussion.innerHTML = "";
   getDiscussionLevels(week).forEach((level) => {
