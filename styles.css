@@ -616,3 +616,74 @@ footer {
     line-height: 1.62;
   }
 }
+
+/* Kids' resources beneath the Sunday study content */
+.kids-panel {
+  margin-top: 14px;
+  padding: 16px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.kids-intro {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+.kids-resources {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.kids-resource {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  background: #fbf8f2;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.kids-resource:hover,
+.kids-resource:focus-visible {
+  background: #fff6e8;
+  border-color: var(--gold);
+}
+
+.kids-resource:focus-visible {
+  outline: 2px solid var(--maroon);
+  outline-offset: 3px;
+}
+
+.kids-resource-title {
+  color: var(--maroon);
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.kids-resource-description {
+  color: var(--muted);
+  font-family: Arial, sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 720px) {
+  .kids-panel {
+    margin-top: 22px;
+    padding: clamp(20px, 3vw, 28px);
+  }
+
+  .kids-resources {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
